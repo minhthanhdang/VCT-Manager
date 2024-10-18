@@ -10,7 +10,7 @@ export default function Home() {
       <Button className="text-[22px] font-bold h-[48px] p-6 py-8  mb-6">
         Start building
       </Button>
-      <img src="/ValorantWallpaper_Ascent.jpg" className="-z-20 "/>
+      <Image src="/ValorantWallpaper_Ascent.jpg" className="-z-20" alt="Valorant Wallpaper"/>
       
     </div>
   );
