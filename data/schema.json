@@ -1,0 +1,501 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Valorant Manager Player Profiles API",
+    "description": "API for retrieving Valorant player information accross leagues and regions.",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/getPotentialProfiles": {
+      "post": {
+        "description": "Retrieve potential Valorant player profiles by specifying a list of required league and region for each position. There are five positions in a team, each will receive five different player profiles.",
+        "operationId": "getPotentialPortfolios",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "requirements": {
+                    "type": "array",
+                    "minItems": 1,
+                    "maxItems": 5,
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "league": {
+                          "type": "string",
+                          "enum": [
+                            "vct-challengers",
+                            "vct-international",
+                            "game-changers"
+                          ]
+                        },
+                        "region": {
+                          "type": "string",
+                          "enum": [
+                            "americas",
+                            "emea",
+                            "cn",
+                            "apac",
+                            "latam",
+                            "las",
+                            "lan",
+                            "na",
+                            "br",
+                            "vn", 
+                            "sea",
+                            "kr",
+                            "jp",
+                            "sa"
+                          ]
+                        }
+                      },
+                      "required": ["league", "region"]
+                    }
+                  }
+                }
+              },
+              "example": {
+                "requirements": [
+                  {"leauge": "vct-challengers", "region": "americas"},
+                  {"leauge": "vct-challengers", "region": "emea"},
+                  {"leauge": "vct-challengers", "region": "americas"},
+                  {"leauge": "vct-challengers", "region": "apac"},
+                  {"leauge": "vct-challengers", "region": "americas"}
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful response with potential player profiles",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PlayerProfile"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/getPlayersDetailProfile": {
+      "post": {
+        "description": "Retrieve detailed Valorant player profiles by specifying a list of player IDs or player first names and last names.",
+        "operationId": "getPlayersDetailProfile",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "playersInfo": {
+                    "type": "array",
+                    "minItems": 1,
+                    "maxItems": 5,
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "description": "Player ID"
+                        },
+                        "first_name": {
+                          "type": "string",
+                          "description": "Player first name"
+                        },
+                        "last_name": {
+                          "type": "string",
+                          "description": "Player last name"
+                        }
+                      },
+                      "oneOf": [
+                        {"required": ["id"]},
+                        {"required": ["first_name", "last_name"]}
+                      ]
+                    }
+                  }
+                }
+              },
+              "example": {
+                "playersInfo": [
+                  {"id": "107729648820931094", "first_name": "Kimmie", "last_name": "Laasner"},
+                  {"id": "106724769775977160", "first_name": "Aaron", "last_name": "Leonhart"},
+                  {"id": "3"},
+                  {"first_name": "Abhirup Paul", "last_name": "Choudhury"}
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful response with potential player details",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PlayerDetail"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "PlayerProfile": {
+        "type": "object",
+        "description": "Profile of a Valorant player.",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Player ID"
+          },
+          "first_name": {
+            "type": "string",
+            "description": "Player first name"
+          },
+          "last_name": {
+            "type": "string",
+            "description": "Player last name"
+          },
+          "status": {
+            "type": "string",
+            "description": "Whether the player is active or not"
+          },
+          "current_team_acronym": {
+            "type": "string",
+            "description": "Player's current team acronym"
+          },
+          "current_team_name": {
+            "type": "string",
+            "description": "Player's current team name"
+          },
+          "current_league_name": {
+            "type": "string",
+            "description": "Player's current league name"
+          },
+          "region": {
+            "type": "string",
+            "description": "Player's region"
+          },
+          "general_statistics": {
+            "type": "object",
+            "properties": {
+              "acs": {
+                "type": "number",
+                "description": "Average Combat Score Each Round"
+              },
+              "kills": {
+                "type": "number",
+                "description": "Average Number of Kills Each Round"
+              },
+              "deaths": {
+                "type": "number",
+                "description": "Average Number of Deaths Each Round"
+              },
+              "assists": {
+                "type": "number",
+                "description": "Average Number of Assists Each Round"
+              }
+            }
+          },
+          "agent_statistics": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "agent": {
+                  "type": "string",
+                  "description": "Agent name"
+                },
+                "acs": {
+                  "type": "number",
+                  "description": "Average Combat Score Each Round"
+                },
+                "kills": {
+                  "type": "number",
+                  "description": "Average Number of Kills Each Round"
+                },
+                "deaths": {
+                  "type": "number",
+                  "description": "Average Number of Deaths Each Round"
+                },
+                "assists": {
+                  "type": "number",
+                  "description": "Average Number of Assists Each Round"
+                },
+                "rank": {
+                  "type": "number",
+                  "description": "Player's agent rank based on ACS. 1 means the best agent for the player."
+                }
+              }
+            }
+          },
+          "map_statistics": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "map": {
+                  "type": "string",
+                  "description": "Map name"
+                },
+                "acs": {
+                  "type": "number",
+                  "description": "Average Combat Score Each Round"
+                },
+                "kills": {
+                  "type": "number",
+                  "description": "Average Number of Kills Each Round"
+                },
+                "deaths": {
+                  "type": "number",
+                  "description": "Average Number of Deaths Each Round"
+                },
+                "assists": {
+                  "type": "number",
+                  "description": "Average Number of Assists Each Round"
+                },
+                "rank": {
+                  "type": "number",
+                  "description": "Player's map rank based on ACS. 1 means the best map for the player."
+                }
+              }
+            }
+          }
+        }
+      },
+      "PlayerDetail": {
+        "type": "object",
+        "description": "Profile of a Valorant player.",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Player ID"
+          },
+          "first_name": {
+            "type": "string",
+            "description": "Player first name"
+          },
+          "last_name": {
+            "type": "string",
+            "description": "Player last name"
+          },
+          "status": {
+            "type": "string",
+            "description": "Whether the player is active or not"
+          },
+          "current_team_acronym": {
+            "type": "string",
+            "description": "Player's current team acronym"
+          },
+          "current_team_name": {
+            "type": "string",
+            "description": "Player's current team name"
+          },
+          "current_league_name": {
+            "type": "string",
+            "description": "Player's current league name"
+          },
+          "region": {
+            "type": "string",
+            "description": "Player's region"
+          },
+          "general_statistics": {
+            "type": "object",
+            "properties": {
+              "acs": {
+                "type": "number",
+                "description": "Average Combat Score Each Round"
+              },
+              "kills": {
+                "type": "number",
+                "description": "Average Number of Kills Each Round"
+              },
+              "deaths": {
+                "type": "number",
+                "description": "Average Number of Deaths Each Round"
+              },
+              "assists": {
+                "type": "number",
+                "description": "Average Number of Assists Each Round"
+              }
+            }
+          },
+          "agent_statistics": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "agent": {
+                  "type": "string",
+                  "description": "Agent name"
+                },
+                "acs": {
+                  "type": "number",
+                  "description": "Average Combat Score Each Round"
+                },
+                "kills": {
+                  "type": "number",
+                  "description": "Average Number of Kills Each Round"
+                },
+                "deaths": {
+                  "type": "number",
+                  "description": "Average Number of Deaths Each Round"
+                },
+                "assists": {
+                  "type": "number",
+                  "description": "Average Number of Assists Each Round"
+                },
+                "rank": {
+                  "type": "number",
+                  "description": "Player's agent rank based on ACS. 1 means the best agent for the player."
+                }
+              }
+            }
+          },
+          "map_statistics": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "map": {
+                  "type": "string",
+                  "description": "Map name"
+                },
+                "acs": {
+                  "type": "number",
+                  "description": "Average Combat Score Each Round"
+                },
+                "kills": {
+                  "type": "number",
+                  "description": "Average Number of Kills Each Round"
+                },
+                "deaths": {
+                  "type": "number",
+                  "description": "Average Number of Deaths Each Round"
+                },
+                "assists": {
+                  "type": "number",
+                  "description": "Average Number of Assists Each Round"
+                },
+                "rank": {
+                  "type": "number",
+                  "description": "Player's map rank based on ACS. 1 means the best map for the player."
+                }
+              }
+            }
+          },
+          "latest_game": {
+            "type": "object",
+            "properties": {
+              "team1": {
+                "type": "string",
+                "description": "Team 1 name"
+              },
+              "team2": {
+                "type": "string",
+                "description": "Team 2 name"
+              },
+              "map": {
+                "type": "string",
+                "description": "Game map"
+              },
+              "player_agent": {
+                "type": "string",
+                "description": "What agent the player played in the game"
+              },
+              "player_kda": {
+                "type": "object",
+                "properties": {
+                  "kills": {
+                    "type": "number",
+                    "description": "Player's kills in the game"
+                  },
+                  "deaths": {
+                    "type": "number",
+                    "description": "Player's deaths in the game"
+                  },
+                  "assists": {
+                    "type": "number",
+                    "description": "Player's assists in the game"
+                  },
+                  "combatScore": {
+                    "type": "number",
+                    "description": "Player's combat score in the game"
+                  }
+                }
+              },
+              "player_round_count": {
+                "type": "number",
+                "description": "Number of round in that game"
+              }
+            }
+          },
+          "second_latest_game": {
+            "type": "object",
+            "properties": {
+              "team1": {
+                "type": "string",
+                "description": "Team 1 name"
+              },
+              "team2": {
+                "type": "string",
+                "description": "Team 2 name"
+              },
+              "map": {
+                "type": "string",
+                "description": "Game map"
+              },
+              "player_agent": {
+                "type": "string",
+                "description": "What agent the player played in the game"
+              },
+              "player_kda": {
+                "type": "object",
+                "properties": {
+                  "kills": {
+                    "type": "number",
+                    "description": "Player's kills in the game"
+                  },
+                  "deaths": {
+                    "type": "number",
+                    "description": "Player's deaths in the game"
+                  },
+                  "assists": {
+                    "type": "number",
+                    "description": "Player's assists in the game"
+                  },
+                  "combatScore": {
+                    "type": "number",
+                    "description": "Player's combat score in the game"
+                  }
+                }
+              },
+              "player_round_count": {
+                "type": "number",
+                "description": "Number of round in that game"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
