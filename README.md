@@ -8,6 +8,7 @@
   - The Agent response includes players' IDs, so that we can display the portfolios at the front-end. The portfolios' data (summarized) is stored on the server.
   - The chart data is process from summarized data in run-time with javascript. This helps reduce storage but increase loading time. I should have pre-processed it but time didn't allow, as chart data must be formatted based on UI framework specification (so it's easier to transform data in Javascript) 
   
+  - The ID display problem in the video is highly mitigated in the newest version. Please test the app for result.
 
  ## Data notes
  ### Valorant Tournaments Regions & Tiers
