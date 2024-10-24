@@ -8,7 +8,6 @@ import {
   Card,
   CardContent,
   CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
@@ -20,7 +19,6 @@ import {
   ChartTooltip,
   ChartTooltipContent,
 } from "@/components/ui/chart"
-import { set } from "zod"
 
 interface MapsLineChartProps {
   chartData: any[]
@@ -35,8 +33,8 @@ export const MapsLineChart = ({
 
   useEffect(() => {
 
-    let temp: ChartConfig = {}
-    let example = chartData[0]
+    const temp: ChartConfig = {}
+    const example = chartData[0]
     let labels = Object.keys(example)
     labels = labels.filter((label) => label !== 'dataPoint')
 

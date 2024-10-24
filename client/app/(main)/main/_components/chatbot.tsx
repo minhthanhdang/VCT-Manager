@@ -13,7 +13,6 @@ import axios from "axios";
 import { Message } from "./message"
 import { cn } from "@/lib/utils"
 import { Textarea } from "@/components/ui/textarea"
-import { v4 as uuidv4 } from 'uuid';
 
 type ChatMessage = {
   role: "user" | "agent",

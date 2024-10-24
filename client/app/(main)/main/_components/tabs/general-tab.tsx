@@ -15,10 +15,8 @@ import {
 import { AcsChart } from "../charts/acs-chart"
 import { useState, useEffect } from "react";
 import { GunChart } from "../charts/gun-chart";
-import { match } from "assert";
-import { getAgentCount, getAgentsKDRatio, getAgentsLineChartData, getBestAgents, getMapsKDRatio, getMapsLineChartData } from "@/app/utils";
+import { getAgentCount, getAgentsKDRatio, getAgentsLineChartData, getMapsKDRatio, getMapsLineChartData } from "@/app/utils";
 import { AgentCountChart } from "../charts/agent-count-chart";
-import { set } from "zod";
 import { AgentsLineChart } from "../charts/agents-line-chart";
 import { AgentKDRChart } from "../charts/agent-kdr-chart";
 import { MapsLineChart } from "../charts/maps-line-chart";
@@ -45,12 +43,12 @@ export const GeneralTab = ({
 
   // Calculate ACS
   useEffect(() => {
-    let tempAcs = [];
+    const tempAcs = [];
     if (records) {
       setMatchCount(records.length);
       
       for (let i = 0; i < records.length; i++) {
-        let record = records[i];
+        const record = records[i];
         let acs = 0;
         if (!record.round_count || record.round_count === 0) {
           continue
@@ -61,13 +59,13 @@ export const GeneralTab = ({
       }
       setAcs(tempAcs);
 
-      let tempGunStats: any = {};
+      const tempGunStats: any = {};
       for (let i = 0; i < records.length; i++) {
-        let record = records[i];
+        const record = records[i];
         if (!record.gun_kills) {
           continue
         }
-        let gunKills = record.gun_kills;
+        const gunKills = record.gun_kills;
         for (const gun_name in gunKills) {
           if (!tempGunStats.hasOwnProperty(gun_name)) {
             tempGunStats[gun_name] = { gun: gun_name, kills: 0, damage: 0 };

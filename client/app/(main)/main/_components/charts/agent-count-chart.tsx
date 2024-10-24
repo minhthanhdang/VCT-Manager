@@ -16,8 +16,6 @@ import {
   ChartTooltip,
   ChartTooltipContent,
 } from "@/components/ui/chart"
-import { set } from "zod"
-
 
 interface AgentCountChartProps {
   chartData: { agent: string, played: number }[]
@@ -36,8 +34,8 @@ export const AgentCountChart = ({
 
   useEffect(() => {
 
-    let tempPieChartData: { agent: string, played: number, fill: string }[] = [];
-    let temp: ChartConfig = {
+    const tempPieChartData: { agent: string, played: number, fill: string }[] = [];
+    const temp: ChartConfig = {
       played: {
         label: "Played",
       }

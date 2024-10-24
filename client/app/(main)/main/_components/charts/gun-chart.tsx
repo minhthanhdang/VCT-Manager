@@ -1,6 +1,5 @@
 "use client"
 
-import { TrendingUp } from "lucide-react"
 import { Bar, BarChart, XAxis, YAxis } from "recharts"
 import {
   Card,
@@ -38,16 +37,16 @@ export const GunChart = ({
   const [barChartData, setBarChartData] = useState<{ gun: string, kills: number, fill: string }[]>([]);
 
   useEffect(() => {
-    let temp: ChartConfig = {
+    const temp: ChartConfig = {
       kills: {
         label: "kills",
       },
     } satisfies ChartConfig;
 
-    let tempBarChartData: { gun: string, kills: number, fill: string }[] = [];
+    const tempBarChartData: { gun: string, kills: number, fill: string }[] = [];
 
     for (let i = 0; i < chartData.length; i++) {
-      let gun = chartData[i].gun;
+      const gun = chartData[i].gun;
       temp[gun] = {
         label: gun,
         color: `hsl(var(--chart-${i + 1}))`,

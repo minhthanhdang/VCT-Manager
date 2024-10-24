@@ -5,7 +5,6 @@ import {
   Card,
   CardContent,
   CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
@@ -35,16 +34,16 @@ export const MapKDRChart = ({
   const [barChartData, setBarChartData] = useState<{ map: string, kdr: number }[]>([]);
 
   useEffect(() => {
-    let temp: ChartConfig = {
+    const temp: ChartConfig = {
       kdr: {
         label: "K/D Ratio",
       },
     } satisfies ChartConfig;
 
-    let tempBarChartData: { map: string, kdr: number, fill:string }[] = [];
+    const tempBarChartData: { map: string, kdr: number, fill:string }[] = [];
 
     for (let i = 0; i < chartData.length; i++) {
-      let map = chartData[i].map;
+      const map = chartData[i].map;
       temp[map] = {
         label: map,
         color: `hsl(var(--chart-${i + 1}))`,

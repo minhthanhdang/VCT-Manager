@@ -5,7 +5,6 @@ import {
   Card,
   CardContent,
   CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
@@ -35,16 +34,16 @@ export const AgentKDRChart = ({
   const [barChartData, setBarChartData] = useState<{ agent: string, kdr: number }[]>([]);
 
   useEffect(() => {
-    let temp: ChartConfig = {
+    const temp: ChartConfig = {
       kdr: {
         label: "K/D Ratio",
       },
     } satisfies ChartConfig;
 
-    let tempBarChartData: { agent: string, kdr: number, fill:string }[] = [];
+    const tempBarChartData: { agent: string, kdr: number, fill:string }[] = [];
 
     for (let i = 0; i < chartData.length; i++) {
-      let agent = chartData[i].agent;
+      const agent = chartData[i].agent;
       temp[agent] = {
         label: agent,
         color: `hsl(var(--chart-${i + 1}))`,

@@ -1,6 +1,5 @@
 "use client"
 
-import { GeneralTab } from "./tabs/general-tab"
 import { useEffect, useState } from "react";
 import { ProfileTab } from "./tabs/profile-tab";
 import {
@@ -9,7 +8,6 @@ import {
   TabsList,
   TabsTrigger,
 } from "@/components/ui/tabs"
-import { set } from "zod";
 import { NoProfile } from "./other/no-profile";
 
 interface DashboardProps {
@@ -31,7 +29,7 @@ export const Dashboard = ({
       }
 
       try {
-        let temp_profiles = [];
+        const temp_profiles = [];
         for (let i = 0; i < player_files.length; i++) {
           const file_path = "/profiles/" + player_files[i] + ".json";
           const response = await fetch(file_path)
