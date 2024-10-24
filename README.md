@@ -60,7 +60,7 @@
    - Leagues and Regions are rename from abbreviations and "code-like" names to human-readable names.
    - Only information in 2024 are used. That's enough for the agent to process.
    - gamePhase=="GAME_ENDED" event is used to get players' KDA, combat score, agents.
-   - playerDied events are use to get gun kills and damage.
+   - playerDied and damageEvent events are use to get gun kills and damage.
    - Event with 'snapshot' key is used to get agents, maps.
    - Some team has repeated records (FPX used to play in EMEA, now CN), we only keep the one with latest date.
    - Some players move Leagues/Teams. We only keep the latest Leagues/Teams.
@@ -71,6 +71,6 @@
  ## Testing instructions
   - Clone the project
   - To test locally: 
-   cd client -> npm install -> create .env.local file to store AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY -> npm run dev (or npm run build -> npm start)
+   cd client -> npm install -> create .env.local file to store AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY -> npm run dev (or npm run build -> npm start) (Also change the agents ID and alias in [route.ts](client/app/api/invokeAgent/route.ts))
   - Or you can try the deployed version on [https://vct-esports-manager.mtd-dev.com/](https://vct-esports-manager.mtd-dev.com/). This website might be slower / not available sometime due to poor hardware settings (I'm poor :() But it should work most of the time. If you don't receive answer, try again, the server might be disconnected so it couldn't process the prompt.
 
