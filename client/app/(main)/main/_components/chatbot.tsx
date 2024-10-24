@@ -99,7 +99,7 @@ const ChatBot = ({
                 <FormItem className="relative w-full border rounded-lg ">
                   <FormControl className="relative w-full">
                     <Textarea 
-                      className="relative w-full border-[1.5px] outline-none focus-visible:ring-0 focus-visible:ring-transparent text-wrap h-[40px]"
+                      className="relative w-full border-accent border-[1.5px] outline-none focus-visible:ring-0 focus-visible:ring-transparent text-wrap h-[40px]"
                       disabled={isLoading}
                       placeholder="Create the best Valorant team for me!"
                       {...field}
@@ -108,7 +108,7 @@ const ChatBot = ({
                 </FormItem>
               )}
             />
-            <Button className="">
+            <Button className="bg-accent hover:bg-secondary hover:text-black">
               Generate
             </Button>
           </div>
