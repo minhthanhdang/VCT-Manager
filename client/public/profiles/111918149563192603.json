@@ -1,0 +1,158 @@
+{
+    "id": "111918149563192603",
+    "first_name": "Bastian",
+    "last_name": "Reinoso",
+    "status": "active",
+    "current_team_id": "111917779336980430",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "ganter w0W",
+    "current_team_acronym": "ZEN",
+    "current_team_name": "Zen Esports",
+    "current_league_id": "106132846649518478",
+    "current_league_name": "VCT Challengers Latin America",
+    "region": "LATAM",
+    "game_records": [
+        {
+            "platform_game_id": "val:023b52ea-f49b-4d4e-a16f-030584196446",
+            "game_time": "2024-02-20T20:40:20.623Z",
+            "map": "Icebox",
+            "agents": {
+                "agent_name": "Killjoy"
+            },
+            "kda": {
+                "kills": 10,
+                "deaths": 15,
+                "assists": 2,
+                "combatScore": 2947
+            },
+            "round_count": 17,
+            "gun_kills": {
+                "Vandal": 5,
+                "Phantom": 1,
+                "Ghost": 1,
+                "Sheriff": 2,
+                "Guardian": 1
+            },
+            "gun_damage": {
+                "Classic": 88,
+                "Phantom": 234,
+                "Sheriff": 373,
+                "Vandal": 986,
+                "": 24,
+                "Guardian": 249,
+                "Ghost": 25,
+                "Spectre": 104
+            }
+        },
+        {
+            "platform_game_id": "val:8faab63a-486f-4b3f-8138-e973d9b74fce",
+            "game_time": "2024-02-27T23:04:26.677Z",
+            "map": "Split",
+            "agents": {
+                "agent_name": "Raze"
+            },
+            "kda": {
+                "kills": 10,
+                "deaths": 19,
+                "assists": 9,
+                "combatScore": 3554
+            },
+            "round_count": 23,
+            "gun_kills": {
+                "Vandal": 7,
+                "Phantom": 2
+            },
+            "gun_damage": {
+                "Vandal": 1342,
+                "Frenzy": 106,
+                "Sheriff": 55,
+                "Phantom": 530
+            }
+        },
+        {
+            "platform_game_id": "val:1ab2fa5b-1cb6-4d88-baeb-39b373636ee7",
+            "game_time": "2024-02-28T00:12:24.369Z",
+            "map": "Breeze",
+            "agents": {
+                "agent_name": "Cypher"
+            },
+            "kda": {
+                "kills": 19,
+                "deaths": 15,
+                "assists": 2,
+                "combatScore": 5322
+            },
+            "round_count": 19,
+            "gun_kills": {
+                "Ghost": 2,
+                "Frenzy": 1,
+                "Vandal": 12,
+                "Guardian": 2,
+                "Classic": 2
+            },
+            "gun_damage": {
+                "Ghost": 303,
+                "Frenzy": 130,
+                "Phantom": 72,
+                "Vandal": 3163,
+                "Guardian": 485,
+                "Classic": 182
+            }
+        },
+        {
+            "platform_game_id": "val:626172d1-6110-40b9-9254-d84309e83a1f",
+            "game_time": "2024-02-28T01:04:49.362Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Killjoy"
+            },
+            "kda": {
+                "kills": 12,
+                "deaths": 16,
+                "assists": 3,
+                "combatScore": 3912
+            },
+            "round_count": 18,
+            "gun_kills": {
+                "Vandal": 5,
+                "Sheriff": 1,
+                "Phantom": 6
+            },
+            "gun_damage": {
+                "Ghost": 90,
+                "Vandal": 892,
+                "": 126,
+                "Sheriff": 214,
+                "Phantom": 1313
+            }
+        },
+        {
+            "platform_game_id": "val:b79aa242-1007-45fb-98b2-fbebc9601a5a",
+            "game_time": "2024-06-12T20:40:00.118Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Gekko"
+            },
+            "kda": {
+                "kills": 16,
+                "deaths": 18,
+                "assists": 6,
+                "combatScore": 4276
+            },
+            "round_count": 23,
+            "gun_kills": {
+                "Ghost": 4,
+                "Vandal": 3,
+                "Phantom": 8,
+                "Bulldog": 1
+            },
+            "gun_damage": {
+                "Ghost": 465,
+                "Vandal": 600,
+                "Sheriff": 55,
+                "Phantom": 1486,
+                "Bulldog": 185
+            }
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "id": "111888924557463173",
+    "first_name": "Thanh Loc",
+    "last_name": "Duong",
+    "status": "active",
+    "current_team_id": "111843763166215530",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "angel1",
+    "current_team_acronym": "DOMS",
+    "current_team_name": "Dominus Esports",
+    "current_league_id": "106470453892538426",
+    "current_league_name": "VCT Challengers SEA Vietnam",
+    "region": "VN",
+    "game_records": [
+        {
+            "platform_game_id": "val:f41bad02-fd3c-42de-b33c-90b13a0e117a",
+            "game_time": "2024-02-16T12:47:31.679Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Astra"
+            },
+            "kda": {
+                "kills": 15,
+                "deaths": 18,
+                "assists": 9,
+                "combatScore": 4071
+            },
+            "round_count": 22,
+            "gun_kills": {
+                "Ghost": 4,
+                "Sheriff": 1,
+                "Vandal": 7,
+                "Guardian": 1,
+                "Classic": 1,
+                "Spectre": 1
+            },
+            "gun_damage": {
+                "Ghost": 330,
+                "Sheriff": 202,
+                "Vandal": 1440,
+                "Guardian": 125,
+                "Classic": 130,
+                "Spectre": 156
+            }
+        },
+        {
+            "platform_game_id": "val:ea94795e-c0a0-4723-82b9-ad315d34d7da",
+            "game_time": "2024-03-02T16:53:42.820Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Astra"
+            },
+            "kda": {
+                "kills": 11,
+                "deaths": 16,
+                "assists": 8,
+                "combatScore": 3098
+            },
+            "round_count": 21,
+            "gun_kills": {
+                "Phantom": 8,
+                "Vandal": 3
+            },
+            "gun_damage": {
+                "Ghost": 85,
+                "Vandal": 688,
+                "Stinger": 157,
+                "Phantom": 1007,
+                "Sheriff": 110
+            }
+        }
+    ]
+}

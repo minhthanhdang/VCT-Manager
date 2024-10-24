@@ -1,0 +1,72 @@
+{
+    "id": "112438503779461751",
+    "first_name": "Rafael",
+    "last_name": "Herrera",
+    "status": "active",
+    "current_team_id": "106098959469156272",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "Snapss",
+    "current_team_acronym": "6K",
+    "current_team_name": "Six Karma",
+    "current_league_id": "105555664141146477",
+    "current_league_name": "VCT Challengers Latin America North",
+    "region": "LAN",
+    "game_records": [
+        {
+            "platform_game_id": "val:dba304e6-7e63-4d27-8d58-a7ae8c53fbc7",
+            "game_time": "2024-05-29T21:59:39.336Z",
+            "map": "Bind",
+            "agents": {
+                "agent_name": "Viper"
+            },
+            "kda": {
+                "kills": 9,
+                "deaths": 16,
+                "assists": 7,
+                "combatScore": 2837
+            },
+            "round_count": 20,
+            "gun_kills": {
+                "Bulldog": 1,
+                "Vandal": 5,
+                "Sheriff": 2,
+                "Ghost": 1
+            },
+            "gun_damage": {
+                "Ghost": 128,
+                "Bulldog": 150,
+                "Vandal": 1025,
+                "Sheriff": 373,
+                "Judge": 55
+            }
+        },
+        {
+            "platform_game_id": "val:27e2081b-e6da-470a-afdc-24d2fd32f6b4",
+            "game_time": "2024-05-29T22:58:00.815Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Fade"
+            },
+            "kda": {
+                "kills": 6,
+                "deaths": 14,
+                "assists": 4,
+                "combatScore": 2479
+            },
+            "round_count": 14,
+            "gun_kills": {
+                "Ghost": 1,
+                "Sheriff": 3,
+                "Vandal": 2
+            },
+            "gun_damage": {
+                "Ghost": 135,
+                "Sheriff": 697,
+                "Vandal": 657,
+                "Bulldog": 105,
+                "Stinger": 84,
+                "Spectre": 138
+            }
+        }
+    ]
+}

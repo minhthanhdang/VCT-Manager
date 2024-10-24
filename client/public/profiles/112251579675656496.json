@@ -1,0 +1,124 @@
+{
+    "id": "112251579675656496",
+    "first_name": "Fernanda ",
+    "last_name": "Coito",
+    "status": "active",
+    "current_team_id": "112793488601579021",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "FER",
+    "current_team_acronym": "PATA",
+    "current_team_name": "PS5PATAS",
+    "current_league_id": "106375817979489820",
+    "current_league_name": "Game Changers Series Brazil",
+    "region": "BR",
+    "game_records": [
+        {
+            "platform_game_id": "val:4fd38a29-f798-48a8-8009-be1f1369e729",
+            "game_time": "2024-07-22T20:58:00.395Z",
+            "map": "Haven",
+            "agents": {
+                "agent_name": "Killjoy"
+            },
+            "kda": {
+                "kills": 7,
+                "deaths": 13,
+                "assists": 2,
+                "combatScore": 2382
+            },
+            "round_count": 14,
+            "gun_kills": {
+                "Vandal": 6,
+                "Sheriff": 1
+            },
+            "gun_damage": {
+                "Classic": 152,
+                "": 42,
+                "Vandal": 1342,
+                "Sheriff": 275
+            }
+        },
+        {
+            "platform_game_id": "val:b450110b-9249-49f1-9b95-8fbfc84bb0bf",
+            "game_time": "2024-07-22T21:40:28.894Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Cypher"
+            },
+            "kda": {
+                "kills": 4,
+                "deaths": 15,
+                "assists": 2,
+                "combatScore": 1443
+            },
+            "round_count": 14,
+            "gun_kills": {
+                "Classic": 1,
+                "Vandal": 2,
+                "Ghost": 1
+            },
+            "gun_damage": {
+                "Classic": 260,
+                "Vandal": 440,
+                "Sheriff": 55,
+                "Ghost": 165,
+                "Bulldog": 70
+            }
+        },
+        {
+            "platform_game_id": "val:c92391f2-cff7-4763-a749-effc1d89bc89",
+            "game_time": "2024-07-24T19:57:36.017Z",
+            "map": "Haven",
+            "agents": {
+                "agent_name": "Killjoy"
+            },
+            "kda": {
+                "kills": 15,
+                "deaths": 16,
+                "assists": 2,
+                "combatScore": 3798
+            },
+            "round_count": 21,
+            "gun_kills": {
+                "Classic": 2,
+                "Bulldog": 1,
+                "Vandal": 11,
+                "Sheriff": 1
+            },
+            "gun_damage": {
+                "Classic": 182,
+                "Bulldog": 35,
+                "Vandal": 2120,
+                "": 66,
+                "Sheriff": 159
+            }
+        },
+        {
+            "platform_game_id": "val:5c64a121-ee98-41c6-a172-abb3cf242b46",
+            "game_time": "2024-07-24T21:06:18.776Z",
+            "map": "Icebox",
+            "agents": {
+                "agent_name": "Killjoy"
+            },
+            "kda": {
+                "kills": 9,
+                "deaths": 13,
+                "assists": 3,
+                "combatScore": 2539
+            },
+            "round_count": 14,
+            "gun_kills": {
+                "Vandal": 6,
+                "Ghost": 2,
+                "Guardian": 1
+            },
+            "gun_damage": {
+                "": 80,
+                "Vandal": 1053,
+                "Classic": 26,
+                "Sheriff": 198,
+                "Ghost": 190,
+                "Guardian": 195
+            }
+        }
+    ]
+}

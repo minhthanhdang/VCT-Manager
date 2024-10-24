@@ -1,0 +1,44 @@
+{
+    "id": "112248495340796737",
+    "first_name": "Sam",
+    "last_name": "Powers Herbert",
+    "status": "active",
+    "current_team_id": "105827036957504670",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "sherb",
+    "current_team_acronym": "TSM",
+    "current_team_name": "TSM",
+    "current_league_id": "105555635175479654",
+    "current_league_name": "VCT Challengers North America",
+    "region": "NA",
+    "game_records": [
+        {
+            "platform_game_id": "val:5e2bb95c-df66-4cce-b7c4-98da330f6ed3",
+            "game_time": "2024-05-31T22:33:53.266Z",
+            "map": "Split",
+            "agents": {
+                "agent_name": "Cypher"
+            },
+            "kda": {
+                "kills": 15,
+                "deaths": 13,
+                "assists": 6,
+                "combatScore": 4216
+            },
+            "round_count": 22,
+            "gun_kills": {
+                "Ghost": 2,
+                "Phantom": 2,
+                "Vandal": 8,
+                "Spectre": 3
+            },
+            "gun_damage": {
+                "Ghost": 135,
+                "Phantom": 312,
+                "Sheriff": 147,
+                "Vandal": 1665,
+                "Spectre": 510
+            }
+        }
+    ]
+}

@@ -1,0 +1,104 @@
+{
+    "id": "112829099617017574",
+    "first_name": "Ah-rin",
+    "last_name": "Lee",
+    "status": "active",
+    "current_team_id": "111006703702614704",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "Arin",
+    "current_team_acronym": "NCGC",
+    "current_team_name": "Nuclear GC",
+    "current_league_id": "109029777807406730",
+    "current_league_name": "Game Changers Korea",
+    "region": "KR",
+    "game_records": [
+        {
+            "platform_game_id": "val:e4c5fd78-05a0-4378-9e0e-f3446f6f9cca",
+            "game_time": "2024-07-26T10:23:31.910Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Viper"
+            },
+            "kda": {
+                "kills": 18,
+                "deaths": 15,
+                "assists": 3,
+                "combatScore": 5052
+            },
+            "round_count": 19,
+            "gun_kills": {
+                "Ghost": 3,
+                "Vandal": 12,
+                "Guardian": 1,
+                "Sheriff": 2
+            },
+            "gun_damage": {
+                "Ghost": 355,
+                "Vandal": 2093,
+                "Guardian": 260,
+                "Sheriff": 324
+            }
+        },
+        {
+            "platform_game_id": "val:4df2a0ba-2257-4733-b920-77336a99d29c",
+            "game_time": "2024-07-26T11:29:28.077Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Killjoy"
+            },
+            "kda": {
+                "kills": 15,
+                "deaths": 16,
+                "assists": 9,
+                "combatScore": 4725
+            },
+            "round_count": 22,
+            "gun_kills": {
+                "Sheriff": 2,
+                "Vandal": 9,
+                "Guardian": 1,
+                "Classic": 2,
+                "Ghost": 1
+            },
+            "gun_damage": {
+                "Sheriff": 587,
+                "": 58,
+                "Guardian": 325,
+                "Vandal": 2602,
+                "Phantom": 113,
+                "Classic": 162,
+                "Ghost": 165
+            }
+        },
+        {
+            "platform_game_id": "val:4557c78d-f104-4543-8c83-c8bb7255fcb5",
+            "game_time": "2024-07-28T06:03:36.694Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Killjoy"
+            },
+            "kda": {
+                "kills": 19,
+                "deaths": 13,
+                "assists": 1,
+                "combatScore": 4947
+            },
+            "round_count": 21,
+            "gun_kills": {
+                "Classic": 1,
+                "Vandal": 13,
+                "Sheriff": 3,
+                "Guardian": 1,
+                "Phantom": 1
+            },
+            "gun_damage": {
+                "Classic": 118,
+                "": 48,
+                "Vandal": 3255,
+                "Sheriff": 373,
+                "Phantom": 173,
+                "Guardian": 325
+            }
+        }
+    ]
+}

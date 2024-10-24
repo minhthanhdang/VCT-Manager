@@ -1,0 +1,123 @@
+{
+    "id": "112748512170080589",
+    "first_name": "Saki",
+    "last_name": "Tamaoki",
+    "status": "active",
+    "current_team_id": "111057221979927756",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "Neko",
+    "current_team_acronym": "DFM",
+    "current_team_name": "DetonatioN FocusMe GC",
+    "current_league_id": "108752229027041361",
+    "current_league_name": "Game Changers Japan",
+    "region": "JP",
+    "game_records": [
+        {
+            "platform_game_id": "val:d4b341ec-6e5a-415f-b307-30f2bfb43f0a",
+            "game_time": "2024-07-16T06:39:24.760Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Raze"
+            },
+            "kda": {
+                "kills": 13,
+                "deaths": 16,
+                "assists": 1,
+                "combatScore": 3774
+            },
+            "round_count": 18,
+            "gun_kills": {
+                "Bulldog": 4,
+                "Vandal": 7,
+                "Ghost": 1
+            },
+            "gun_damage": {
+                "Ghost": 134,
+                "Bulldog": 335,
+                "Vandal": 1691
+            }
+        },
+        {
+            "platform_game_id": "val:b50db6f2-2dec-4b87-9f5e-51b93f34e409",
+            "game_time": "2024-07-16T07:35:12.578Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Raze"
+            },
+            "kda": {
+                "kills": 6,
+                "deaths": 14,
+                "assists": 2,
+                "combatScore": 1997
+            },
+            "round_count": 14,
+            "gun_kills": {
+                "Ghost": 1,
+                "Vandal": 3,
+                "Sheriff": 1
+            },
+            "gun_damage": {
+                "Ghost": 195,
+                "Vandal": 588,
+                "Sheriff": 269,
+                "Frenzy": 26,
+                "Bulldog": 35
+            }
+        },
+        {
+            "platform_game_id": "val:a5d2008e-f48f-419e-ac8a-6e63834b0d37",
+            "game_time": "2024-07-17T04:14:11.177Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Jett"
+            },
+            "kda": {
+                "kills": 17,
+                "deaths": 17,
+                "assists": 4,
+                "combatScore": 5083
+            },
+            "round_count": 22,
+            "gun_kills": {
+                "Sheriff": 1,
+                "Vandal": 11,
+                "Operator": 1,
+                "Ghost": 1,
+                "Bulldog": 2
+            },
+            "gun_damage": {
+                "Sheriff": 165,
+                "Vandal": 2964,
+                "Operator": 150,
+                "Ghost": 105,
+                "Bulldog": 419
+            }
+        },
+        {
+            "platform_game_id": "val:2a62471a-93bb-4890-b3fe-77bdc2e9f316",
+            "game_time": "2024-07-17T05:21:36.002Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Raze"
+            },
+            "kda": {
+                "kills": 14,
+                "deaths": 12,
+                "assists": 3,
+                "combatScore": 3956
+            },
+            "round_count": 16,
+            "gun_kills": {
+                "Ghost": 3,
+                "Vandal": 7,
+                "Bulldog": 4
+            },
+            "gun_damage": {
+                "Ghost": 405,
+                "Sheriff": 50,
+                "Vandal": 1330,
+                "Bulldog": 661
+            }
+        }
+    ]
+}

@@ -1,0 +1,151 @@
+{
+    "id": "112810293516021528",
+    "first_name": "Victor",
+    "last_name": "Marcelino",
+    "status": "active",
+    "current_team_id": "112793498705860315",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "phobia",
+    "current_team_acronym": "PAPI",
+    "current_team_name": "p\u00e1prica picante",
+    "current_league_id": "106375817979489820",
+    "current_league_name": "Game Changers Series Brazil",
+    "region": "BR",
+    "game_records": [
+        {
+            "platform_game_id": "val:4def8692-d0dd-4939-99f1-a02e3ec60c04",
+            "game_time": "2024-07-23T21:39:06.141Z",
+            "map": "Haven",
+            "agents": {
+                "agent_name": "Omen"
+            },
+            "kda": {
+                "kills": 12,
+                "deaths": 16,
+                "assists": 8,
+                "combatScore": 3644
+            },
+            "round_count": 19,
+            "gun_kills": {
+                "Vandal": 9,
+                "Sheriff": 1,
+                "Ghost": 1,
+                "Judge": 1
+            },
+            "gun_damage": {
+                "Ghost": 180,
+                "Classic": 26,
+                "Vandal": 1673,
+                "Sheriff": 374,
+                "Judge": 187
+            }
+        },
+        {
+            "platform_game_id": "val:578615a7-5fd5-4bb7-a846-2587b8482cae",
+            "game_time": "2024-07-23T22:27:09.208Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Omen"
+            },
+            "kda": {
+                "kills": 4,
+                "deaths": 15,
+                "assists": 0,
+                "combatScore": 1410
+            },
+            "round_count": 14,
+            "gun_kills": {
+                "Phantom": 2,
+                "Vandal": 1,
+                "Guardian": 1
+            },
+            "gun_damage": {
+                "Sheriff": 200,
+                "Phantom": 607,
+                "Judge": 13,
+                "Vandal": 120,
+                "Guardian": 195
+            }
+        },
+        {
+            "platform_game_id": "val:1ac52dda-6d3b-447b-84b3-a2083dff7b40",
+            "game_time": "2024-07-24T21:54:18.596Z",
+            "map": "Icebox",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 15,
+                "deaths": 14,
+                "assists": 4,
+                "combatScore": 4226
+            },
+            "round_count": 19,
+            "gun_kills": {
+                "Sheriff": 2,
+                "Vandal": 9,
+                "Classic": 1,
+                "Spectre": 2
+            },
+            "gun_damage": {
+                "Sheriff": 446,
+                "Vandal": 1772,
+                "Classic": 104,
+                "Spectre": 232
+            }
+        },
+        {
+            "platform_game_id": "val:16f4057d-1bad-435b-a6ea-3eff5cf19fda",
+            "game_time": "2024-07-24T22:57:56.097Z",
+            "map": "Haven",
+            "agents": {
+                "agent_name": "Breach"
+            },
+            "kda": {
+                "kills": 5,
+                "deaths": 14,
+                "assists": 4,
+                "combatScore": 1483
+            },
+            "round_count": 14,
+            "gun_kills": {
+                "Classic": 2,
+                "Vandal": 2
+            },
+            "gun_damage": {
+                "Classic": 308,
+                "Vandal": 245,
+                "Guardian": 108,
+                "Sheriff": 38
+            }
+        },
+        {
+            "platform_game_id": "val:675c8cb3-e158-4fa9-9b16-95986a0dd58d",
+            "game_time": "2024-07-24T23:37:33.168Z",
+            "map": "Bind",
+            "agents": {
+                "agent_name": "Skye"
+            },
+            "kda": {
+                "kills": 10,
+                "deaths": 16,
+                "assists": 10,
+                "combatScore": 3420
+            },
+            "round_count": 18,
+            "gun_kills": {
+                "Sheriff": 5,
+                "Guardian": 1,
+                "Vandal": 3,
+                "Judge": 1
+            },
+            "gun_damage": {
+                "Sheriff": 698,
+                "Vandal": 904,
+                "Guardian": 325,
+                "Ghost": 30,
+                "Judge": 226
+            }
+        }
+    ]
+}

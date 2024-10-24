@@ -1,0 +1,104 @@
+{
+    "id": "108209910662263167",
+    "first_name": "Nathan",
+    "last_name": "Abrahamse",
+    "status": "active",
+    "current_team_id": "108240989450137617",
+    "photo_url": "http://static.lolesports.com/players/1651152192342_placeholder.png",
+    "in_game_name": "Apyr",
+    "current_team_acronym": "MAD",
+    "current_team_name": "MAD Lions",
+    "current_league_id": "105555635175479654",
+    "current_league_name": "VCT Challengers North America",
+    "region": "NA",
+    "game_records": [
+        {
+            "platform_game_id": "val:e81e40c2-bd59-47f5-b376-4528e7124d43",
+            "game_time": "2024-05-25T18:29:03.299Z",
+            "map": "Icebox",
+            "agents": {
+                "agent_name": "Yoru"
+            },
+            "kda": {
+                "kills": 8,
+                "deaths": 16,
+                "assists": 5,
+                "combatScore": 2834
+            },
+            "round_count": 17,
+            "gun_kills": {
+                "Ghost": 1,
+                "Sheriff": 4,
+                "Bulldog": 1,
+                "Vandal": 2
+            },
+            "gun_damage": {
+                "Ghost": 456,
+                "Sheriff": 782,
+                "Phantom": 72,
+                "Operator": 120,
+                "Bulldog": 204,
+                "Vandal": 219
+            }
+        },
+        {
+            "platform_game_id": "val:a183c15e-6030-44e0-892f-c158ee97ddb3",
+            "game_time": "2024-05-26T19:30:24.031Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Jett"
+            },
+            "kda": {
+                "kills": 17,
+                "deaths": 15,
+                "assists": 2,
+                "combatScore": 4354
+            },
+            "round_count": 23,
+            "gun_kills": {
+                "Vandal": 8,
+                "Operator": 5,
+                "Ghost": 2
+            },
+            "gun_damage": {
+                "Ghost": 276,
+                "Vandal": 1299,
+                "Operator": 750,
+                "Classic": 104,
+                "Shorty": 31
+            }
+        },
+        {
+            "platform_game_id": "val:7a529827-b912-4c33-be07-c82a1d4c071b",
+            "game_time": "2024-05-27T17:32:35.185Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Raze"
+            },
+            "kda": {
+                "kills": 11,
+                "deaths": 23,
+                "assists": 8,
+                "combatScore": 3711
+            },
+            "round_count": 22,
+            "gun_kills": {
+                "Ghost": 1,
+                "Bulldog": 3,
+                "Sheriff": 3,
+                "Operator": 1,
+                "Phantom": 1,
+                "Vandal": 1
+            },
+            "gun_damage": {
+                "Ghost": 86,
+                "Bulldog": 504,
+                "Sheriff": 373,
+                "Operator": 150,
+                "Phantom": 183,
+                "Vandal": 662,
+                "Frenzy": 52
+            }
+        }
+    ]
+}

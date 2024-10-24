@@ -1,0 +1,78 @@
+{
+    "id": "112184585365415828",
+    "first_name": "Apichaya",
+    "last_name": "Keukul",
+    "status": "active",
+    "current_team_id": "112184356126189258",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "MicroBrilk",
+    "current_team_acronym": "DGR",
+    "current_team_name": "Dangerous Rose",
+    "current_league_id": "107115678205203231",
+    "current_league_name": "Game Changers SEA",
+    "region": "SEA",
+    "game_records": [
+        {
+            "platform_game_id": "val:99a220f4-de49-4947-9354-ba33894288b3",
+            "game_time": "2024-04-01T11:15:44.007Z",
+            "map": "Breeze",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 20,
+                "deaths": 18,
+                "assists": 4,
+                "combatScore": 5802
+            },
+            "round_count": 22,
+            "gun_kills": {
+                "Guardian": 1,
+                "Vandal": 9,
+                "Ghost": 1,
+                "Ares": 1,
+                "Odin": 7
+            },
+            "gun_damage": {
+                "Classic": 70,
+                "Guardian": 195,
+                "Vandal": 1419,
+                "Ghost": 131,
+                "Ares": 135,
+                "Sheriff": 60,
+                "Odin": 1021
+            }
+        },
+        {
+            "platform_game_id": "val:ad58f0a6-31be-432c-b967-11fc960f3c47",
+            "game_time": "2024-04-01T12:24:52.201Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Phoenix"
+            },
+            "kda": {
+                "kills": 12,
+                "deaths": 15,
+                "assists": 5,
+                "combatScore": 3405
+            },
+            "round_count": 17,
+            "gun_kills": {
+                "Guardian": 3,
+                "Stinger": 2,
+                "Vandal": 1,
+                "Bulldog": 3,
+                "Ghost": 1,
+                "Odin": 2
+            },
+            "gun_damage": {
+                "Ghost": 120,
+                "Guardian": 455,
+                "Vandal": 274,
+                "Stinger": 386,
+                "Bulldog": 474,
+                "Odin": 425
+            }
+        }
+    ]
+}

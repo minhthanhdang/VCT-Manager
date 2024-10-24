@@ -1,0 +1,96 @@
+{
+    "id": "112811982605762275",
+    "first_name": "Kaike",
+    "last_name": "Garjioni",
+    "status": "active",
+    "current_team_id": "108469348707752304",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "allie",
+    "current_team_acronym": "LEV",
+    "current_team_name": "Leviatan",
+    "current_league_id": "109879575186437267",
+    "current_league_name": "Game Changers LATAM",
+    "region": "LATAM",
+    "game_records": [
+        {
+            "platform_game_id": "val:e57603b9-631a-45d4-af77-2118d59bcfba",
+            "game_time": "2024-07-30T22:00:52.445Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Breach"
+            },
+            "kda": {
+                "kills": 7,
+                "deaths": 15,
+                "assists": 14,
+                "combatScore": 2199
+            },
+            "round_count": 23,
+            "gun_kills": {
+                "Ghost": 2,
+                "Vandal": 4,
+                "Stinger": 1
+            },
+            "gun_damage": {
+                "Ghost": 135,
+                "Vandal": 995,
+                "Stinger": 111
+            }
+        },
+        {
+            "platform_game_id": "val:bac4ff92-2a41-4c50-9022-c9e85596423d",
+            "game_time": "2024-07-30T23:14:35.617Z",
+            "map": "Haven",
+            "agents": {
+                "agent_name": "Breach"
+            },
+            "kda": {
+                "kills": 9,
+                "deaths": 11,
+                "assists": 6,
+                "combatScore": 2364
+            },
+            "round_count": 18,
+            "gun_kills": {
+                "Classic": 3,
+                "Vandal": 1,
+                "Phantom": 4,
+                "Ghost": 1
+            },
+            "gun_damage": {
+                "Classic": 352,
+                "Vandal": 235,
+                "Phantom": 526,
+                "Ghost": 75,
+                "Spectre": 119,
+                "Bulldog": 115
+            }
+        },
+        {
+            "platform_game_id": "val:0acbbe39-2747-48a5-a6c3-5ce035debaac",
+            "game_time": "2024-07-31T00:11:12.808Z",
+            "map": "Icebox",
+            "agents": {
+                "agent_name": "KAY/O"
+            },
+            "kda": {
+                "kills": 6,
+                "deaths": 14,
+                "assists": 9,
+                "combatScore": 2082
+            },
+            "round_count": 16,
+            "gun_kills": {
+                "Ghost": 3,
+                "Vandal": 3
+            },
+            "gun_damage": {
+                "Classic": 78,
+                "Spectre": 114,
+                "Ghost": 392,
+                "Vandal": 607,
+                "Sheriff": 55
+            }
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "id": "111834768332039771",
+    "first_name": "Cheng-En",
+    "last_name": "Lu",
+    "status": "active",
+    "current_team_id": "105749556339381019",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "ADfpsxN",
+    "current_team_acronym": "SEA5",
+    "current_team_name": "Five Ace eSports",
+    "current_league_id": "105555699868690469",
+    "current_league_name": "VCT Challengers SEA Hong Kong and Taiwan",
+    "region": "SEA",
+    "game_records": [
+        {
+            "platform_game_id": "val:8373ac59-aef6-4c29-9392-b3acdf4d4856",
+            "game_time": "2024-01-31T11:18:30.541Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Killjoy"
+            },
+            "kda": {
+                "kills": 12,
+                "deaths": 12,
+                "assists": 1,
+                "combatScore": 3426
+            },
+            "round_count": 20,
+            "gun_kills": {
+                "Vandal": 9,
+                "Classic": 1,
+                "Spectre": 2
+            },
+            "gun_damage": {
+                "Classic": 182,
+                "Vandal": 1714,
+                "": 44,
+                "Spectre": 356
+            }
+        },
+        {
+            "platform_game_id": "val:0c71350f-1a23-42fd-8eff-feab9c531115",
+            "game_time": "2024-01-31T12:08:25.532Z",
+            "map": "Bind",
+            "agents": {
+                "agent_name": "Cypher"
+            },
+            "kda": {
+                "kills": 15,
+                "deaths": 11,
+                "assists": 2,
+                "combatScore": 3888
+            },
+            "round_count": 16,
+            "gun_kills": {
+                "Bulldog": 3,
+                "Phantom": 3,
+                "Vandal": 5,
+                "Classic": 1,
+                "Spectre": 1,
+                "Sheriff": 1,
+                "Melee": 1
+            },
+            "gun_damage": {
+                "Bulldog": 370,
+                "Phantom": 622,
+                "Vandal": 1088,
+                "Classic": 78,
+                "Spectre": 192,
+                "Sheriff": 159,
+                "Melee": 150
+            }
+        }
+    ]
+}

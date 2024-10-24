@@ -1,0 +1,73 @@
+{
+    "id": "112513101517145069",
+    "first_name": "Phuc Hoang",
+    "last_name": "To",
+    "status": "active",
+    "current_team_id": "111885189407710483",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "Takoyaki",
+    "current_team_acronym": "TEAR",
+    "current_team_name": "Crocodile TEARS",
+    "current_league_id": "106470453892538426",
+    "current_league_name": "VCT Challengers SEA Vietnam",
+    "region": "VN",
+    "game_records": [
+        {
+            "platform_game_id": "val:2e326308-95ed-4ba9-a930-6698035073d4",
+            "game_time": "2024-06-12T11:44:37.832Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Viper"
+            },
+            "kda": {
+                "kills": 11,
+                "deaths": 13,
+                "assists": 1,
+                "combatScore": 3114
+            },
+            "round_count": 16,
+            "gun_kills": {
+                "Ghost": 2,
+                "Phantom": 2,
+                "Vandal": 3,
+                "Stinger": 1,
+                "Sheriff": 1,
+                "Bulldog": 2
+            },
+            "gun_damage": {
+                "Ghost": 330,
+                "Phantom": 317,
+                "Vandal": 622,
+                "Stinger": 54,
+                "Sheriff": 159,
+                "Bulldog": 300
+            }
+        },
+        {
+            "platform_game_id": "val:dc0208b9-9112-465a-9624-7e51336a14e6",
+            "game_time": "2024-06-20T13:29:42.170Z",
+            "map": "Haven",
+            "agents": {
+                "agent_name": "Breach"
+            },
+            "kda": {
+                "kills": 10,
+                "deaths": 8,
+                "assists": 5,
+                "combatScore": 2611
+            },
+            "round_count": 16,
+            "gun_kills": {
+                "Classic": 2,
+                "Phantom": 4,
+                "Bulldog": 3
+            },
+            "gun_damage": {
+                "Classic": 234,
+                "Bulldog": 528,
+                "Vandal": 40,
+                "Phantom": 830
+            }
+        }
+    ]
+}

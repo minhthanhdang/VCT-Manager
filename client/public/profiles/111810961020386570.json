@@ -1,0 +1,69 @@
+{
+    "id": "111810961020386570",
+    "first_name": "Muhammad ",
+    "last_name": "Anas",
+    "status": "active",
+    "current_team_id": "110020975197988259",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "traNz",
+    "current_team_acronym": "MLT",
+    "current_team_name": "MLT ESPORTS",
+    "current_league_id": "110032750555964337",
+    "current_league_name": "VCT Challengers South Asia",
+    "region": "SA",
+    "game_records": [
+        {
+            "platform_game_id": "val:c710908f-478c-404a-9eed-a24f42d5c2b3",
+            "game_time": "2024-02-11T12:39:34.947Z",
+            "map": "Bind",
+            "agents": {
+                "agent_name": "Cypher"
+            },
+            "kda": {
+                "kills": 10,
+                "deaths": 14,
+                "assists": 2,
+                "combatScore": 2779
+            },
+            "round_count": 16,
+            "gun_kills": {
+                "Sheriff": 3,
+                "Vandal": 6,
+                "Bulldog": 1
+            },
+            "gun_damage": {
+                "Ghost": 75,
+                "Sheriff": 368,
+                "Vandal": 1212,
+                "Bulldog": 105
+            }
+        },
+        {
+            "platform_game_id": "val:2f8e479a-0013-4ab7-97f9-8357e1459944",
+            "game_time": "2024-02-11T13:29:33.930Z",
+            "map": "Breeze",
+            "agents": {
+                "agent_name": "Cypher"
+            },
+            "kda": {
+                "kills": 16,
+                "deaths": 20,
+                "assists": 7,
+                "combatScore": 4294
+            },
+            "round_count": 25,
+            "gun_kills": {
+                "Ghost": 2,
+                "Vandal": 11,
+                "Sheriff": 2,
+                "Melee": 1
+            },
+            "gun_damage": {
+                "Ghost": 293,
+                "Vandal": 2155,
+                "Sheriff": 345,
+                "Melee": 75
+            }
+        }
+    ]
+}

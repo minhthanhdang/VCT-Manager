@@ -1,0 +1,74 @@
+{
+    "id": "112687749087727644",
+    "first_name": "Marco Julian",
+    "last_name": "Capece",
+    "status": "active",
+    "current_team_id": "109620593566686202",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "eya",
+    "current_team_acronym": "AXL",
+    "current_team_name": "Axolotl Esports",
+    "current_league_id": "109551156421687480",
+    "current_league_name": "VCT Challengers Italy",
+    "region": "EMEA",
+    "game_records": [
+        {
+            "platform_game_id": "val:80161678-464e-4e92-96d0-5e2992a65430",
+            "game_time": "2024-06-29T18:27:28.680Z",
+            "map": "Icebox",
+            "agents": {
+                "agent_name": "Jett"
+            },
+            "kda": {
+                "kills": 12,
+                "deaths": 14,
+                "assists": 0,
+                "combatScore": 3380
+            },
+            "round_count": 14,
+            "gun_kills": {
+                "Ghost": 3,
+                "Vandal": 2,
+                "Operator": 3,
+                "Sheriff": 2,
+                "Marshal": 1
+            },
+            "gun_damage": {
+                "Ghost": 287,
+                "Vandal": 386,
+                "Operator": 450,
+                "Sheriff": 449,
+                "Marshal": 202
+            }
+        },
+        {
+            "platform_game_id": "val:3ed62061-075a-472e-889d-d29286adb507",
+            "game_time": "2024-06-30T18:18:37.118Z",
+            "map": "Icebox",
+            "agents": {
+                "agent_name": "Jett"
+            },
+            "kda": {
+                "kills": 16,
+                "deaths": 19,
+                "assists": 3,
+                "combatScore": 5005
+            },
+            "round_count": 20,
+            "gun_kills": {
+                "Vandal": 9,
+                "Operator": 2,
+                "Ghost": 2,
+                "Bulldog": 1,
+                "Sheriff": 1
+            },
+            "gun_damage": {
+                "Ghost": 455,
+                "Sheriff": 374,
+                "Vandal": 1760,
+                "Operator": 300,
+                "Bulldog": 168
+            }
+        }
+    ]
+}

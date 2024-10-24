@@ -1,0 +1,180 @@
+{
+    "id": "112251716163420489",
+    "first_name": "Johnny",
+    "last_name": "Tars",
+    "status": "active",
+    "current_team_id": "112251475551076579",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "Theozy",
+    "current_team_acronym": "TBS",
+    "current_team_name": "Team Brave Soldiers",
+    "current_league_id": "106375817979489820",
+    "current_league_name": "Game Changers Series Brazil",
+    "region": "BR",
+    "game_records": [
+        {
+            "platform_game_id": "val:a4a34535-5b97-4232-b2b2-ccb00cd37260",
+            "game_time": "2024-04-17T21:59:49.547Z",
+            "map": "Icebox",
+            "agents": {
+                "agent_name": "Gekko"
+            },
+            "kda": {
+                "kills": 25,
+                "deaths": 17,
+                "assists": 7,
+                "combatScore": 7450
+            },
+            "round_count": 25,
+            "gun_kills": {
+                "Classic": 1,
+                "Phantom": 22,
+                "Ghost": 1,
+                "Spectre": 1
+            },
+            "gun_damage": {
+                "Classic": 156,
+                "Phantom": 4104,
+                "Ghost": 155,
+                "Spectre": 104
+            }
+        },
+        {
+            "platform_game_id": "val:badb7c58-aee4-4754-b952-c5778a5da9fb",
+            "game_time": "2024-04-17T23:08:47.074Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Fade"
+            },
+            "kda": {
+                "kills": 15,
+                "deaths": 9,
+                "assists": 9,
+                "combatScore": 4479
+            },
+            "round_count": 15,
+            "gun_kills": {
+                "Bulldog": 1,
+                "Phantom": 14
+            },
+            "gun_damage": {
+                "Spectre": 78,
+                "Bulldog": 221,
+                "Phantom": 2535,
+                "Vandal": 40
+            }
+        },
+        {
+            "platform_game_id": "val:79bb6db6-3828-4720-96ab-84ccd7f84363",
+            "game_time": "2024-04-25T20:11:55.386Z",
+            "map": "Split",
+            "agents": {
+                "agent_name": "Skye"
+            },
+            "kda": {
+                "kills": 16,
+                "deaths": 15,
+                "assists": 3,
+                "combatScore": 4608
+            },
+            "round_count": 19,
+            "gun_kills": {
+                "Spectre": 1,
+                "Phantom": 4,
+                "Vandal": 10,
+                "Ghost": 1
+            },
+            "gun_damage": {
+                "Spectre": 156,
+                "Phantom": 612,
+                "Vandal": 2150,
+                "Ghost": 135,
+                "Guardian": 130
+            }
+        },
+        {
+            "platform_game_id": "val:fb415e83-5c69-40a2-9eef-fa18553c0c1b",
+            "game_time": "2024-04-25T21:08:59.521Z",
+            "map": "Bind",
+            "agents": {
+                "agent_name": "Skye"
+            },
+            "kda": {
+                "kills": 16,
+                "deaths": 14,
+                "assists": 6,
+                "combatScore": 4530
+            },
+            "round_count": 18,
+            "gun_kills": {
+                "Classic": 3,
+                "Phantom": 10,
+                "Guardian": 1,
+                "Sheriff": 2
+            },
+            "gun_damage": {
+                "Classic": 340,
+                "Phantom": 2083,
+                "Guardian": 195,
+                "Sheriff": 417
+            }
+        },
+        {
+            "platform_game_id": "val:a4cb4220-b6bf-4c65-8db4-39092a4ce845",
+            "game_time": "2024-04-26T23:29:52.006Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "KAY/O"
+            },
+            "kda": {
+                "kills": 10,
+                "deaths": 15,
+                "assists": 17,
+                "combatScore": 3530
+            },
+            "round_count": 16,
+            "gun_kills": {
+                "Phantom": 4,
+                "Vandal": 2,
+                "Classic": 1,
+                "Bulldog": 2
+            },
+            "gun_damage": {
+                "Phantom": 916,
+                "Vandal": 507,
+                "Ghost": 7,
+                "Classic": 52,
+                "Bulldog": 335
+            }
+        },
+        {
+            "platform_game_id": "val:df0af1ed-fb2f-4699-a32e-fe08319cbe83",
+            "game_time": "2024-04-27T00:17:21.183Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Fade"
+            },
+            "kda": {
+                "kills": 20,
+                "deaths": 15,
+                "assists": 2,
+                "combatScore": 4882
+            },
+            "round_count": 21,
+            "gun_kills": {
+                "Ghost": 2,
+                "Sheriff": 1,
+                "Phantom": 11,
+                "Bulldog": 3,
+                "Vandal": 3
+            },
+            "gun_damage": {
+                "Ghost": 143,
+                "Sheriff": 221,
+                "Phantom": 1554,
+                "Bulldog": 370,
+                "Vandal": 427
+            }
+        }
+    ]
+}

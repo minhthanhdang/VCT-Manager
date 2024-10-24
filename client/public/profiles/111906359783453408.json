@@ -1,0 +1,124 @@
+{
+    "id": "111906359783453408",
+    "first_name": "Tiago",
+    "last_name": "Martins",
+    "status": "active",
+    "current_team_id": "111702658076646312",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "yorkings",
+    "current_team_acronym": "FUZO",
+    "current_team_name": "Fuzos Na Via",
+    "current_league_id": "109551158912464238",
+    "current_league_name": "VCT Challengers Portugal",
+    "region": "EMEA",
+    "game_records": [
+        {
+            "platform_game_id": "val:1db63a72-bede-4e0f-ae00-f7bc3984fa9c",
+            "game_time": "2024-02-13T19:08:50.678Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Astra"
+            },
+            "kda": {
+                "kills": 11,
+                "deaths": 14,
+                "assists": 7,
+                "combatScore": 3077
+            },
+            "round_count": 18,
+            "gun_kills": {
+                "Ghost": 1,
+                "Sheriff": 2,
+                "Vandal": 6,
+                "Spectre": 2
+            },
+            "gun_damage": {
+                "Ghost": 120,
+                "Spectre": 366,
+                "Vandal": 720,
+                "Stinger": 92,
+                "Sheriff": 544,
+                "Guardian": 65
+            }
+        },
+        {
+            "platform_game_id": "val:62abdad3-d22c-4861-806a-a7200dfa1904",
+            "game_time": "2024-02-19T20:15:38.426Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Brimstone"
+            },
+            "kda": {
+                "kills": 10,
+                "deaths": 12,
+                "assists": 11,
+                "combatScore": 2833
+            },
+            "round_count": 18,
+            "gun_kills": {
+                "Vandal": 7,
+                "Spectre": 3
+            },
+            "gun_damage": {
+                "Classic": 78,
+                "Vandal": 1553,
+                "Spectre": 153
+            }
+        },
+        {
+            "platform_game_id": "val:87e95f5f-2c9c-4888-8cff-c9d7845382dd",
+            "game_time": "2024-02-27T22:53:53.258Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Brimstone"
+            },
+            "kda": {
+                "kills": 10,
+                "deaths": 16,
+                "assists": 11,
+                "combatScore": 3496
+            },
+            "round_count": 19,
+            "gun_kills": {
+                "Classic": 1,
+                "Vandal": 7,
+                "Bulldog": 2
+            },
+            "gun_damage": {
+                "Classic": 256,
+                "Vandal": 1567,
+                "Stinger": 11,
+                "Bulldog": 140
+            }
+        },
+        {
+            "platform_game_id": "val:5771375a-0ac1-410b-9515-cb611c831b13",
+            "game_time": "2024-02-28T23:01:05.080Z",
+            "map": "Breeze",
+            "agents": {
+                "agent_name": "Astra"
+            },
+            "kda": {
+                "kills": 9,
+                "deaths": 13,
+                "assists": 2,
+                "combatScore": 2898
+            },
+            "round_count": 13,
+            "gun_kills": {
+                "Ghost": 1,
+                "Sheriff": 1,
+                "Vandal": 5,
+                "Guardian": 2
+            },
+            "gun_damage": {
+                "Ghost": 215,
+                "Sheriff": 305,
+                "Vandal": 909,
+                "Bulldog": 70,
+                "Guardian": 390,
+                "Stinger": 103
+            }
+        }
+    ]
+}

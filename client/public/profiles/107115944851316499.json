@@ -1,0 +1,72 @@
+{
+    "id": "107115944851316499",
+    "first_name": "Jefferlynne",
+    "last_name": "Hernandez",
+    "status": "active",
+    "current_team_id": "107115815394333485",
+    "photo_url": null,
+    "in_game_name": "Japips",
+    "current_team_acronym": "ARS",
+    "current_team_name": "TC Arise",
+    "current_league_id": "107115678205203231",
+    "current_league_name": "Game Changers SEA",
+    "region": "SEA",
+    "game_records": [
+        {
+            "platform_game_id": "val:08eb3a1d-fc84-4d5a-90a2-b715128ff295",
+            "game_time": "2024-07-10T11:44:53.579Z",
+            "map": "Haven",
+            "agents": {
+                "agent_name": "Breach"
+            },
+            "kda": {
+                "kills": 17,
+                "deaths": 16,
+                "assists": 9,
+                "combatScore": 4818
+            },
+            "round_count": 25,
+            "gun_kills": {
+                "Classic": 1,
+                "Vandal": 12,
+                "Sheriff": 2,
+                "Bulldog": 2
+            },
+            "gun_damage": {
+                "Ghost": 175,
+                "Classic": 104,
+                "Vandal": 1977,
+                "Sheriff": 318,
+                "Bulldog": 325
+            }
+        },
+        {
+            "platform_game_id": "val:d1295421-44b8-447c-ae72-7a6f66219846",
+            "game_time": "2024-07-10T13:14:49.621Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Breach"
+            },
+            "kda": {
+                "kills": 13,
+                "deaths": 16,
+                "assists": 11,
+                "combatScore": 4169
+            },
+            "round_count": 19,
+            "gun_kills": {
+                "Ghost": 2,
+                "Vandal": 5,
+                "Bulldog": 3,
+                "Sheriff": 3
+            },
+            "gun_damage": {
+                "Ghost": 250,
+                "Classic": 78,
+                "Vandal": 1378,
+                "Bulldog": 485,
+                "Sheriff": 434
+            }
+        }
+    ]
+}

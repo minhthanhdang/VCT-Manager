@@ -1,0 +1,125 @@
+{
+    "id": "107115868964705117",
+    "first_name": "Ewa ",
+    "last_name": "Yu Ting",
+    "status": "active",
+    "current_team_id": "105749857330015191",
+    "photo_url": null,
+    "in_game_name": "Envious",
+    "current_team_acronym": "SMG",
+    "current_team_name": "TEAM SMG",
+    "current_league_id": "107115678205203231",
+    "current_league_name": "Game Changers SEA",
+    "region": "SEA",
+    "game_records": [
+        {
+            "platform_game_id": "val:8abbcde2-7b3c-48ba-a330-6cf0c23acca5",
+            "game_time": "2024-04-01T08:58:27.927Z",
+            "map": "Icebox",
+            "agents": {
+                "agent_name": "Jett"
+            },
+            "kda": {
+                "kills": 6,
+                "deaths": 14,
+                "assists": 2,
+                "combatScore": 1822
+            },
+            "round_count": 13,
+            "gun_kills": {
+                "Ghost": 2,
+                "Sheriff": 2,
+                "Vandal": 2
+            },
+            "gun_damage": {
+                "Ghost": 240,
+                "Sheriff": 318,
+                "Vandal": 400,
+                "Marshal": 101
+            }
+        },
+        {
+            "platform_game_id": "val:841f46f6-857c-47d7-94bc-97ce470a486c",
+            "game_time": "2024-04-01T09:41:53.538Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Omen"
+            },
+            "kda": {
+                "kills": 8,
+                "deaths": 14,
+                "assists": 3,
+                "combatScore": 2347
+            },
+            "round_count": 16,
+            "gun_kills": {
+                "Vandal": 6,
+                "Bulldog": 1,
+                "Classic": 1
+            },
+            "gun_damage": {
+                "Classic": 126,
+                "Vandal": 1080,
+                "Sheriff": 19,
+                "Bulldog": 150,
+                "Ghost": 90,
+                "Spectre": 78
+            }
+        },
+        {
+            "platform_game_id": "val:cd691b81-d58e-474d-9471-c5ef78857bd8",
+            "game_time": "2024-04-02T09:03:47.535Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Omen"
+            },
+            "kda": {
+                "kills": 12,
+                "deaths": 17,
+                "assists": 3,
+                "combatScore": 3976
+            },
+            "round_count": 16,
+            "gun_kills": {
+                "Classic": 2,
+                "Vandal": 7,
+                "Sheriff": 2,
+                "Bulldog": 1
+            },
+            "gun_damage": {
+                "Classic": 399,
+                "Vandal": 1453,
+                "Sheriff": 324,
+                "Phantom": 70,
+                "Bulldog": 292
+            }
+        },
+        {
+            "platform_game_id": "val:3dc0d36d-2fb1-49a9-8555-9278ccf39f7a",
+            "game_time": "2024-04-02T10:00:25.470Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Omen"
+            },
+            "kda": {
+                "kills": 14,
+                "deaths": 14,
+                "assists": 2,
+                "combatScore": 4467
+            },
+            "round_count": 16,
+            "gun_kills": {
+                "Classic": 3,
+                "Sheriff": 3,
+                "Vandal": 7,
+                "Bulldog": 1
+            },
+            "gun_damage": {
+                "Classic": 546,
+                "Sheriff": 428,
+                "Vandal": 1474,
+                "Bulldog": 294
+            }
+        }
+    ]
+}

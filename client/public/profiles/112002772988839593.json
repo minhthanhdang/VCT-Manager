@@ -1,0 +1,127 @@
+{
+    "id": "112002772988839593",
+    "first_name": "Evan ",
+    "last_name": "do couto",
+    "status": "active",
+    "current_team_id": "112002564298387911",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "evv",
+    "current_team_acronym": "SN",
+    "current_team_name": "SuperNova Galaxy",
+    "current_league_id": "106976737954740691",
+    "current_league_name": "Game Changers North America",
+    "region": "NA",
+    "game_records": [
+        {
+            "platform_game_id": "val:bc94cf21-cc26-4a52-b228-f08ab2e3bea6",
+            "game_time": "2024-03-05T22:16:42.572Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "KAY/O"
+            },
+            "kda": {
+                "kills": 12,
+                "deaths": 14,
+                "assists": 5,
+                "combatScore": 3465
+            },
+            "round_count": 14,
+            "gun_kills": {
+                "Ghost": 1,
+                "Sheriff": 2,
+                "Vandal": 6,
+                "Classic": 1,
+                "Stinger": 1
+            },
+            "gun_damage": {
+                "Ghost": 135,
+                "Sheriff": 428,
+                "Vandal": 1034,
+                "Classic": 78,
+                "Stinger": 161
+            }
+        },
+        {
+            "platform_game_id": "val:2f50c914-4d60-4cc7-a9ef-eb87dba21cae",
+            "game_time": "2024-03-08T01:57:00.666Z",
+            "map": "Split",
+            "agents": {
+                "agent_name": "Skye"
+            },
+            "kda": {
+                "kills": 12,
+                "deaths": 16,
+                "assists": 4,
+                "combatScore": 3860
+            },
+            "round_count": 17,
+            "gun_kills": {
+                "Ghost": 1,
+                "Vandal": 10,
+                "Stinger": 1
+            },
+            "gun_damage": {
+                "Ghost": 266,
+                "Vandal": 1770,
+                "Stinger": 324
+            }
+        },
+        {
+            "platform_game_id": "val:615a683f-06d8-4d91-a7d0-0a1bbddfaf0f",
+            "game_time": "2024-03-08T02:51:05.037Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "KAY/O"
+            },
+            "kda": {
+                "kills": 17,
+                "deaths": 14,
+                "assists": 8,
+                "combatScore": 5108
+            },
+            "round_count": 22,
+            "gun_kills": {
+                "Spectre": 2,
+                "Vandal": 9,
+                "Ghost": 1,
+                "Sheriff": 5
+            },
+            "gun_damage": {
+                "Ghost": 160,
+                "Spectre": 218,
+                "Vandal": 2032,
+                "Sheriff": 894
+            }
+        },
+        {
+            "platform_game_id": "val:90d51daf-977b-4a4b-8f5b-14f9901504f8",
+            "game_time": "2024-03-08T03:54:52.734Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "KAY/O"
+            },
+            "kda": {
+                "kills": 7,
+                "deaths": 15,
+                "assists": 6,
+                "combatScore": 2352
+            },
+            "round_count": 15,
+            "gun_kills": {
+                "Ghost": 1,
+                "Classic": 1,
+                "Vandal": 3,
+                "Stinger": 1,
+                "Bulldog": 1
+            },
+            "gun_damage": {
+                "Ghost": 282,
+                "Classic": 104,
+                "Sheriff": 110,
+                "Vandal": 634,
+                "Stinger": 121,
+                "Bulldog": 115
+            }
+        }
+    ]
+}

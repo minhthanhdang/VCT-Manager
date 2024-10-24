@@ -1,0 +1,76 @@
+{
+    "id": "112184585477351324",
+    "first_name": "Chonlada",
+    "last_name": "Wongya",
+    "status": "active",
+    "current_team_id": "112184356126189258",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "Taryn",
+    "current_team_acronym": "DGR",
+    "current_team_name": "Dangerous Rose",
+    "current_league_id": "107115678205203231",
+    "current_league_name": "Game Changers SEA",
+    "region": "SEA",
+    "game_records": [
+        {
+            "platform_game_id": "val:99a220f4-de49-4947-9354-ba33894288b3",
+            "game_time": "2024-04-01T11:15:44.007Z",
+            "map": "Breeze",
+            "agents": {
+                "agent_name": "Jett"
+            },
+            "kda": {
+                "kills": 11,
+                "deaths": 20,
+                "assists": 7,
+                "combatScore": 3480
+            },
+            "round_count": 22,
+            "gun_kills": {
+                "Bulldog": 1,
+                "Vandal": 5,
+                "Ghost": 2,
+                "Spectre": 1
+            },
+            "gun_damage": {
+                "Ghost": 266,
+                "Classic": 78,
+                "Bulldog": 198,
+                "Vandal": 1240,
+                "Spectre": 121,
+                "Phantom": 66
+            }
+        },
+        {
+            "platform_game_id": "val:ad58f0a6-31be-432c-b967-11fc960f3c47",
+            "game_time": "2024-04-01T12:24:52.201Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Raze"
+            },
+            "kda": {
+                "kills": 15,
+                "deaths": 16,
+                "assists": 4,
+                "combatScore": 4607
+            },
+            "round_count": 17,
+            "gun_kills": {
+                "Ghost": 5,
+                "Phantom": 5,
+                "Sheriff": 1,
+                "Bulldog": 1,
+                "Vandal": 2,
+                "Spectre": 1
+            },
+            "gun_damage": {
+                "Ghost": 587,
+                "Phantom": 1406,
+                "Sheriff": 159,
+                "Bulldog": 150,
+                "Vandal": 240,
+                "Spectre": 156
+            }
+        }
+    ]
+}

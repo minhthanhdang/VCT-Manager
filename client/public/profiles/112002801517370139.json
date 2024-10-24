@@ -1,0 +1,137 @@
+{
+    "id": "112002801517370139",
+    "first_name": "Chloe ",
+    "last_name": "Yang",
+    "status": "active",
+    "current_team_id": "112002577740055872",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "Nekoaimer",
+    "current_team_acronym": "YFPX",
+    "current_team_name": "YFP X",
+    "current_league_id": "106976737954740691",
+    "current_league_name": "Game Changers North America",
+    "region": "NA",
+    "game_records": [
+        {
+            "platform_game_id": "val:63151ca9-d751-46a6-b963-5d2d74201a4d",
+            "game_time": "2024-03-06T00:59:18.994Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Jett"
+            },
+            "kda": {
+                "kills": 7,
+                "deaths": 14,
+                "assists": 0,
+                "combatScore": 1582
+            },
+            "round_count": 17,
+            "gun_kills": {
+                "Sheriff": 1,
+                "Outlaw": 1,
+                "Operator": 1,
+                "Ghost": 2,
+                "Spectre": 2
+            },
+            "gun_damage": {
+                "Sheriff": 214,
+                "Outlaw": 238,
+                "Operator": 150,
+                "Ghost": 220,
+                "Spectre": 144,
+                "Phantom": 33
+            }
+        },
+        {
+            "platform_game_id": "val:c66047a0-f77b-471b-a8c9-f0c212104cc8",
+            "game_time": "2024-03-07T22:33:41.066Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Jett"
+            },
+            "kda": {
+                "kills": 26,
+                "deaths": 14,
+                "assists": 3,
+                "combatScore": 6503
+            },
+            "round_count": 21,
+            "gun_kills": {
+                "Ghost": 5,
+                "Sheriff": 2,
+                "Vandal": 11,
+                "Guardian": 1,
+                "Operator": 3
+            },
+            "gun_damage": {
+                "Ghost": 708,
+                "Sheriff": 318,
+                "Vandal": 2237,
+                "Guardian": 195,
+                "Operator": 555
+            }
+        },
+        {
+            "platform_game_id": "val:5b400388-9e21-4ad8-96d6-845f3e1307aa",
+            "game_time": "2024-03-07T23:32:04.307Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Raze"
+            },
+            "kda": {
+                "kills": 15,
+                "deaths": 17,
+                "assists": 2,
+                "combatScore": 4434
+            },
+            "round_count": 19,
+            "gun_kills": {
+                "Vandal": 10,
+                "Operator": 1,
+                "Sheriff": 1,
+                "Bulldog": 1
+            },
+            "gun_damage": {
+                "Ghost": 60,
+                "Vandal": 1939,
+                "Guardian": 96,
+                "Operator": 150,
+                "Sheriff": 214,
+                "Bulldog": 174
+            }
+        },
+        {
+            "platform_game_id": "val:92cdc538-813c-4bce-bc63-3237b6170078",
+            "game_time": "2024-03-08T00:33:01.538Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Jett"
+            },
+            "kda": {
+                "kills": 11,
+                "deaths": 20,
+                "assists": 3,
+                "combatScore": 3496
+            },
+            "round_count": 22,
+            "gun_kills": {
+                "Outlaw": 1,
+                "Sheriff": 2,
+                "Operator": 3,
+                "Spectre": 1,
+                "Guardian": 2,
+                "Vandal": 1
+            },
+            "gun_damage": {
+                "Sheriff": 466,
+                "Outlaw": 378,
+                "Operator": 633,
+                "Ghost": 90,
+                "Spectre": 104,
+                "Bulldog": 115,
+                "Guardian": 455,
+                "Vandal": 313
+            }
+        }
+    ]
+}

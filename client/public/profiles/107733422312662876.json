@@ -1,0 +1,133 @@
+{
+    "id": "107733422312662876",
+    "first_name": "Joshua",
+    "last_name": "Holland",
+    "status": "active",
+    "current_team_id": "109620615171454791",
+    "photo_url": "http://static.lolesports.com/players/1643881560546_placeholder.png",
+    "in_game_name": "Dutchie",
+    "current_team_acronym": "OP",
+    "current_team_name": "Outplayed",
+    "current_league_id": "109551156421687480",
+    "current_league_name": "VCT Challengers Italy",
+    "region": "EMEA",
+    "game_records": [
+        {
+            "platform_game_id": "val:9cdbc220-c1f8-4c7f-b5eb-a6418115617c",
+            "game_time": "2024-01-27T19:05:14.760Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Gekko"
+            },
+            "kda": {
+                "kills": 15,
+                "deaths": 19,
+                "assists": 3,
+                "combatScore": 4252
+            },
+            "round_count": 23,
+            "gun_kills": {
+                "Ghost": 1,
+                "Sheriff": 1,
+                "Phantom": 2,
+                "Guardian": 1,
+                "Vandal": 8,
+                "Bulldog": 1
+            },
+            "gun_damage": {
+                "Ghost": 48,
+                "Bulldog": 150,
+                "Sheriff": 105,
+                "Phantom": 144,
+                "Vandal": 1584,
+                "Guardian": 195
+            }
+        },
+        {
+            "platform_game_id": "val:8b59b3d8-1e2d-464f-9f52-55c0f72a2a2f",
+            "game_time": "2024-01-28T20:33:57.476Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "KAY/O"
+            },
+            "kda": {
+                "kills": 10,
+                "deaths": 17,
+                "assists": 11,
+                "combatScore": 3721
+            },
+            "round_count": 25,
+            "gun_kills": {
+                "Vandal": 8,
+                "Judge": 1
+            },
+            "gun_damage": {
+                "Ghost": 55,
+                "Vandal": 1666,
+                "Phantom": 165,
+                "Operator": 141,
+                "Judge": 153
+            }
+        },
+        {
+            "platform_game_id": "val:7d61923d-80eb-45c0-9c27-42a012eb5b23",
+            "game_time": "2024-02-03T18:00:22.430Z",
+            "map": "Split",
+            "agents": {
+                "agent_name": "KAY/O"
+            },
+            "kda": {
+                "kills": 15,
+                "deaths": 19,
+                "assists": 16,
+                "combatScore": 4271
+            },
+            "round_count": 23,
+            "gun_kills": {
+                "Ghost": 2,
+                "Spectre": 1,
+                "Sheriff": 1,
+                "Phantom": 3,
+                "Vandal": 6,
+                "Guardian": 2
+            },
+            "gun_damage": {
+                "Ghost": 245,
+                "Spectre": 74,
+                "Sheriff": 159,
+                "Phantom": 455,
+                "Vandal": 1135,
+                "Guardian": 455
+            }
+        },
+        {
+            "platform_game_id": "val:77274ad0-92d9-47ce-b897-7af9d09a6958",
+            "game_time": "2024-02-04T19:16:07.129Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Breach"
+            },
+            "kda": {
+                "kills": 10,
+                "deaths": 11,
+                "assists": 11,
+                "combatScore": 2992
+            },
+            "round_count": 15,
+            "gun_kills": {
+                "Ghost": 1,
+                "Guardian": 1,
+                "Vandal": 6,
+                "Phantom": 1,
+                "Classic": 1
+            },
+            "gun_damage": {
+                "Ghost": 195,
+                "Guardian": 195,
+                "Vandal": 1147,
+                "Phantom": 156,
+                "Classic": 104
+            }
+        }
+    ]
+}

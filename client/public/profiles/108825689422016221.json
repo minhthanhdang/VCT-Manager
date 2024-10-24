@@ -1,0 +1,120 @@
+{
+    "id": "108825689422016221",
+    "first_name": "Xu",
+    "last_name": "Tenia",
+    "status": "active",
+    "current_team_id": "108825786502368366",
+    "photo_url": "http://static.lolesports.com/players/1643734200321_silhouette_transparent.png",
+    "in_game_name": "Pigruto",
+    "current_team_acronym": "XTB",
+    "current_team_name": "X TEAM BO",
+    "current_league_id": "107115678205203231",
+    "current_league_name": "Game Changers SEA",
+    "region": "SEA",
+    "game_records": [
+        {
+            "platform_game_id": "val:8abbcde2-7b3c-48ba-a330-6cf0c23acca5",
+            "game_time": "2024-04-01T08:58:27.927Z",
+            "map": "Icebox",
+            "agents": {
+                "agent_name": "Killjoy"
+            },
+            "kda": {
+                "kills": 4,
+                "deaths": 14,
+                "assists": 2,
+                "combatScore": 1450
+            },
+            "round_count": 13,
+            "gun_kills": {
+                "Spectre": 1,
+                "Sheriff": 2
+            },
+            "gun_damage": {
+                "Spectre": 192,
+                "": 66,
+                "Sheriff": 380,
+                "Vandal": 108,
+                "Bulldog": 35
+            }
+        },
+        {
+            "platform_game_id": "val:841f46f6-857c-47d7-94bc-97ce470a486c",
+            "game_time": "2024-04-01T09:41:53.538Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Killjoy"
+            },
+            "kda": {
+                "kills": 3,
+                "deaths": 14,
+                "assists": 3,
+                "combatScore": 1456
+            },
+            "round_count": 16,
+            "gun_kills": {
+                "Bulldog": 2,
+                "Vandal": 1
+            },
+            "gun_damage": {
+                "Classic": 130,
+                "Ghost": 25,
+                "": 124,
+                "Bulldog": 399,
+                "Vandal": 339
+            }
+        },
+        {
+            "platform_game_id": "val:cd691b81-d58e-474d-9471-c5ef78857bd8",
+            "game_time": "2024-04-02T09:03:47.535Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Killjoy"
+            },
+            "kda": {
+                "kills": 5,
+                "deaths": 15,
+                "assists": 2,
+                "combatScore": 2074
+            },
+            "round_count": 16,
+            "gun_kills": {
+                "Vandal": 2,
+                "Bulldog": 2,
+                "": 1
+            },
+            "gun_damage": {
+                "Classic": 26,
+                "": 149,
+                "Bulldog": 406,
+                "Sheriff": 242,
+                "Vandal": 517
+            }
+        },
+        {
+            "platform_game_id": "val:3dc0d36d-2fb1-49a9-8555-9278ccf39f7a",
+            "game_time": "2024-04-02T10:00:25.470Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Cypher"
+            },
+            "kda": {
+                "kills": 6,
+                "deaths": 16,
+                "assists": 5,
+                "combatScore": 2105
+            },
+            "round_count": 16,
+            "gun_kills": {
+                "Vandal": 5,
+                "Guardian": 1
+            },
+            "gun_damage": {
+                "Classic": 130,
+                "Vandal": 1000,
+                "Guardian": 195,
+                "Phantom": 140
+            }
+        }
+    ]
+}

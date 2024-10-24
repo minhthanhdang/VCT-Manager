@@ -1,0 +1,115 @@
+{
+    "id": "110242043471344245",
+    "first_name": "Karina",
+    "last_name": "Wurm",
+    "status": "active",
+    "current_team_id": "107021308990636196",
+    "photo_url": "http://static.lolesports.com/players/1682160093050_silhouette_transparent.png",
+    "in_game_name": "Karina",
+    "current_team_acronym": "GLD",
+    "current_team_name": "Guild X",
+    "current_league_id": "107019646737643925",
+    "current_league_name": "Game Changers EMEA",
+    "region": "EMEA",
+    "game_records": [
+        {
+            "platform_game_id": "val:ca83c673-c5c2-4211-85c1-d8bc52bfefb3",
+            "game_time": "2024-03-04T16:02:51.705Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Cypher"
+            },
+            "kda": {
+                "kills": 25,
+                "deaths": 19,
+                "assists": 7,
+                "combatScore": 6883
+            },
+            "round_count": 23,
+            "gun_kills": {
+                "Sheriff": 5,
+                "Vandal": 17,
+                "Ghost": 3
+            },
+            "gun_damage": {
+                "Ghost": 601,
+                "Sheriff": 905,
+                "Vandal": 3137
+            }
+        },
+        {
+            "platform_game_id": "val:ddc7336d-ae5d-4f6b-84c4-7c560cfff450",
+            "game_time": "2024-03-04T17:02:14.897Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Killjoy"
+            },
+            "kda": {
+                "kills": 10,
+                "deaths": 14,
+                "assists": 0,
+                "combatScore": 2664
+            },
+            "round_count": 16,
+            "gun_kills": {
+                "Classic": 1,
+                "Sheriff": 4,
+                "Vandal": 5
+            },
+            "gun_damage": {
+                "Classic": 104,
+                "": 54,
+                "Vandal": 864,
+                "Sheriff": 855
+            }
+        },
+        {
+            "platform_game_id": "val:48cbab22-e2b7-411c-8441-6efe599018d1",
+            "game_time": "2024-03-06T18:23:13.283Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Cypher"
+            },
+            "kda": {
+                "kills": 18,
+                "deaths": 16,
+                "assists": 6,
+                "combatScore": 4413
+            },
+            "round_count": 22,
+            "gun_kills": {
+                "Ghost": 4,
+                "Vandal": 13,
+                "Sheriff": 1
+            },
+            "gun_damage": {
+                "Ghost": 405,
+                "Vandal": 2678,
+                "Sheriff": 214
+            }
+        },
+        {
+            "platform_game_id": "val:1fa1b3ca-d9f0-46aa-8058-94104ec2346e",
+            "game_time": "2024-03-06T19:38:50.445Z",
+            "map": "Breeze",
+            "agents": {
+                "agent_name": "Cypher"
+            },
+            "kda": {
+                "kills": 15,
+                "deaths": 15,
+                "assists": 2,
+                "combatScore": 4002
+            },
+            "round_count": 22,
+            "gun_kills": {
+                "Ghost": 4,
+                "Vandal": 11
+            },
+            "gun_damage": {
+                "Ghost": 532,
+                "Vandal": 2080
+            }
+        }
+    ]
+}

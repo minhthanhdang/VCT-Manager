@@ -1,0 +1,119 @@
+{
+    "id": "106172736929718921",
+    "first_name": "Hector",
+    "last_name": "Cruz",
+    "status": "active",
+    "current_team_id": "105623745307301525",
+    "photo_url": null,
+    "in_game_name": "RAINMAKER",
+    "current_team_acronym": "INF",
+    "current_team_name": "Gillette InFinity Esports",
+    "current_league_id": "105555664141146477",
+    "current_league_name": "VCT Challengers Latin America North",
+    "region": "LAN",
+    "game_records": [
+        {
+            "platform_game_id": "val:73c0dbf6-187b-466f-8985-5358b9ab9b26",
+            "game_time": "2024-06-06T01:44:22.593Z",
+            "map": "Breeze",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 21,
+                "deaths": 25,
+                "assists": 2,
+                "combatScore": 6110
+            },
+            "round_count": 29,
+            "gun_kills": {
+                "Sheriff": 5,
+                "Vandal": 13,
+                "Ghost": 1
+            },
+            "gun_damage": {
+                "Sheriff": 826,
+                "Vandal": 3244,
+                "Ghost": 152
+            }
+        },
+        {
+            "platform_game_id": "val:a92c91d3-7df2-49eb-8cc7-47e29b19c7ac",
+            "game_time": "2024-06-06T03:00:52.693Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 7,
+                "deaths": 14,
+                "assists": 0,
+                "combatScore": 1868
+            },
+            "round_count": 16,
+            "gun_kills": {
+                "Guardian": 1,
+                "Vandal": 3,
+                "Bulldog": 1,
+                "Sheriff": 1
+            },
+            "gun_damage": {
+                "Guardian": 195,
+                "Vandal": 514,
+                "Bulldog": 105,
+                "Sheriff": 159
+            }
+        },
+        {
+            "platform_game_id": "val:967f295c-a5ac-4d86-990b-2b7560b4b30c",
+            "game_time": "2024-06-14T00:55:32.413Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 10,
+                "deaths": 17,
+                "assists": 9,
+                "combatScore": 3372
+            },
+            "round_count": 18,
+            "gun_kills": {
+                "Sheriff": 5,
+                "Vandal": 3,
+                "Classic": 1
+            },
+            "gun_damage": {
+                "Sheriff": 889,
+                "Vandal": 1393,
+                "Classic": 78
+            }
+        },
+        {
+            "platform_game_id": "val:fbfb9f6a-a6c7-4a9e-88e7-62bc61d37292",
+            "game_time": "2024-06-14T01:52:27.714Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 12,
+                "deaths": 17,
+                "assists": 5,
+                "combatScore": 3787
+            },
+            "round_count": 23,
+            "gun_kills": {
+                "Stinger": 1,
+                "Vandal": 9,
+                "Ghost": 1
+            },
+            "gun_damage": {
+                "Stinger": 144,
+                "Vandal": 1560,
+                "Ghost": 195,
+                "Sheriff": 64
+            }
+        }
+    ]
+}

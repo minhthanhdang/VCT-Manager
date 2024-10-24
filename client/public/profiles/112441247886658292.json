@@ -1,0 +1,73 @@
+{
+    "id": "112441247886658292",
+    "first_name": "Ali",
+    "last_name": "Salah Salahedin",
+    "status": "active",
+    "current_team_id": "112058390641705192",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "Ali",
+    "current_team_acronym": "WU",
+    "current_team_name": "Winthrop University",
+    "current_league_id": "105555635175479654",
+    "current_league_name": "VCT Challengers North America",
+    "region": "NA",
+    "game_records": [
+        {
+            "platform_game_id": "val:94574460-ce8e-48cc-b3fe-598ce55452e1",
+            "game_time": "2024-05-15T20:04:11.174Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Omen"
+            },
+            "kda": {
+                "kills": 11,
+                "deaths": 15,
+                "assists": 4,
+                "combatScore": 3387
+            },
+            "round_count": 15,
+            "gun_kills": {
+                "Classic": 1,
+                "Sheriff": 1,
+                "Vandal": 7,
+                "Judge": 2
+            },
+            "gun_damage": {
+                "Classic": 130,
+                "Sheriff": 165,
+                "Stinger": 262,
+                "Vandal": 1156,
+                "Judge": 279
+            }
+        },
+        {
+            "platform_game_id": "val:5e09d061-3453-4952-83f9-59a69341752e",
+            "game_time": "2024-05-15T20:46:32.534Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Omen"
+            },
+            "kda": {
+                "kills": 20,
+                "deaths": 16,
+                "assists": 11,
+                "combatScore": 5700
+            },
+            "round_count": 23,
+            "gun_kills": {
+                "Phantom": 3,
+                "Vandal": 12,
+                "Stinger": 1,
+                "Classic": 1,
+                "Guardian": 3
+            },
+            "gun_damage": {
+                "Classic": 444,
+                "Phantom": 599,
+                "Vandal": 1937,
+                "Stinger": 151,
+                "Guardian": 455
+            }
+        }
+    ]
+}

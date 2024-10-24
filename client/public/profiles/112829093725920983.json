@@ -1,0 +1,100 @@
+{
+    "id": "112829093725920983",
+    "first_name": "Ji-woo",
+    "last_name": "Jang",
+    "status": "active",
+    "current_team_id": "111006703702614704",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "Even1ng",
+    "current_team_acronym": "NCGC",
+    "current_team_name": "Nuclear GC",
+    "current_league_id": "109029777807406730",
+    "current_league_name": "Game Changers Korea",
+    "region": "KR",
+    "game_records": [
+        {
+            "platform_game_id": "val:e4c5fd78-05a0-4378-9e0e-f3446f6f9cca",
+            "game_time": "2024-07-26T10:23:31.910Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Fade"
+            },
+            "kda": {
+                "kills": 12,
+                "deaths": 12,
+                "assists": 4,
+                "combatScore": 2880
+            },
+            "round_count": 19,
+            "gun_kills": {
+                "Classic": 2,
+                "Vandal": 8,
+                "Phantom": 1,
+                "Sheriff": 1
+            },
+            "gun_damage": {
+                "Classic": 182,
+                "Vandal": 1480,
+                "Phantom": 156,
+                "Sheriff": 207
+            }
+        },
+        {
+            "platform_game_id": "val:4df2a0ba-2257-4733-b920-77336a99d29c",
+            "game_time": "2024-07-26T11:29:28.077Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Omen"
+            },
+            "kda": {
+                "kills": 13,
+                "deaths": 18,
+                "assists": 3,
+                "combatScore": 3222
+            },
+            "round_count": 22,
+            "gun_kills": {
+                "Guardian": 1,
+                "Vandal": 7,
+                "Classic": 2,
+                "Ghost": 2,
+                "Spectre": 1
+            },
+            "gun_damage": {
+                "Guardian": 195,
+                "Sheriff": 55,
+                "Vandal": 1291,
+                "Classic": 104,
+                "Ghost": 315,
+                "Spectre": 108
+            }
+        },
+        {
+            "platform_game_id": "val:4557c78d-f104-4543-8c83-c8bb7255fcb5",
+            "game_time": "2024-07-28T06:03:36.694Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Omen"
+            },
+            "kda": {
+                "kills": 17,
+                "deaths": 20,
+                "assists": 10,
+                "combatScore": 5185
+            },
+            "round_count": 21,
+            "gun_kills": {
+                "Classic": 2,
+                "Vandal": 13,
+                "Sheriff": 1,
+                "Bulldog": 1
+            },
+            "gun_damage": {
+                "Classic": 390,
+                "Vandal": 2571,
+                "Sheriff": 269,
+                "Bulldog": 105
+            }
+        }
+    ]
+}

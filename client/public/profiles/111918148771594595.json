@@ -1,0 +1,69 @@
+{
+    "id": "111918148771594595",
+    "first_name": "Christian Manuell",
+    "last_name": "Garcia Salazar",
+    "status": "active",
+    "current_team_id": "106098959469156272",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "Crzz",
+    "current_team_acronym": "6K",
+    "current_team_name": "Six Karma",
+    "current_league_id": "105555664141146477",
+    "current_league_name": "VCT Challengers Latin America North",
+    "region": "LAN",
+    "game_records": [
+        {
+            "platform_game_id": "val:9f12ced0-f35c-4b8f-a6fb-82f3d83c7d4c",
+            "game_time": "2024-02-21T23:35:07.746Z",
+            "map": "Breeze",
+            "agents": {
+                "agent_name": "Cypher"
+            },
+            "kda": {
+                "kills": 11,
+                "deaths": 14,
+                "assists": 1,
+                "combatScore": 2701
+            },
+            "round_count": 19,
+            "gun_kills": {
+                "Ghost": 2,
+                "Vandal": 7,
+                "Sheriff": 2
+            },
+            "gun_damage": {
+                "Classic": 52,
+                "Ghost": 165,
+                "Vandal": 1040,
+                "Sheriff": 463
+            }
+        },
+        {
+            "platform_game_id": "val:52557372-4e82-4d60-9273-22c6de3e5b30",
+            "game_time": "2024-02-22T00:32:55.850Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Cypher"
+            },
+            "kda": {
+                "kills": 3,
+                "deaths": 12,
+                "assists": 3,
+                "combatScore": 986
+            },
+            "round_count": 19,
+            "gun_kills": {
+                "Ghost": 1,
+                "Guardian": 1,
+                "Vandal": 1
+            },
+            "gun_damage": {
+                "Sheriff": 182,
+                "Ghost": 90,
+                "Bulldog": 115,
+                "Vandal": 120,
+                "Guardian": 195
+            }
+        }
+    ]
+}

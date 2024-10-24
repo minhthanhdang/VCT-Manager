@@ -1,0 +1,99 @@
+{
+    "id": "112643930321859663",
+    "first_name": "F\u00e1bio",
+    "last_name": "Rocha",
+    "status": "active",
+    "current_team_id": "111702667590900651",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "kayban29",
+    "current_team_acronym": "HOF",
+    "current_team_name": "HOF Esports",
+    "current_league_id": "109551158912464238",
+    "current_league_name": "VCT Challengers Portugal",
+    "region": "EMEA",
+    "game_records": [
+        {
+            "platform_game_id": "val:343f46cf-da06-43e2-a667-05cb25c7cb67",
+            "game_time": "2024-06-22T15:07:31.844Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "KAY/O"
+            },
+            "kda": {
+                "kills": 9,
+                "deaths": 15,
+                "assists": 6,
+                "combatScore": 2638
+            },
+            "round_count": 19,
+            "gun_kills": {
+                "Vandal": 2,
+                "Guardian": 1,
+                "Ghost": 2,
+                "Spectre": 3
+            },
+            "gun_damage": {
+                "Classic": 78,
+                "Vandal": 668,
+                "Guardian": 195,
+                "Ghost": 280,
+                "Spectre": 218
+            }
+        },
+        {
+            "platform_game_id": "val:a479bf89-34ea-4d11-99d2-f1c439814ee4",
+            "game_time": "2024-06-23T14:06:21.154Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "KAY/O"
+            },
+            "kda": {
+                "kills": 7,
+                "deaths": 14,
+                "assists": 5,
+                "combatScore": 2087
+            },
+            "round_count": 14,
+            "gun_kills": {
+                "Sheriff": 1,
+                "Vandal": 5,
+                "Bulldog": 1
+            },
+            "gun_damage": {
+                "Ghost": 25,
+                "Sheriff": 150,
+                "Vandal": 1603,
+                "Phantom": 31,
+                "Bulldog": 140
+            }
+        },
+        {
+            "platform_game_id": "val:b2b62752-dc94-4679-9c95-62523642e46e",
+            "game_time": "2024-06-24T20:13:50.266Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "KAY/O"
+            },
+            "kda": {
+                "kills": 12,
+                "deaths": 16,
+                "assists": 11,
+                "combatScore": 3315
+            },
+            "round_count": 21,
+            "gun_kills": {
+                "Spectre": 1,
+                "Vandal": 9,
+                "Phantom": 2
+            },
+            "gun_damage": {
+                "Classic": 26,
+                "Spectre": 120,
+                "Vandal": 1496,
+                "Ghost": 30,
+                "Sheriff": 24,
+                "Phantom": 278
+            }
+        }
+    ]
+}

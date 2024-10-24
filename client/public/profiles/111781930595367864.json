@@ -1,0 +1,45 @@
+{
+    "id": "111781930595367864",
+    "first_name": "Azzalin",
+    "last_name": "Thomas",
+    "status": "active",
+    "current_team_id": "111771854107659259",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "pupiVal ",
+    "current_team_acronym": "HGE",
+    "current_team_name": "Happy Game Esport",
+    "current_league_id": "109551156421687480",
+    "current_league_name": "VCT Challengers Italy",
+    "region": "EMEA",
+    "game_records": [
+        {
+            "platform_game_id": "val:e57d543e-33ce-4de2-9c64-5ff4aa27e3bf",
+            "game_time": "2024-01-28T19:23:50.656Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Killjoy"
+            },
+            "kda": {
+                "kills": 16,
+                "deaths": 13,
+                "assists": 4,
+                "combatScore": 4381
+            },
+            "round_count": 21,
+            "gun_kills": {
+                "Ghost": 5,
+                "Classic": 1,
+                "Vandal": 8,
+                "Sheriff": 2
+            },
+            "gun_damage": {
+                "": 96,
+                "Ghost": 555,
+                "Vandal": 1626,
+                "Classic": 78,
+                "Guardian": 65,
+                "Sheriff": 318
+            }
+        }
+    ]
+}

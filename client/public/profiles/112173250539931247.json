@@ -1,0 +1,156 @@
+{
+    "id": "112173250539931247",
+    "first_name": "Sarindhorn",
+    "last_name": "Wanothayarnchai",
+    "status": "active",
+    "current_team_id": "112172175981134496",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "americano",
+    "current_team_acronym": "MNF",
+    "current_team_name": "Money First",
+    "current_league_id": "107115678205203231",
+    "current_league_name": "Game Changers SEA",
+    "region": "SEA",
+    "game_records": [
+        {
+            "platform_game_id": "val:1238f437-f2c3-42a0-813b-03d8316dfa28",
+            "game_time": "2024-04-01T11:32:26.154Z",
+            "map": "Split",
+            "agents": {
+                "agent_name": "Astra"
+            },
+            "kda": {
+                "kills": 10,
+                "deaths": 16,
+                "assists": 3,
+                "combatScore": 2697
+            },
+            "round_count": 16,
+            "gun_kills": {
+                "Classic": 2,
+                "Vandal": 7,
+                "Sheriff": 1
+            },
+            "gun_damage": {
+                "Classic": 156,
+                "Vandal": 1354,
+                "Sheriff": 159,
+                "Ghost": 90,
+                "Bulldog": 29
+            }
+        },
+        {
+            "platform_game_id": "val:07e4852d-bb60-4358-beb1-7dafa1c1d4d0",
+            "game_time": "2024-04-01T12:22:25.096Z",
+            "map": "Bind",
+            "agents": {
+                "agent_name": "Viper"
+            },
+            "kda": {
+                "kills": 9,
+                "deaths": 17,
+                "assists": 7,
+                "combatScore": 3109
+            },
+            "round_count": 19,
+            "gun_kills": {
+                "Ghost": 2,
+                "Spectre": 1,
+                "Sheriff": 2,
+                "Vandal": 2,
+                "Phantom": 1
+            },
+            "gun_damage": {
+                "Classic": 182,
+                "Ghost": 120,
+                "Spectre": 22,
+                "Phantom": 232,
+                "Sheriff": 426,
+                "Vandal": 514
+            }
+        },
+        {
+            "platform_game_id": "val:b6e95135-fb22-4076-8832-6be9198eb021",
+            "game_time": "2024-04-02T11:01:59.259Z",
+            "map": "Bind",
+            "agents": {
+                "agent_name": "Viper"
+            },
+            "kda": {
+                "kills": 26,
+                "deaths": 17,
+                "assists": 6,
+                "combatScore": 7631
+            },
+            "round_count": 23,
+            "gun_kills": {
+                "Classic": 3,
+                "Sheriff": 1,
+                "Phantom": 22
+            },
+            "gun_damage": {
+                "Classic": 598,
+                "Phantom": 4300,
+                "Sheriff": 214,
+                "Spectre": 22
+            }
+        },
+        {
+            "platform_game_id": "val:35b7f2cb-8e1a-4ccc-88a4-95527be5bdbb",
+            "game_time": "2024-04-02T12:14:14.818Z",
+            "map": "Breeze",
+            "agents": {
+                "agent_name": "Viper"
+            },
+            "kda": {
+                "kills": 14,
+                "deaths": 12,
+                "assists": 6,
+                "combatScore": 3728
+            },
+            "round_count": 20,
+            "gun_kills": {
+                "Spectre": 1,
+                "Phantom": 11,
+                "Sheriff": 1
+            },
+            "gun_damage": {
+                "Spectre": 132,
+                "Phantom": 2071,
+                "Sheriff": 55
+            }
+        },
+        {
+            "platform_game_id": "val:9fc5cd60-6c5f-4b45-b85c-28da4a7f4ba6",
+            "game_time": "2024-04-02T13:13:52.037Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Breach"
+            },
+            "kda": {
+                "kills": 22,
+                "deaths": 17,
+                "assists": 14,
+                "combatScore": 5650
+            },
+            "round_count": 27,
+            "gun_kills": {
+                "Phantom": 13,
+                "Sheriff": 2,
+                "Spectre": 1,
+                "Vandal": 3,
+                "Guardian": 1,
+                "Operator": 2
+            },
+            "gun_damage": {
+                "Ghost": 165,
+                "Phantom": 2623,
+                "Sheriff": 318,
+                "Vandal": 472,
+                "Spectre": 110,
+                "Guardian": 195,
+                "Operator": 405
+            }
+        }
+    ]
+}

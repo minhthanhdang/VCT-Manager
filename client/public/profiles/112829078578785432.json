@@ -1,0 +1,79 @@
+{
+    "id": "112829078578785432",
+    "first_name": "bo-kyeong",
+    "last_name": "Kim",
+    "status": "active",
+    "current_team_id": "112828981616565870",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "Nlight",
+    "current_team_acronym": "SGA",
+    "current_team_name": "SGA Incheon",
+    "current_league_id": "109029777807406730",
+    "current_league_name": "Game Changers Korea",
+    "region": "KR",
+    "game_records": [
+        {
+            "platform_game_id": "val:440ac7b5-c2ae-4746-b37f-5a3221350b97",
+            "game_time": "2024-07-26T08:28:35.990Z",
+            "map": "Haven",
+            "agents": {
+                "agent_name": "Killjoy"
+            },
+            "kda": {
+                "kills": 11,
+                "deaths": 14,
+                "assists": 2,
+                "combatScore": 3252
+            },
+            "round_count": 17,
+            "gun_kills": {
+                "Shorty": 1,
+                "Phantom": 1,
+                "Sheriff": 1,
+                "Ghost": 1,
+                "Guardian": 2,
+                "Vandal": 5
+            },
+            "gun_damage": {
+                "Classic": 26,
+                "": 42,
+                "Shorty": 154,
+                "Vandal": 1143,
+                "Guardian": 325,
+                "Sheriff": 260,
+                "Phantom": 124,
+                "Ghost": 59
+            }
+        },
+        {
+            "platform_game_id": "val:1ca53710-4d4e-49d4-b30a-622fb71e5469",
+            "game_time": "2024-07-26T09:15:30.408Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Raze"
+            },
+            "kda": {
+                "kills": 7,
+                "deaths": 15,
+                "assists": 2,
+                "combatScore": 2288
+            },
+            "round_count": 16,
+            "gun_kills": {
+                "Bulldog": 1,
+                "Classic": 1,
+                "Vandal": 4,
+                "Ghost": 1
+            },
+            "gun_damage": {
+                "Bulldog": 105,
+                "Classic": 130,
+                "Stinger": 80,
+                "Vandal": 863,
+                "Spectre": 100,
+                "Ghost": 105,
+                "Sheriff": 55
+            }
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "id": "109699703935721908",
+    "first_name": "Nicol\u00f2",
+    "last_name": "Landolfo",
+    "status": "active",
+    "current_team_id": "109620561870093420",
+    "photo_url": "http://static.lolesports.com/players/1673884642459_placeholder.png",
+    "in_game_name": "Lando",
+    "current_team_acronym": "HMB",
+    "current_team_name": "HMBLE",
+    "current_league_id": "109551156421687480",
+    "current_league_name": "VCT Challengers Italy",
+    "region": "EMEA",
+    "game_records": [
+        {
+            "platform_game_id": "val:02f5f985-8835-4e70-b8f0-451841373aac",
+            "game_time": "2024-01-27T21:25:32.010Z",
+            "map": "Bind",
+            "agents": {
+                "agent_name": "Brimstone"
+            },
+            "kda": {
+                "kills": 12,
+                "deaths": 13,
+                "assists": 7,
+                "combatScore": 3245
+            },
+            "round_count": 21,
+            "gun_kills": {
+                "Outlaw": 1,
+                "Sheriff": 4,
+                "Vandal": 6,
+                "Guardian": 1
+            },
+            "gun_damage": {
+                "Outlaw": 140,
+                "Sheriff": 532,
+                "Vandal": 1021,
+                "Ghost": 105,
+                "Guardian": 195
+            }
+        },
+        {
+            "platform_game_id": "val:e57d543e-33ce-4de2-9c64-5ff4aa27e3bf",
+            "game_time": "2024-01-28T19:23:50.656Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Omen"
+            },
+            "kda": {
+                "kills": 15,
+                "deaths": 13,
+                "assists": 9,
+                "combatScore": 4597
+            },
+            "round_count": 21,
+            "gun_kills": {
+                "Outlaw": 2,
+                "Vandal": 7,
+                "Phantom": 3,
+                "Operator": 1,
+                "Spectre": 2
+            },
+            "gun_damage": {
+                "Classic": 118,
+                "Outlaw": 280,
+                "Vandal": 1484,
+                "Phantom": 698,
+                "Operator": 150,
+                "Ghost": 30,
+                "Spectre": 352,
+                "Bulldog": 27
+            }
+        }
+    ]
+}

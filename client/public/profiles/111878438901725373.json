@@ -1,0 +1,125 @@
+{
+    "id": "111878438901725373",
+    "first_name": "MIN",
+    "last_name": "PIAO",
+    "status": "active",
+    "current_team_id": "111878284177290231",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "kawaii",
+    "current_team_acronym": "TEC",
+    "current_team_name": "TITAN ESPORTS CLUB",
+    "current_league_id": "111691194187846945",
+    "current_league_name": "VCT China",
+    "region": "China",
+    "game_records": [
+        {
+            "platform_game_id": "val:7223554c-fdef-4317-be64-9a6287734c0e",
+            "game_time": "2024-06-15T10:52:32.963Z",
+            "map": "Icebox",
+            "agents": {
+                "agent_name": "Killjoy"
+            },
+            "kda": {
+                "kills": 18,
+                "deaths": 16,
+                "assists": 6,
+                "combatScore": 4943
+            },
+            "round_count": 25,
+            "gun_kills": {
+                "Ghost": 2,
+                "Vandal": 14,
+                "Sheriff": 2
+            },
+            "gun_damage": {
+                "Ghost": 282,
+                "Vandal": 2755,
+                "": 24,
+                "Sheriff": 220
+            }
+        },
+        {
+            "platform_game_id": "val:90143efd-e295-4d1e-8b18-62fc8f78dc77",
+            "game_time": "2024-06-15T12:31:13.437Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Killjoy"
+            },
+            "kda": {
+                "kills": 16,
+                "deaths": 18,
+                "assists": 5,
+                "combatScore": 4580
+            },
+            "round_count": 23,
+            "gun_kills": {
+                "Ghost": 3,
+                "Vandal": 10,
+                "Phantom": 3
+            },
+            "gun_damage": {
+                "Ghost": 457,
+                "": 24,
+                "Vandal": 1691,
+                "Phantom": 595,
+                "Guardian": 65,
+                "Sheriff": 55
+            }
+        },
+        {
+            "platform_game_id": "val:ce1d0a5e-d221-4636-8ca8-4313ece27b3c",
+            "game_time": "2024-06-22T08:51:02.216Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Cypher"
+            },
+            "kda": {
+                "kills": 14,
+                "deaths": 16,
+                "assists": 3,
+                "combatScore": 4312
+            },
+            "round_count": 22,
+            "gun_kills": {
+                "Vandal": 9,
+                "Ghost": 1,
+                "Phantom": 2,
+                "Sheriff": 2
+            },
+            "gun_damage": {
+                "Ghost": 310,
+                "Sheriff": 419,
+                "Vandal": 1909,
+                "Phantom": 344
+            }
+        },
+        {
+            "platform_game_id": "val:1d679398-5ecc-4f70-9d3d-6beff2e8e3ae",
+            "game_time": "2024-06-22T10:03:19.212Z",
+            "map": "Icebox",
+            "agents": {
+                "agent_name": "Killjoy"
+            },
+            "kda": {
+                "kills": 8,
+                "deaths": 15,
+                "assists": 2,
+                "combatScore": 2363
+            },
+            "round_count": 18,
+            "gun_kills": {
+                "Ghost": 3,
+                "Operator": 1,
+                "Vandal": 4
+            },
+            "gun_damage": {
+                "Ghost": 479,
+                "": 30,
+                "Classic": 208,
+                "Operator": 150,
+                "Vandal": 842,
+                "Guardian": 65
+            }
+        }
+    ]
+}

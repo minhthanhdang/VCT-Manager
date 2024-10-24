@@ -1,0 +1,122 @@
+{
+    "id": "112273924591945659",
+    "first_name": "Veranya",
+    "last_name": "Martinez",
+    "status": "active",
+    "current_team_id": "112127261921696999",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "Saab",
+    "current_team_acronym": "BSCT",
+    "current_team_name": "Barcelona Esports Team",
+    "current_league_id": "109879575186437267",
+    "current_league_name": "Game Changers LATAM",
+    "region": "LATAM",
+    "game_records": [
+        {
+            "platform_game_id": "val:03c7dfd8-5928-4e3d-8a03-bc61594e7aa9",
+            "game_time": "2024-05-03T00:45:50.937Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Killjoy"
+            },
+            "kda": {
+                "kills": 12,
+                "deaths": 13,
+                "assists": 0,
+                "combatScore": 3513
+            },
+            "round_count": 14,
+            "gun_kills": {
+                "Ghost": 3,
+                "Sheriff": 3,
+                "Vandal": 5,
+                "Guardian": 1
+            },
+            "gun_damage": {
+                "Ghost": 420,
+                "Classic": 22,
+                "": 95,
+                "Sheriff": 483,
+                "Vandal": 879,
+                "Stinger": 108,
+                "Guardian": 195
+            }
+        },
+        {
+            "platform_game_id": "val:40598e56-0e3a-41a6-858d-682c05318289",
+            "game_time": "2024-05-03T01:32:06.039Z",
+            "map": "Breeze",
+            "agents": {
+                "agent_name": "Chamber"
+            },
+            "kda": {
+                "kills": 9,
+                "deaths": 13,
+                "assists": 3,
+                "combatScore": 2810
+            },
+            "round_count": 15,
+            "gun_kills": {
+                "Classic": 1,
+                "Vandal": 5
+            },
+            "gun_damage": {
+                "Classic": 78,
+                "Vandal": 1228
+            }
+        },
+        {
+            "platform_game_id": "val:02b6ed44-afa3-4c20-afa4-271ba573e540",
+            "game_time": "2024-05-19T23:57:39.264Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Chamber"
+            },
+            "kda": {
+                "kills": 8,
+                "deaths": 16,
+                "assists": 1,
+                "combatScore": 1995
+            },
+            "round_count": 18,
+            "gun_kills": {
+                "Outlaw": 1,
+                "Vandal": 5
+            },
+            "gun_damage": {
+                "Outlaw": 238,
+                "Vandal": 750,
+                "Stinger": 23
+            }
+        },
+        {
+            "platform_game_id": "val:1fc7994e-40aa-4a8a-be0d-80d681d4f343",
+            "game_time": "2024-05-20T00:45:51.625Z",
+            "map": "Icebox",
+            "agents": {
+                "agent_name": "Killjoy"
+            },
+            "kda": {
+                "kills": 6,
+                "deaths": 15,
+                "assists": 1,
+                "combatScore": 1653
+            },
+            "round_count": 15,
+            "gun_kills": {
+                "Vandal": 4,
+                "Phantom": 1,
+                "Ghost": 1
+            },
+            "gun_damage": {
+                "": 72,
+                "Vandal": 940,
+                "Classic": 78,
+                "Phantom": 156,
+                "Guardian": 65,
+                "Ghost": 105,
+                "Stinger": 23
+            }
+        }
+    ]
+}

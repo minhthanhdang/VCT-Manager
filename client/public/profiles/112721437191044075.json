@@ -1,0 +1,76 @@
+{
+    "id": "112721437191044075",
+    "first_name": "Lisa",
+    "last_name": "Gamlin",
+    "status": "active",
+    "current_team_id": "112721482272112541",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "junebug",
+    "current_team_acronym": "GANG",
+    "current_team_name": "Gang Gang",
+    "current_league_id": "112609302000026507",
+    "current_league_name": "Game Changers South Asia",
+    "region": "SA",
+    "game_records": [
+        {
+            "platform_game_id": "val:bb3928a7-82be-4eee-bf67-2319e5d2a084",
+            "game_time": "2024-07-10T09:30:58.987Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Killjoy"
+            },
+            "kda": {
+                "kills": 12,
+                "deaths": 16,
+                "assists": 2,
+                "combatScore": 3388
+            },
+            "round_count": 15,
+            "gun_kills": {
+                "Ghost": 3,
+                "Sheriff": 2,
+                "Bulldog": 2,
+                "Vandal": 5
+            },
+            "gun_damage": {
+                "Ghost": 295,
+                "": 36,
+                "Sheriff": 318,
+                "Bulldog": 305,
+                "Vandal": 973,
+                "Stinger": 54
+            }
+        },
+        {
+            "platform_game_id": "val:53fc51c8-0875-410f-a478-8368516a6e83",
+            "game_time": "2024-07-10T10:21:34.862Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Cypher"
+            },
+            "kda": {
+                "kills": 14,
+                "deaths": 14,
+                "assists": 4,
+                "combatScore": 3721
+            },
+            "round_count": 20,
+            "gun_kills": {
+                "Ghost": 1,
+                "Bulldog": 2,
+                "Vandal": 8,
+                "Bucky": 1,
+                "Sheriff": 1,
+                "Phantom": 1
+            },
+            "gun_damage": {
+                "Ghost": 172,
+                "Bulldog": 430,
+                "Vandal": 1268,
+                "Bucky": 100,
+                "Sheriff": 55,
+                "Phantom": 303
+            }
+        }
+    ]
+}

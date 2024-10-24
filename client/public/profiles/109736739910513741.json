@@ -1,0 +1,98 @@
+{
+    "id": "109736739910513741",
+    "first_name": "Vadim",
+    "last_name": "Filkin",
+    "status": "active",
+    "current_team_id": "109620593566686202",
+    "photo_url": "http://static.lolesports.com/players/1674449764064_silhouette_transparent.png",
+    "in_game_name": "Tian02",
+    "current_team_acronym": "AXL",
+    "current_team_name": "Axolotl Esports",
+    "current_league_id": "109551156421687480",
+    "current_league_name": "VCT Challengers Italy",
+    "region": "EMEA",
+    "game_records": [
+        {
+            "platform_game_id": "val:a01b854c-9380-458e-89c9-1a44dec5107d",
+            "game_time": "2024-05-26T14:14:35.371Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Raze"
+            },
+            "kda": {
+                "kills": 8,
+                "deaths": 17,
+                "assists": 1,
+                "combatScore": 2450
+            },
+            "round_count": 18,
+            "gun_kills": {
+                "Sheriff": 1,
+                "Vandal": 6,
+                "Classic": 1
+            },
+            "gun_damage": {
+                "Sheriff": 287,
+                "Vandal": 1080,
+                "Classic": 78,
+                "Ghost": 105
+            }
+        },
+        {
+            "platform_game_id": "val:ca9c2a48-553e-4722-930f-f198c145127c",
+            "game_time": "2024-05-27T19:11:30.881Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Jett"
+            },
+            "kda": {
+                "kills": 5,
+                "deaths": 14,
+                "assists": 3,
+                "combatScore": 1715
+            },
+            "round_count": 14,
+            "gun_kills": {
+                "Sheriff": 3,
+                "Vandal": 2
+            },
+            "gun_damage": {
+                "Ghost": 90,
+                "Sheriff": 483,
+                "Vandal": 547
+            }
+        },
+        {
+            "platform_game_id": "val:829c1580-6931-4218-b993-62152e3cb9d8",
+            "game_time": "2024-05-28T20:24:21.062Z",
+            "map": "Bind",
+            "agents": {
+                "agent_name": "Raze"
+            },
+            "kda": {
+                "kills": 21,
+                "deaths": 15,
+                "assists": 3,
+                "combatScore": 5754
+            },
+            "round_count": 21,
+            "gun_kills": {
+                "Sheriff": 2,
+                "Bulldog": 1,
+                "Vandal": 9,
+                "Operator": 5,
+                "Ghost": 2,
+                "Guardian": 1
+            },
+            "gun_damage": {
+                "Sheriff": 318,
+                "Bulldog": 150,
+                "Vandal": 1641,
+                "Operator": 725,
+                "Phantom": 94,
+                "Ghost": 255,
+                "Guardian": 260
+            }
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "id": "112484878251495706",
+    "first_name": "You Lin",
+    "last_name": "Su",
+    "status": "active",
+    "current_team_id": "112484124663549275",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "Bubble",
+    "current_team_acronym": "DFG",
+    "current_team_name": "Da Feng Gou",
+    "current_league_id": "105555699868690469",
+    "current_league_name": "VCT Challengers SEA Hong Kong and Taiwan",
+    "region": "SEA",
+    "game_records": [
+        {
+            "platform_game_id": "val:2a85969c-5031-4f5e-b71e-f89035989368",
+            "game_time": "2024-06-26T11:09:14.570Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Jett"
+            },
+            "kda": {
+                "kills": 12,
+                "deaths": 17,
+                "assists": 1,
+                "combatScore": 3351
+            },
+            "round_count": 21,
+            "gun_kills": {
+                "Sheriff": 1,
+                "Vandal": 7,
+                "Operator": 2,
+                "Shorty": 1,
+                "Odin": 1
+            },
+            "gun_damage": {
+                "Sheriff": 182,
+                "Vandal": 1316,
+                "Operator": 300,
+                "Shorty": 154,
+                "Odin": 114
+            }
+        },
+        {
+            "platform_game_id": "val:78d6478a-5685-4950-a233-284e7306e45c",
+            "game_time": "2024-06-26T12:03:08.577Z",
+            "map": "Haven",
+            "agents": {
+                "agent_name": "Jett"
+            },
+            "kda": {
+                "kills": 14,
+                "deaths": 17,
+                "assists": 3,
+                "combatScore": 4035
+            },
+            "round_count": 18,
+            "gun_kills": {
+                "Ghost": 1,
+                "Sheriff": 1,
+                "Vandal": 9,
+                "Judge": 1,
+                "Shorty": 1
+            },
+            "gun_damage": {
+                "Ghost": 135,
+                "Sheriff": 269,
+                "Vandal": 1641,
+                "Judge": 169,
+                "Stinger": 27,
+                "Shorty": 121
+            }
+        }
+    ]
+}

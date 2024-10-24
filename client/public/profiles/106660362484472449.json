@@ -1,0 +1,96 @@
+{
+    "id": "106660362484472449",
+    "first_name": "Shane",
+    "last_name": "Flaherty",
+    "status": "active",
+    "current_team_id": "105748032549777972",
+    "photo_url": "http://static.lolesports.com/players/1627507970543_silhouette.png",
+    "in_game_name": "Rawkus",
+    "current_team_acronym": "FAZE",
+    "current_team_name": "FaZe Clan",
+    "current_league_id": "105555635175479654",
+    "current_league_name": "VCT Challengers North America",
+    "region": "NA",
+    "game_records": [
+        {
+            "platform_game_id": "val:85d7d91f-b477-4cad-bcb5-0e7d2a5cbacf",
+            "game_time": "2024-07-23T22:22:47.496Z",
+            "map": "Haven",
+            "agents": {
+                "agent_name": "Breach"
+            },
+            "kda": {
+                "kills": 7,
+                "deaths": 13,
+                "assists": 8,
+                "combatScore": 2264
+            },
+            "round_count": 14,
+            "gun_kills": {
+                "Classic": 2,
+                "Vandal": 4
+            },
+            "gun_damage": {
+                "Classic": 360,
+                "Vandal": 1099
+            }
+        },
+        {
+            "platform_game_id": "val:5be67b00-1888-4d02-a4c5-94e181d4488a",
+            "game_time": "2024-07-23T23:08:37.845Z",
+            "map": "Bind",
+            "agents": {
+                "agent_name": "Viper"
+            },
+            "kda": {
+                "kills": 15,
+                "deaths": 9,
+                "assists": 4,
+                "combatScore": 3935
+            },
+            "round_count": 20,
+            "gun_kills": {
+                "Ghost": 4,
+                "Guardian": 1,
+                "Phantom": 1,
+                "Vandal": 8,
+                "Shorty": 1
+            },
+            "gun_damage": {
+                "Ghost": 480,
+                "Bulldog": 84,
+                "Guardian": 243,
+                "Phantom": 195,
+                "Sheriff": 55,
+                "Vandal": 1347,
+                "Shorty": 59
+            }
+        },
+        {
+            "platform_game_id": "val:b1441169-0894-4ec0-8c4d-94952ece23cc",
+            "game_time": "2024-07-24T00:09:45.645Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Omen"
+            },
+            "kda": {
+                "kills": 12,
+                "deaths": 13,
+                "assists": 5,
+                "combatScore": 3047
+            },
+            "round_count": 17,
+            "gun_kills": {
+                "Bulldog": 4,
+                "Vandal": 6,
+                "Classic": 2
+            },
+            "gun_damage": {
+                "Bulldog": 590,
+                "Vandal": 1106,
+                "Stinger": 92,
+                "Classic": 234
+            }
+        }
+    ]
+}

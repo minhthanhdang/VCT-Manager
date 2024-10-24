@@ -13,8 +13,8 @@ const config: Config = {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
-  				DEFAULT: 'hsl(var(--card))',
-  				foreground: 'hsl(var(--card-foreground))'
+  				DEFAULT: 'hsl(var(--card-foreground))',
+  				foreground: 'hsl(var(--card))'
   			},
   			popover: {
   				DEFAULT: 'hsl(var(--popover))',
@@ -58,6 +58,9 @@ const config: Config = {
   		}
   	}
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [
+		require("tailwindcss-animate"),
+		require('tailwind-scrollbar')({ nocompatible: true }),
+	],
 };
 export default config;

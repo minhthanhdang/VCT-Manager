@@ -1,0 +1,76 @@
+{
+    "id": "112687742881046483",
+    "first_name": "Morten Aleksander",
+    "last_name": "Egder\u00f8d K\u00e5lhus",
+    "status": "active",
+    "current_team_id": "109620593566686202",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "Snaptor",
+    "current_team_acronym": "AXL",
+    "current_team_name": "Axolotl Esports",
+    "current_league_id": "109551156421687480",
+    "current_league_name": "VCT Challengers Italy",
+    "region": "EMEA",
+    "game_records": [
+        {
+            "platform_game_id": "val:80161678-464e-4e92-96d0-5e2992a65430",
+            "game_time": "2024-06-29T18:27:28.680Z",
+            "map": "Icebox",
+            "agents": {
+                "agent_name": "Reyna"
+            },
+            "kda": {
+                "kills": 5,
+                "deaths": 14,
+                "assists": 2,
+                "combatScore": 2051
+            },
+            "round_count": 14,
+            "gun_kills": {
+                "Vandal": 1,
+                "Stinger": 1,
+                "Guardian": 3
+            },
+            "gun_damage": {
+                "Sheriff": 189,
+                "Classic": 26,
+                "Vandal": 240,
+                "Bulldog": 144,
+                "Stinger": 175,
+                "Spectre": 104,
+                "Guardian": 809
+            }
+        },
+        {
+            "platform_game_id": "val:3ed62061-075a-472e-889d-d29286adb507",
+            "game_time": "2024-06-30T18:18:37.118Z",
+            "map": "Icebox",
+            "agents": {
+                "agent_name": "Reyna"
+            },
+            "kda": {
+                "kills": 16,
+                "deaths": 17,
+                "assists": 2,
+                "combatScore": 4964
+            },
+            "round_count": 20,
+            "gun_kills": {
+                "Ghost": 1,
+                "Vandal": 10,
+                "Judge": 1,
+                "Bulldog": 1,
+                "Guardian": 2,
+                "Stinger": 1
+            },
+            "gun_damage": {
+                "Ghost": 195,
+                "Vandal": 2216,
+                "Judge": 269,
+                "Bulldog": 70,
+                "Guardian": 520,
+                "Stinger": 126
+            }
+        }
+    ]
+}

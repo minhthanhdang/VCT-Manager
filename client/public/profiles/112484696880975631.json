@@ -1,0 +1,96 @@
+{
+    "id": "112484696880975631",
+    "first_name": "Bo Xun",
+    "last_name": "KE",
+    "status": "active",
+    "current_team_id": "109669207775064740",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "KiN0",
+    "current_team_acronym": "ONE",
+    "current_team_name": "One Team Esports",
+    "current_league_id": "105555699868690469",
+    "current_league_name": "VCT Challengers SEA Hong Kong and Taiwan",
+    "region": "SEA",
+    "game_records": [
+        {
+            "platform_game_id": "val:1357592b-a901-4a78-9610-0aaa4fc95514",
+            "game_time": "2024-06-06T12:10:34.540Z",
+            "map": "Icebox",
+            "agents": {
+                "agent_name": "Viper"
+            },
+            "kda": {
+                "kills": 21,
+                "deaths": 20,
+                "assists": 6,
+                "combatScore": 5547
+            },
+            "round_count": 25,
+            "gun_kills": {
+                "Sheriff": 1,
+                "Vandal": 18,
+                "Ghost": 2
+            },
+            "gun_damage": {
+                "Sheriff": 214,
+                "Vandal": 2950,
+                "Ghost": 245
+            }
+        },
+        {
+            "platform_game_id": "val:41cd5ad6-70c3-482a-9615-ebeac58bfbc6",
+            "game_time": "2024-06-26T12:57:21.729Z",
+            "map": "Bind",
+            "agents": {
+                "agent_name": "Brimstone"
+            },
+            "kda": {
+                "kills": 5,
+                "deaths": 13,
+                "assists": 9,
+                "combatScore": 1840
+            },
+            "round_count": 18,
+            "gun_kills": {
+                "Classic": 1,
+                "Vandal": 3,
+                "Ghost": 1
+            },
+            "gun_damage": {
+                "Classic": 150,
+                "Vandal": 834,
+                "Ghost": 225,
+                "Sheriff": 50
+            }
+        },
+        {
+            "platform_game_id": "val:76af372b-f431-4aa1-a862-a6460de7e545",
+            "game_time": "2024-07-11T14:06:29.626Z",
+            "map": "Bind",
+            "agents": {
+                "agent_name": "Brimstone"
+            },
+            "kda": {
+                "kills": 11,
+                "deaths": 15,
+                "assists": 6,
+                "combatScore": 2938
+            },
+            "round_count": 21,
+            "gun_kills": {
+                "Ghost": 1,
+                "Guardian": 3,
+                "Sheriff": 1,
+                "Vandal": 4,
+                "Classic": 2
+            },
+            "gun_damage": {
+                "Ghost": 135,
+                "Guardian": 560,
+                "Sheriff": 276,
+                "Vandal": 680,
+                "Classic": 260
+            }
+        }
+    ]
+}

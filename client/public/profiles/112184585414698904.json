@@ -1,0 +1,72 @@
+{
+    "id": "112184585414698904",
+    "first_name": "Parkapon",
+    "last_name": "Boonkam",
+    "status": "active",
+    "current_team_id": "112184356126189258",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "Paedy",
+    "current_team_acronym": "DGR",
+    "current_team_name": "Dangerous Rose",
+    "current_league_id": "107115678205203231",
+    "current_league_name": "Game Changers SEA",
+    "region": "SEA",
+    "game_records": [
+        {
+            "platform_game_id": "val:99a220f4-de49-4947-9354-ba33894288b3",
+            "game_time": "2024-04-01T11:15:44.007Z",
+            "map": "Breeze",
+            "agents": {
+                "agent_name": "Yoru"
+            },
+            "kda": {
+                "kills": 12,
+                "deaths": 18,
+                "assists": 12,
+                "combatScore": 3709
+            },
+            "round_count": 22,
+            "gun_kills": {
+                "Classic": 3,
+                "Vandal": 7,
+                "Sheriff": 1,
+                "Stinger": 1
+            },
+            "gun_damage": {
+                "Classic": 248,
+                "Vandal": 1491,
+                "Spectre": 57,
+                "Guardian": 131,
+                "Sheriff": 165,
+                "Stinger": 211
+            }
+        },
+        {
+            "platform_game_id": "val:ad58f0a6-31be-432c-b967-11fc960f3c47",
+            "game_time": "2024-04-01T12:24:52.201Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 8,
+                "deaths": 15,
+                "assists": 4,
+                "combatScore": 2465
+            },
+            "round_count": 17,
+            "gun_kills": {
+                "Sheriff": 2,
+                "Classic": 1,
+                "Spectre": 5
+            },
+            "gun_damage": {
+                "Ghost": 25,
+                "Sheriff": 318,
+                "Vandal": 95,
+                "Classic": 182,
+                "Spectre": 670
+            }
+        }
+    ]
+}

@@ -1,0 +1,188 @@
+{
+    "id": "107600818318924231",
+    "first_name": "Michel",
+    "last_name": "Padilla",
+    "status": "active",
+    "current_team_id": "107600906767030797",
+    "photo_url": null,
+    "in_game_name": "Buffala",
+    "current_team_acronym": "SKC",
+    "current_team_name": "Skull Cracker Quartz",
+    "current_league_id": "109879575186437267",
+    "current_league_name": "Game Changers LATAM",
+    "region": "LATAM",
+    "game_records": [
+        {
+            "platform_game_id": "val:17fd0432-cd5b-4919-a7bd-006027dc4d87",
+            "game_time": "2024-07-31T22:02:35.710Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Breach"
+            },
+            "kda": {
+                "kills": 15,
+                "deaths": 13,
+                "assists": 8,
+                "combatScore": 3995
+            },
+            "round_count": 19,
+            "gun_kills": {
+                "Guardian": 2,
+                "Vandal": 7,
+                "Phantom": 4,
+                "Sheriff": 1,
+                "Operator": 1
+            },
+            "gun_damage": {
+                "Classic": 48,
+                "Guardian": 455,
+                "Vandal": 1151,
+                "Phantom": 1742,
+                "Sheriff": 195,
+                "Operator": 150
+            }
+        },
+        {
+            "platform_game_id": "val:c2c02a3e-4668-4cfb-bc96-956782a4b88c",
+            "game_time": "2024-07-31T22:59:50.503Z",
+            "map": "Haven",
+            "agents": {
+                "agent_name": "Breach"
+            },
+            "kda": {
+                "kills": 18,
+                "deaths": 16,
+                "assists": 12,
+                "combatScore": 5689
+            },
+            "round_count": 21,
+            "gun_kills": {
+                "Vandal": 7,
+                "Sheriff": 4,
+                "Operator": 6,
+                "Guardian": 1
+            },
+            "gun_damage": {
+                "Classic": 182,
+                "Sheriff": 779,
+                "Vandal": 1314,
+                "Operator": 870,
+                "Guardian": 112
+            }
+        },
+        {
+            "platform_game_id": "val:5a5c3770-247d-479f-a1ce-165374271496",
+            "game_time": "2024-08-13T21:13:58.701Z",
+            "map": "Icebox",
+            "agents": {
+                "agent_name": "Jett"
+            },
+            "kda": {
+                "kills": 20,
+                "deaths": 19,
+                "assists": 0,
+                "combatScore": 5727
+            },
+            "round_count": 20,
+            "gun_kills": {
+                "Sheriff": 1,
+                "Vandal": 2,
+                "Guardian": 4,
+                "Operator": 9,
+                "Ghost": 1
+            },
+            "gun_damage": {
+                "Sheriff": 159,
+                "Vandal": 265,
+                "Guardian": 975,
+                "Classic": 152,
+                "Operator": 1350,
+                "Ghost": 105
+            }
+        },
+        {
+            "platform_game_id": "val:37757932-11f4-4f12-b915-252f30d3a42f",
+            "game_time": "2024-08-13T22:43:08.547Z",
+            "map": "Haven",
+            "agents": {
+                "agent_name": "Breach"
+            },
+            "kda": {
+                "kills": 27,
+                "deaths": 14,
+                "assists": 12,
+                "combatScore": 7253
+            },
+            "round_count": 21,
+            "gun_kills": {
+                "Classic": 3,
+                "Vandal": 16,
+                "Sheriff": 3,
+                "Ghost": 1,
+                "Bulldog": 3
+            },
+            "gun_damage": {
+                "Classic": 438,
+                "Vandal": 3067,
+                "Sheriff": 428,
+                "Ghost": 90,
+                "Bulldog": 255
+            }
+        },
+        {
+            "platform_game_id": "val:d9ee5850-680b-4a2d-8d07-747689614413",
+            "game_time": "2024-08-22T01:26:20.394Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Breach"
+            },
+            "kda": {
+                "kills": 16,
+                "deaths": 18,
+                "assists": 13,
+                "combatScore": 4701
+            },
+            "round_count": 23,
+            "gun_kills": {
+                "Vandal": 11,
+                "Classic": 1,
+                "Bulldog": 2,
+                "Sheriff": 2
+            },
+            "gun_damage": {
+                "Vandal": 1874,
+                "Sheriff": 636,
+                "Classic": 78,
+                "Bulldog": 366
+            }
+        },
+        {
+            "platform_game_id": "val:98b1cd91-74b4-46a6-a52c-ccec0e8c37ba",
+            "game_time": "2024-08-22T02:41:21.016Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Breach"
+            },
+            "kda": {
+                "kills": 8,
+                "deaths": 20,
+                "assists": 6,
+                "combatScore": 2382
+            },
+            "round_count": 22,
+            "gun_kills": {
+                "Operator": 1,
+                "Vandal": 4,
+                "Classic": 1,
+                "Guardian": 1
+            },
+            "gun_damage": {
+                "Classic": 113,
+                "Sheriff": 245,
+                "Operator": 150,
+                "Vandal": 1000,
+                "Guardian": 195
+            }
+        }
+    ]
+}

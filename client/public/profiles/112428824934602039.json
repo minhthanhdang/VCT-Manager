@@ -1,0 +1,161 @@
+{
+    "id": "112428824934602039",
+    "first_name": "Axel",
+    "last_name": "Julio",
+    "status": "active",
+    "current_team_id": "110071605003238995",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "x v y",
+    "current_team_acronym": "LCR",
+    "current_team_name": "Le Crapaud",
+    "current_league_id": "105555627532605797",
+    "current_league_name": "VCT Challengers SEA Indonesia",
+    "region": "ID",
+    "game_records": [
+        {
+            "platform_game_id": "val:f6868a6d-f77c-46d5-a7ad-7a9bdd7e4712",
+            "game_time": "2024-06-19T05:05:11.566Z",
+            "map": "Split",
+            "agents": {
+                "agent_name": "Breach"
+            },
+            "kda": {
+                "kills": 6,
+                "deaths": 14,
+                "assists": 3,
+                "combatScore": 1694
+            },
+            "round_count": 17,
+            "gun_kills": {
+                "Guardian": 1,
+                "Vandal": 3,
+                "Ghost": 1,
+                "Sheriff": 1
+            },
+            "gun_damage": {
+                "Ghost": 40,
+                "Vandal": 675,
+                "Guardian": 195,
+                "Classic": 52,
+                "Sheriff": 209
+            }
+        },
+        {
+            "platform_game_id": "val:433931a7-a080-4a21-b630-0f2cb59dcd63",
+            "game_time": "2024-06-20T06:10:46.535Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Omen"
+            },
+            "kda": {
+                "kills": 11,
+                "deaths": 17,
+                "assists": 6,
+                "combatScore": 3403
+            },
+            "round_count": 21,
+            "gun_kills": {
+                "Ghost": 2,
+                "Vandal": 7,
+                "Classic": 2
+            },
+            "gun_damage": {
+                "Ghost": 335,
+                "Bulldog": 70,
+                "Vandal": 1294,
+                "Classic": 450,
+                "Sheriff": 110
+            }
+        },
+        {
+            "platform_game_id": "val:d5fbf90f-8205-4048-838d-53ea28ed1fa5",
+            "game_time": "2024-07-10T06:56:47.340Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Killjoy"
+            },
+            "kda": {
+                "kills": 14,
+                "deaths": 11,
+                "assists": 4,
+                "combatScore": 3660
+            },
+            "round_count": 20,
+            "gun_kills": {
+                "Classic": 1,
+                "Operator": 2,
+                "Vandal": 6,
+                "Sheriff": 1,
+                "Ghost": 2,
+                "Outlaw": 1
+            },
+            "gun_damage": {
+                "Classic": 130,
+                "": 30,
+                "Outlaw": 280,
+                "Operator": 437,
+                "Vandal": 1069,
+                "Sheriff": 110,
+                "Ghost": 204
+            }
+        },
+        {
+            "platform_game_id": "val:6cec346d-efe1-4258-9c13-23ea7c957854",
+            "game_time": "2024-07-10T07:49:31.950Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Killjoy"
+            },
+            "kda": {
+                "kills": 14,
+                "deaths": 15,
+                "assists": 3,
+                "combatScore": 4217
+            },
+            "round_count": 18,
+            "gun_kills": {
+                "Sheriff": 3,
+                "Vandal": 7,
+                "Operator": 2,
+                "Odin": 1,
+                "Classic": 1
+            },
+            "gun_damage": {
+                "Sheriff": 719,
+                "Vandal": 1548,
+                "Operator": 300,
+                "Odin": 76,
+                "": 36,
+                "Classic": 234
+            }
+        },
+        {
+            "platform_game_id": "val:587b8b38-9ab6-4e73-90c5-39ef1510e285",
+            "game_time": "2024-07-10T08:41:32.515Z",
+            "map": "Breeze",
+            "agents": {
+                "agent_name": "Cypher"
+            },
+            "kda": {
+                "kills": 12,
+                "deaths": 18,
+                "assists": 3,
+                "combatScore": 3130
+            },
+            "round_count": 22,
+            "gun_kills": {
+                "Ghost": 1,
+                "Vandal": 9,
+                "Sheriff": 1,
+                "Guardian": 1
+            },
+            "gun_damage": {
+                "Ghost": 199,
+                "Vandal": 1448,
+                "Sheriff": 159,
+                "Guardian": 130,
+                "Classic": 104
+            }
+        }
+    ]
+}

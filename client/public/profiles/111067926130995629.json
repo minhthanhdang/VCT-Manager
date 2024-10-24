@@ -1,0 +1,127 @@
+{
+    "id": "111067926130995629",
+    "first_name": "Nana ",
+    "last_name": "Matsumoto",
+    "status": "active",
+    "current_team_id": "111057221979927756",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "luckybull",
+    "current_team_acronym": "DFM",
+    "current_team_name": "DetonatioN FocusMe GC",
+    "current_league_id": "108752229027041361",
+    "current_league_name": "Game Changers Japan",
+    "region": "JP",
+    "game_records": [
+        {
+            "platform_game_id": "val:d4b341ec-6e5a-415f-b307-30f2bfb43f0a",
+            "game_time": "2024-07-16T06:39:24.760Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Cypher"
+            },
+            "kda": {
+                "kills": 14,
+                "deaths": 16,
+                "assists": 4,
+                "combatScore": 4206
+            },
+            "round_count": 18,
+            "gun_kills": {
+                "Ghost": 3,
+                "Sheriff": 1,
+                "Guardian": 5,
+                "Vandal": 5
+            },
+            "gun_damage": {
+                "Ghost": 285,
+                "Sheriff": 262,
+                "Guardian": 1113,
+                "Vandal": 1145,
+                "Classic": 26
+            }
+        },
+        {
+            "platform_game_id": "val:b50db6f2-2dec-4b87-9f5e-51b93f34e409",
+            "game_time": "2024-07-16T07:35:12.578Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Viper"
+            },
+            "kda": {
+                "kills": 11,
+                "deaths": 15,
+                "assists": 2,
+                "combatScore": 3196
+            },
+            "round_count": 14,
+            "gun_kills": {
+                "Classic": 1,
+                "Bulldog": 1,
+                "Vandal": 8,
+                "Stinger": 1
+            },
+            "gun_damage": {
+                "Classic": 178,
+                "Bulldog": 140,
+                "Vandal": 1308,
+                "Sheriff": 55,
+                "Stinger": 99
+            }
+        },
+        {
+            "platform_game_id": "val:a5d2008e-f48f-419e-ac8a-6e63834b0d37",
+            "game_time": "2024-07-17T04:14:11.177Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "KAY/O"
+            },
+            "kda": {
+                "kills": 9,
+                "deaths": 17,
+                "assists": 11,
+                "combatScore": 2735
+            },
+            "round_count": 22,
+            "gun_kills": {
+                "Vandal": 4,
+                "Bucky": 2,
+                "Guardian": 3
+            },
+            "gun_damage": {
+                "Vandal": 897,
+                "Bucky": 220,
+                "Ghost": 30,
+                "Guardian": 455
+            }
+        },
+        {
+            "platform_game_id": "val:2a62471a-93bb-4890-b3fe-77bdc2e9f316",
+            "game_time": "2024-07-17T05:21:36.002Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Viper"
+            },
+            "kda": {
+                "kills": 7,
+                "deaths": 14,
+                "assists": 4,
+                "combatScore": 2059
+            },
+            "round_count": 16,
+            "gun_kills": {
+                "Ghost": 1,
+                "Vandal": 3,
+                "Classic": 1,
+                "Sheriff": 1,
+                "Guardian": 1
+            },
+            "gun_damage": {
+                "Ghost": 150,
+                "Vandal": 627,
+                "Classic": 156,
+                "Sheriff": 270,
+                "Guardian": 65
+            }
+        }
+    ]
+}

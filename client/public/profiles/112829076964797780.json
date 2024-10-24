@@ -1,0 +1,73 @@
+{
+    "id": "112829076964797780",
+    "first_name": "do-youn",
+    "last_name": "Lee",
+    "status": "active",
+    "current_team_id": "112828981616565870",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "d0r1",
+    "current_team_acronym": "SGA",
+    "current_team_name": "SGA Incheon",
+    "current_league_id": "109029777807406730",
+    "current_league_name": "Game Changers Korea",
+    "region": "KR",
+    "game_records": [
+        {
+            "platform_game_id": "val:440ac7b5-c2ae-4746-b37f-5a3221350b97",
+            "game_time": "2024-07-26T08:28:35.990Z",
+            "map": "Haven",
+            "agents": {
+                "agent_name": "Breach"
+            },
+            "kda": {
+                "kills": 8,
+                "deaths": 15,
+                "assists": 4,
+                "combatScore": 2564
+            },
+            "round_count": 17,
+            "gun_kills": {
+                "Phantom": 2,
+                "Sheriff": 2,
+                "Vandal": 1,
+                "Ghost": 3
+            },
+            "gun_damage": {
+                "Phantom": 410,
+                "Vandal": 581,
+                "Sheriff": 324,
+                "Ghost": 420
+            }
+        },
+        {
+            "platform_game_id": "val:1ca53710-4d4e-49d4-b30a-622fb71e5469",
+            "game_time": "2024-07-26T09:15:30.408Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Breach"
+            },
+            "kda": {
+                "kills": 11,
+                "deaths": 14,
+                "assists": 6,
+                "combatScore": 3036
+            },
+            "round_count": 16,
+            "gun_kills": {
+                "Ghost": 2,
+                "Phantom": 6,
+                "Vandal": 1,
+                "Spectre": 1,
+                "Sheriff": 1
+            },
+            "gun_damage": {
+                "Ghost": 190,
+                "Guardian": 65,
+                "Phantom": 1156,
+                "Vandal": 280,
+                "Spectre": 208,
+                "Sheriff": 159
+            }
+        }
+    ]
+}

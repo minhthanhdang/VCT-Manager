@@ -1,0 +1,69 @@
+{
+    "id": "112433517572502937",
+    "first_name": "Edoardo Cesare",
+    "last_name": "Briocchi",
+    "status": "active",
+    "current_team_id": "109620593566686202",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "Bri0",
+    "current_team_acronym": "AXL",
+    "current_team_name": "Axolotl Esports",
+    "current_league_id": "109551156421687480",
+    "current_league_name": "VCT Challengers Italy",
+    "region": "EMEA",
+    "game_records": [
+        {
+            "platform_game_id": "val:80161678-464e-4e92-96d0-5e2992a65430",
+            "game_time": "2024-06-29T18:27:28.680Z",
+            "map": "Icebox",
+            "agents": {
+                "agent_name": "Gekko"
+            },
+            "kda": {
+                "kills": 3,
+                "deaths": 15,
+                "assists": 2,
+                "combatScore": 1223
+            },
+            "round_count": 14,
+            "gun_kills": {
+                "Sheriff": 1,
+                "Vandal": 1,
+                "Ghost": 1
+            },
+            "gun_damage": {
+                "Classic": 156,
+                "Sheriff": 214,
+                "Vandal": 480,
+                "Ghost": 124
+            }
+        },
+        {
+            "platform_game_id": "val:3ed62061-075a-472e-889d-d29286adb507",
+            "game_time": "2024-06-30T18:18:37.118Z",
+            "map": "Icebox",
+            "agents": {
+                "agent_name": "Gekko"
+            },
+            "kda": {
+                "kills": 12,
+                "deaths": 18,
+                "assists": 4,
+                "combatScore": 3453
+            },
+            "round_count": 20,
+            "gun_kills": {
+                "Vandal": 8,
+                "Ghost": 3,
+                "Guardian": 1
+            },
+            "gun_damage": {
+                "Ghost": 440,
+                "Classic": 26,
+                "Vandal": 1735,
+                "Bulldog": 35,
+                "Guardian": 260
+            }
+        }
+    ]
+}

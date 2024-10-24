@@ -1,0 +1,43 @@
+{
+    "id": "112478580690329125",
+    "first_name": "Tae Hee",
+    "last_name": "Min",
+    "status": "active",
+    "current_team_id": "112478380218116368",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "Jerry2",
+    "current_team_acronym": "SPGG",
+    "current_team_name": "Sin Prisa Gaming",
+    "current_league_id": "105555677198805024",
+    "current_league_name": "VCT Challengers Korea",
+    "region": "KR",
+    "game_records": [
+        {
+            "platform_game_id": "val:144be4d7-4167-405a-8165-5ca555a596a3",
+            "game_time": "2024-06-07T05:41:09.944Z",
+            "map": "Breeze",
+            "agents": {
+                "agent_name": "Viper"
+            },
+            "kda": {
+                "kills": 11,
+                "deaths": 25,
+                "assists": 6,
+                "combatScore": 3698
+            },
+            "round_count": 33,
+            "gun_kills": {
+                "Outlaw": 1,
+                "Vandal": 9,
+                "Classic": 1
+            },
+            "gun_damage": {
+                "Ghost": 85,
+                "Outlaw": 140,
+                "Vandal": 2092,
+                "Classic": 178,
+                "Sheriff": 152
+            }
+        }
+    ]
+}

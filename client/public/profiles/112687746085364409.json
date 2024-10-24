@@ -1,0 +1,77 @@
+{
+    "id": "112687746085364409",
+    "first_name": "Christopher S\u00f8rlie",
+    "last_name": "Heiland",
+    "status": "active",
+    "current_team_id": "109620593566686202",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "Cintyx",
+    "current_team_acronym": "AXL",
+    "current_team_name": "Axolotl Esports",
+    "current_league_id": "109551156421687480",
+    "current_league_name": "VCT Challengers Italy",
+    "region": "EMEA",
+    "game_records": [
+        {
+            "platform_game_id": "val:80161678-464e-4e92-96d0-5e2992a65430",
+            "game_time": "2024-06-29T18:27:28.680Z",
+            "map": "Icebox",
+            "agents": {
+                "agent_name": "Killjoy"
+            },
+            "kda": {
+                "kills": 5,
+                "deaths": 13,
+                "assists": 3,
+                "combatScore": 1717
+            },
+            "round_count": 14,
+            "gun_kills": {
+                "Sheriff": 2,
+                "Vandal": 1,
+                "Guardian": 1,
+                "Stinger": 1
+            },
+            "gun_damage": {
+                "Classic": 104,
+                "Sheriff": 306,
+                "Vandal": 376,
+                "": 6,
+                "Guardian": 195,
+                "Stinger": 27,
+                "Outlaw": 140
+            }
+        },
+        {
+            "platform_game_id": "val:3ed62061-075a-472e-889d-d29286adb507",
+            "game_time": "2024-06-30T18:18:37.118Z",
+            "map": "Icebox",
+            "agents": {
+                "agent_name": "Killjoy"
+            },
+            "kda": {
+                "kills": 13,
+                "deaths": 14,
+                "assists": 1,
+                "combatScore": 3661
+            },
+            "round_count": 20,
+            "gun_kills": {
+                "Classic": 1,
+                "Guardian": 3,
+                "Vandal": 8,
+                "Ghost": 1
+            },
+            "gun_damage": {
+                "Classic": 130,
+                "Phantom": 35,
+                "Guardian": 895,
+                "Vandal": 1654,
+                "Sheriff": 46,
+                "": 60,
+                "Ghost": 87,
+                "Stinger": 65
+            }
+        }
+    ]
+}

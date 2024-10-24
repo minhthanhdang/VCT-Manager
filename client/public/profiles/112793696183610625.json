@@ -1,0 +1,147 @@
+{
+    "id": "112793696183610625",
+    "first_name": "Ayumi",
+    "last_name": "Maruyama",
+    "status": "active",
+    "current_team_id": "112793498705860315",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "ayumi",
+    "current_team_acronym": "PAPI",
+    "current_team_name": "p\u00e1prica picante",
+    "current_league_id": "106375817979489820",
+    "current_league_name": "Game Changers Series Brazil",
+    "region": "BR",
+    "game_records": [
+        {
+            "platform_game_id": "val:4def8692-d0dd-4939-99f1-a02e3ec60c04",
+            "game_time": "2024-07-23T21:39:06.141Z",
+            "map": "Haven",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 11,
+                "deaths": 14,
+                "assists": 5,
+                "combatScore": 2972
+            },
+            "round_count": 19,
+            "gun_kills": {
+                "Ghost": 3,
+                "Classic": 1,
+                "Vandal": 4,
+                "Sheriff": 1
+            },
+            "gun_damage": {
+                "Ghost": 297,
+                "Classic": 156,
+                "Vandal": 722,
+                "Sheriff": 159,
+                "Phantom": 31,
+                "Spectre": 110
+            }
+        },
+        {
+            "platform_game_id": "val:578615a7-5fd5-4bb7-a846-2587b8482cae",
+            "game_time": "2024-07-23T22:27:09.208Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Gekko"
+            },
+            "kda": {
+                "kills": 3,
+                "deaths": 13,
+                "assists": 2,
+                "combatScore": 877
+            },
+            "round_count": 14,
+            "gun_kills": {
+                "Ghost": 1,
+                "Vandal": 2
+            },
+            "gun_damage": {
+                "Ghost": 225,
+                "Vandal": 491,
+                "Bulldog": 182
+            }
+        },
+        {
+            "platform_game_id": "val:1ac52dda-6d3b-447b-84b3-a2083dff7b40",
+            "game_time": "2024-07-24T21:54:18.596Z",
+            "map": "Icebox",
+            "agents": {
+                "agent_name": "Gekko"
+            },
+            "kda": {
+                "kills": 15,
+                "deaths": 13,
+                "assists": 5,
+                "combatScore": 3905
+            },
+            "round_count": 19,
+            "gun_kills": {
+                "Sheriff": 2,
+                "Vandal": 11,
+                "Bulldog": 2
+            },
+            "gun_damage": {
+                "Ghost": 90,
+                "Sheriff": 262,
+                "Vandal": 2439,
+                "Bulldog": 265
+            }
+        },
+        {
+            "platform_game_id": "val:16f4057d-1bad-435b-a6ea-3eff5cf19fda",
+            "game_time": "2024-07-24T22:57:56.097Z",
+            "map": "Haven",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 3,
+                "deaths": 13,
+                "assists": 1,
+                "combatScore": 1211
+            },
+            "round_count": 14,
+            "gun_kills": {
+                "Vandal": 2,
+                "Bulldog": 1
+            },
+            "gun_damage": {
+                "Sheriff": 50,
+                "Vandal": 758,
+                "Bulldog": 175,
+                "Ghost": 78
+            }
+        },
+        {
+            "platform_game_id": "val:675c8cb3-e158-4fa9-9b16-95986a0dd58d",
+            "game_time": "2024-07-24T23:37:33.168Z",
+            "map": "Bind",
+            "agents": {
+                "agent_name": "Gekko"
+            },
+            "kda": {
+                "kills": 6,
+                "deaths": 17,
+                "assists": 3,
+                "combatScore": 1600
+            },
+            "round_count": 18,
+            "gun_kills": {
+                "Vandal": 2,
+                "Sheriff": 1,
+                "Classic": 1,
+                "Guardian": 1
+            },
+            "gun_damage": {
+                "Vandal": 320,
+                "Sheriff": 101,
+                "Classic": 156,
+                "Guardian": 260
+            }
+        }
+    ]
+}

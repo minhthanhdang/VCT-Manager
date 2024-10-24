@@ -1,0 +1,75 @@
+{
+    "id": "111810939483950471",
+    "first_name": "Prish",
+    "last_name": "Valvani",
+    "status": "active",
+    "current_team_id": "110264807059548884",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "trickyzn",
+    "current_team_acronym": "RVNT",
+    "current_team_name": "Revenant Esports",
+    "current_league_id": "110032750555964337",
+    "current_league_name": "VCT Challengers South Asia",
+    "region": "SA",
+    "game_records": [
+        {
+            "platform_game_id": "val:4725e1be-f4c8-4188-a252-ea25b5a051dc",
+            "game_time": "2024-05-01T11:42:51Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Raze"
+            },
+            "kda": {
+                "kills": 16,
+                "deaths": 24,
+                "assists": 4,
+                "combatScore": 4610
+            },
+            "round_count": 27,
+            "gun_kills": {
+                "Ghost": 3,
+                "Vandal": 9,
+                "Outlaw": 1,
+                "Sheriff": 1,
+                "Phantom": 1
+            },
+            "gun_damage": {
+                "Ghost": 347,
+                "Vandal": 1477,
+                "Outlaw": 140,
+                "Spectre": 26,
+                "Sheriff": 181,
+                "Phantom": 156
+            }
+        },
+        {
+            "platform_game_id": "val:11acad92-343d-4b0c-b765-f75084b298c3",
+            "game_time": "2024-05-01T13:03:58.489Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Jett"
+            },
+            "kda": {
+                "kills": 13,
+                "deaths": 15,
+                "assists": 0,
+                "combatScore": 3344
+            },
+            "round_count": 22,
+            "gun_kills": {
+                "Ghost": 2,
+                "Outlaw": 1,
+                "Vandal": 5,
+                "Operator": 4,
+                "Sheriff": 1
+            },
+            "gun_damage": {
+                "Ghost": 334,
+                "Outlaw": 140,
+                "Vandal": 989,
+                "Operator": 705,
+                "Sheriff": 159
+            }
+        }
+    ]
+}

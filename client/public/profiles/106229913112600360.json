@@ -1,0 +1,71 @@
+{
+    "id": "106229913112600360",
+    "first_name": "Shahzeb  ",
+    "last_name": "Khan ",
+    "status": "active",
+    "current_team_id": "105665869861005803",
+    "photo_url": "http://static.lolesports.com/players/silhouette.png",
+    "in_game_name": "ShahZaM",
+    "current_team_acronym": "SEN",
+    "current_team_name": "Sentinels",
+    "current_league_id": "109974795266458277",
+    "current_league_name": "VCT Americas",
+    "region": "Americas",
+    "game_records": [
+        {
+            "platform_game_id": "val:fce4cb46-61a1-41f5-9518-ebe93b951d2c",
+            "game_time": "2024-06-22T20:49:25.148Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 12,
+                "deaths": 14,
+                "assists": 9,
+                "combatScore": 3760
+            },
+            "round_count": 21,
+            "gun_kills": {
+                "Guardian": 1,
+                "Odin": 1,
+                "Sheriff": 1,
+                "Vandal": 7,
+                "Ghost": 1
+            },
+            "gun_damage": {
+                "Guardian": 150,
+                "Odin": 394,
+                "Sheriff": 207,
+                "Vandal": 1153,
+                "Ghost": 90,
+                "Bulldog": 95
+            }
+        },
+        {
+            "platform_game_id": "val:9a0a4c1a-a098-459a-86f7-1205e50d4aa6",
+            "game_time": "2024-06-22T22:05:48.640Z",
+            "map": "Icebox",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 11,
+                "deaths": 15,
+                "assists": 5,
+                "combatScore": 3519
+            },
+            "round_count": 19,
+            "gun_kills": {
+                "Ghost": 2,
+                "Vandal": 6,
+                "Guardian": 2
+            },
+            "gun_damage": {
+                "Ghost": 210,
+                "Guardian": 484,
+                "Vandal": 1450
+            }
+        }
+    ]
+}

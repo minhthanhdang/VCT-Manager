@@ -1,0 +1,131 @@
+{
+    "id": "111906359707715840",
+    "first_name": "Miguel ",
+    "last_name": "Monteiro",
+    "status": "active",
+    "current_team_id": "111702658076646312",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "MigueL",
+    "current_team_acronym": "FUZO",
+    "current_team_name": "Fuzos Na Via",
+    "current_league_id": "109551158912464238",
+    "current_league_name": "VCT Challengers Portugal",
+    "region": "EMEA",
+    "game_records": [
+        {
+            "platform_game_id": "val:1db63a72-bede-4e0f-ae00-f7bc3984fa9c",
+            "game_time": "2024-02-13T19:08:50.678Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 19,
+                "deaths": 14,
+                "assists": 6,
+                "combatScore": 5791
+            },
+            "round_count": 18,
+            "gun_kills": {
+                "Ghost": 3,
+                "Bulldog": 3,
+                "Stinger": 3,
+                "Phantom": 3,
+                "Vandal": 7
+            },
+            "gun_damage": {
+                "Ghost": 385,
+                "Bulldog": 430,
+                "Phantom": 842,
+                "Stinger": 631,
+                "Sheriff": 55,
+                "Vandal": 1718
+            }
+        },
+        {
+            "platform_game_id": "val:62abdad3-d22c-4861-806a-a7200dfa1904",
+            "game_time": "2024-02-19T20:15:38.426Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Fade"
+            },
+            "kda": {
+                "kills": 16,
+                "deaths": 9,
+                "assists": 14,
+                "combatScore": 5206
+            },
+            "round_count": 18,
+            "gun_kills": {
+                "Ghost": 3,
+                "Vandal": 4,
+                "Odin": 9
+            },
+            "gun_damage": {
+                "Ghost": 475,
+                "Spectre": 22,
+                "Sheriff": 105,
+                "Vandal": 897,
+                "Odin": 1678,
+                "Bulldog": 70
+            }
+        },
+        {
+            "platform_game_id": "val:87e95f5f-2c9c-4888-8cff-c9d7845382dd",
+            "game_time": "2024-02-27T22:53:53.258Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Fade"
+            },
+            "kda": {
+                "kills": 11,
+                "deaths": 15,
+                "assists": 4,
+                "combatScore": 3142
+            },
+            "round_count": 19,
+            "gun_kills": {
+                "Classic": 2,
+                "Odin": 2,
+                "Vandal": 7
+            },
+            "gun_damage": {
+                "Classic": 240,
+                "Odin": 391,
+                "Stinger": 27,
+                "Sheriff": 191,
+                "Vandal": 1492,
+                "Bulldog": 29
+            }
+        },
+        {
+            "platform_game_id": "val:5771375a-0ac1-410b-9515-cb611c831b13",
+            "game_time": "2024-02-28T23:01:05.080Z",
+            "map": "Breeze",
+            "agents": {
+                "agent_name": "Viper"
+            },
+            "kda": {
+                "kills": 7,
+                "deaths": 14,
+                "assists": 6,
+                "combatScore": 2328
+            },
+            "round_count": 13,
+            "gun_kills": {
+                "Vandal": 5,
+                "Marshal": 1,
+                "Stinger": 1
+            },
+            "gun_damage": {
+                "Ghost": 60,
+                "Vandal": 870,
+                "Marshal": 101,
+                "Bulldog": 35,
+                "Classic": 104,
+                "Phantom": 83,
+                "Stinger": 137
+            }
+        }
+    ]
+}

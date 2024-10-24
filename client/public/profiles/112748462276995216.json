@@ -1,0 +1,151 @@
+{
+    "id": "112748462276995216",
+    "first_name": "Karen",
+    "last_name": "Nona",
+    "status": "active",
+    "current_team_id": "112279706800846545",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "merununthiu",
+    "current_team_acronym": "MTR",
+    "current_team_name": "Meteor",
+    "current_league_id": "108752229027041361",
+    "current_league_name": "Game Changers Japan",
+    "region": "JP",
+    "game_records": [
+        {
+            "platform_game_id": "val:b0768305-9e38-4a62-a79a-2112e14905d6",
+            "game_time": "2024-07-16T01:17:12.249Z",
+            "map": "Abyss",
+            "agents": {
+                "agent_name": "Breach"
+            },
+            "kda": {
+                "kills": 14,
+                "deaths": 23,
+                "assists": 10,
+                "combatScore": 4502
+            },
+            "round_count": 29,
+            "gun_kills": {
+                "Guardian": 2,
+                "Vandal": 9,
+                "Classic": 1,
+                "Sheriff": 2
+            },
+            "gun_damage": {
+                "Classic": 218,
+                "Guardian": 390,
+                "Vandal": 2049,
+                "Sheriff": 642
+            }
+        },
+        {
+            "platform_game_id": "val:bb5ad134-8081-4efe-bfa3-ad2271e1818f",
+            "game_time": "2024-07-16T02:36:23.626Z",
+            "map": "Haven",
+            "agents": {
+                "agent_name": "Breach"
+            },
+            "kda": {
+                "kills": 17,
+                "deaths": 17,
+                "assists": 9,
+                "combatScore": 4783
+            },
+            "round_count": 22,
+            "gun_kills": {
+                "Classic": 3,
+                "Vandal": 13
+            },
+            "gun_damage": {
+                "Classic": 360,
+                "Vandal": 2569
+            }
+        },
+        {
+            "platform_game_id": "val:c4e4860c-16c0-465c-9abc-00c5274fba1a",
+            "game_time": "2024-07-17T01:17:44.513Z",
+            "map": "Icebox",
+            "agents": {
+                "agent_name": "KAY/O"
+            },
+            "kda": {
+                "kills": 10,
+                "deaths": 9,
+                "assists": 10,
+                "combatScore": 2620
+            },
+            "round_count": 16,
+            "gun_kills": {
+                "Ghost": 1,
+                "Sheriff": 1,
+                "Vandal": 7,
+                "Classic": 1
+            },
+            "gun_damage": {
+                "Ghost": 165,
+                "Sheriff": 55,
+                "Vandal": 2151,
+                "Classic": 127
+            }
+        },
+        {
+            "platform_game_id": "val:ded1c3a3-fd2e-4f51-b6aa-0538dba421ce",
+            "game_time": "2024-07-17T02:01:40.675Z",
+            "map": "Haven",
+            "agents": {
+                "agent_name": "Breach"
+            },
+            "kda": {
+                "kills": 13,
+                "deaths": 16,
+                "assists": 8,
+                "combatScore": 3747
+            },
+            "round_count": 20,
+            "gun_kills": {
+                "Bulldog": 3,
+                "Classic": 1,
+                "Vandal": 4,
+                "Sheriff": 4,
+                "Ghost": 1
+            },
+            "gun_damage": {
+                "Bulldog": 359,
+                "Classic": 52,
+                "Vandal": 864,
+                "Sheriff": 746,
+                "Ghost": 135
+            }
+        },
+        {
+            "platform_game_id": "val:86583353-3f88-4253-bbf6-ab98eb0034c8",
+            "game_time": "2024-07-17T02:56:27.956Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "KAY/O"
+            },
+            "kda": {
+                "kills": 10,
+                "deaths": 16,
+                "assists": 7,
+                "combatScore": 2980
+            },
+            "round_count": 19,
+            "gun_kills": {
+                "Sheriff": 1,
+                "Vandal": 5,
+                "Operator": 1,
+                "Classic": 1,
+                "Guardian": 2
+            },
+            "gun_damage": {
+                "Sheriff": 209,
+                "Vandal": 1154,
+                "Operator": 150,
+                "Classic": 156,
+                "Guardian": 455
+            }
+        }
+    ]
+}

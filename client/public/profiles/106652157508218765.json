@@ -1,0 +1,712 @@
+{
+    "id": "106652157508218765",
+    "first_name": "Igor",
+    "last_name": "Vlasov",
+    "status": "active",
+    "current_team_id": "105830904252954968",
+    "photo_url": null,
+    "in_game_name": "Redgar",
+    "current_team_acronym": "VGIA",
+    "current_team_name": "Vodafone Giants",
+    "current_league_id": "106109559530232966",
+    "current_league_name": "VCT EMEA",
+    "region": "EMEA",
+    "game_records": [
+        {
+            "platform_game_id": "val:0ce6da9c-159c-4db4-9a46-ab48c3fe9770",
+            "game_time": "2024-02-20T18:41:06.416Z",
+            "map": "Split",
+            "agents": {
+                "agent_name": "Omen"
+            },
+            "kda": {
+                "kills": 14,
+                "deaths": 12,
+                "assists": 6,
+                "combatScore": 3888
+            },
+            "round_count": 23,
+            "gun_kills": {
+                "Classic": 2,
+                "Vandal": 11,
+                "Sheriff": 1
+            },
+            "gun_damage": {
+                "Classic": 260,
+                "Ghost": 27,
+                "Vandal": 1988,
+                "Stinger": 67,
+                "Sheriff": 159
+            }
+        },
+        {
+            "platform_game_id": "val:88dbd770-7c9f-4b21-9cd3-d6c48202d0a1",
+            "game_time": "2024-02-20T19:52:02.150Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Omen"
+            },
+            "kda": {
+                "kills": 22,
+                "deaths": 15,
+                "assists": 3,
+                "combatScore": 5719
+            },
+            "round_count": 22,
+            "gun_kills": {
+                "Vandal": 17,
+                "Classic": 3,
+                "Bulldog": 1,
+                "Phantom": 1
+            },
+            "gun_damage": {
+                "Classic": 460,
+                "Vandal": 3093,
+                "Bulldog": 150,
+                "Phantom": 210,
+                "Sheriff": 46
+            }
+        },
+        {
+            "platform_game_id": "val:ab303b78-5058-400b-b83f-e10713a3234b",
+            "game_time": "2024-02-20T20:49:45.373Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Omen"
+            },
+            "kda": {
+                "kills": 6,
+                "deaths": 16,
+                "assists": 4,
+                "combatScore": 2158
+            },
+            "round_count": 16,
+            "gun_kills": {
+                "Vandal": 4,
+                "Sheriff": 1,
+                "Stinger": 1
+            },
+            "gun_damage": {
+                "Classic": 174,
+                "Vandal": 840,
+                "Sheriff": 214,
+                "Stinger": 161,
+                "Frenzy": 92
+            }
+        },
+        {
+            "platform_game_id": "val:bdff3af1-93cc-453a-a844-8b36cb0b834f",
+            "game_time": "2024-02-22T18:16:44.539Z",
+            "map": "Split",
+            "agents": {
+                "agent_name": "Omen"
+            },
+            "kda": {
+                "kills": 9,
+                "deaths": 13,
+                "assists": 10,
+                "combatScore": 2310
+            },
+            "round_count": 18,
+            "gun_kills": {
+                "Classic": 3,
+                "Ghost": 1,
+                "Vandal": 4,
+                "Bulldog": 1
+            },
+            "gun_damage": {
+                "Classic": 323,
+                "Ghost": 135,
+                "Vandal": 776,
+                "Stinger": 57,
+                "Bulldog": 29
+            }
+        },
+        {
+            "platform_game_id": "val:7bece36c-f19e-466b-9cc9-2e3a4aabc531",
+            "game_time": "2024-02-22T19:07:44.328Z",
+            "map": "Icebox",
+            "agents": {
+                "agent_name": "Omen"
+            },
+            "kda": {
+                "kills": 6,
+                "deaths": 17,
+                "assists": 6,
+                "combatScore": 1859
+            },
+            "round_count": 20,
+            "gun_kills": {
+                "Vandal": 6
+            },
+            "gun_damage": {
+                "Classic": 26,
+                "Vandal": 1124
+            }
+        },
+        {
+            "platform_game_id": "val:a9ed6bcf-9f34-442c-bd88-99b09b331215",
+            "game_time": "2024-02-22T20:02:03.900Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Omen"
+            },
+            "kda": {
+                "kills": 9,
+                "deaths": 19,
+                "assists": 3,
+                "combatScore": 2822
+            },
+            "round_count": 19,
+            "gun_kills": {
+                "Sheriff": 1,
+                "Judge": 2,
+                "Vandal": 5,
+                "Classic": 1
+            },
+            "gun_damage": {
+                "Classic": 271,
+                "Vandal": 1230,
+                "Sheriff": 159,
+                "Judge": 286
+            }
+        },
+        {
+            "platform_game_id": "val:0d2a8b68-44ea-4ef1-91a1-ea1c7f4979c5",
+            "game_time": "2024-04-03T14:48:02.669Z",
+            "map": "Breeze",
+            "agents": {
+                "agent_name": "Cypher"
+            },
+            "kda": {
+                "kills": 5,
+                "deaths": 15,
+                "assists": 3,
+                "combatScore": 1355
+            },
+            "round_count": 16,
+            "gun_kills": {
+                "Ghost": 1,
+                "Classic": 1,
+                "Sheriff": 1,
+                "Vandal": 2
+            },
+            "gun_damage": {
+                "Ghost": 105,
+                "Classic": 149,
+                "Guardian": 115,
+                "Sheriff": 159,
+                "Vandal": 320
+            }
+        },
+        {
+            "platform_game_id": "val:c7778108-d195-4858-868d-f0263635dafe",
+            "game_time": "2024-04-03T15:51:50.390Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Omen"
+            },
+            "kda": {
+                "kills": 3,
+                "deaths": 19,
+                "assists": 9,
+                "combatScore": 1660
+            },
+            "round_count": 21,
+            "gun_kills": {
+                "Vandal": 2,
+                "Stinger": 1
+            },
+            "gun_damage": {
+                "Sheriff": 55,
+                "Vandal": 738,
+                "Classic": 154,
+                "Stinger": 188,
+                "Spectre": 88,
+                "Bulldog": 105
+            }
+        },
+        {
+            "platform_game_id": "val:01327360-d8fa-489a-bb2e-292c94e5e068",
+            "game_time": "2024-04-12T14:44:49.954Z",
+            "map": "Bind",
+            "agents": {
+                "agent_name": "Omen"
+            },
+            "kda": {
+                "kills": 7,
+                "deaths": 15,
+                "assists": 7,
+                "combatScore": 2138
+            },
+            "round_count": 17,
+            "gun_kills": {
+                "Classic": 1,
+                "Spectre": 1,
+                "Vandal": 2,
+                "Sheriff": 1,
+                "Phantom": 1,
+                "Guardian": 1
+            },
+            "gun_damage": {
+                "Classic": 182,
+                "Spectre": 143,
+                "Vandal": 440,
+                "Bulldog": 115,
+                "Sheriff": 159,
+                "Phantom": 156,
+                "Guardian": 195
+            }
+        },
+        {
+            "platform_game_id": "val:72b079ee-9ae3-4ff4-9269-e6e63664b870",
+            "game_time": "2024-04-12T15:50:39.745Z",
+            "map": "Breeze",
+            "agents": {
+                "agent_name": "Cypher"
+            },
+            "kda": {
+                "kills": 16,
+                "deaths": 6,
+                "assists": 3,
+                "combatScore": 3837
+            },
+            "round_count": 17,
+            "gun_kills": {
+                "Ghost": 3,
+                "Spectre": 3,
+                "Vandal": 6,
+                "Guardian": 1,
+                "Phantom": 3
+            },
+            "gun_damage": {
+                "Ghost": 113,
+                "Spectre": 386,
+                "Vandal": 1137,
+                "Guardian": 195,
+                "Phantom": 409
+            }
+        },
+        {
+            "platform_game_id": "val:860f96ba-d8bf-4416-9a91-b2a0f4515317",
+            "game_time": "2024-04-12T16:36:31.327Z",
+            "map": "Split",
+            "agents": {
+                "agent_name": "Omen"
+            },
+            "kda": {
+                "kills": 8,
+                "deaths": 14,
+                "assists": 3,
+                "combatScore": 1842
+            },
+            "round_count": 19,
+            "gun_kills": {
+                "Classic": 3,
+                "Vandal": 3,
+                "Guardian": 2
+            },
+            "gun_damage": {
+                "Classic": 308,
+                "Vandal": 597,
+                "Guardian": 390
+            }
+        },
+        {
+            "platform_game_id": "val:76520aac-4ac9-4f27-82bc-63b6cb0508d6",
+            "game_time": "2024-04-19T15:20:01.901Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Omen"
+            },
+            "kda": {
+                "kills": 8,
+                "deaths": 20,
+                "assists": 14,
+                "combatScore": 2628
+            },
+            "round_count": 29,
+            "gun_kills": {
+                "Classic": 1,
+                "Vandal": 7
+            },
+            "gun_damage": {
+                "Classic": 104,
+                "Vandal": 1498,
+                "Stinger": 17,
+                "Guardian": 65
+            }
+        },
+        {
+            "platform_game_id": "val:995337d1-3b7e-4632-9925-927be8fef152",
+            "game_time": "2024-04-19T16:48:38.775Z",
+            "map": "Icebox",
+            "agents": {
+                "agent_name": "KAY/O"
+            },
+            "kda": {
+                "kills": 14,
+                "deaths": 13,
+                "assists": 11,
+                "combatScore": 4517
+            },
+            "round_count": 19,
+            "gun_kills": {
+                "Ghost": 2,
+                "Vandal": 6,
+                "Guardian": 4,
+                "Bulldog": 1,
+                "Spectre": 1
+            },
+            "gun_damage": {
+                "Ghost": 210,
+                "Classic": 110,
+                "Vandal": 1234,
+                "Guardian": 1088,
+                "Bulldog": 265,
+                "Spectre": 261
+            }
+        },
+        {
+            "platform_game_id": "val:d10fcada-4459-4964-a0da-610b6ecc0de3",
+            "game_time": "2024-04-19T17:39:19.400Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Omen"
+            },
+            "kda": {
+                "kills": 16,
+                "deaths": 17,
+                "assists": 12,
+                "combatScore": 4708
+            },
+            "round_count": 23,
+            "gun_kills": {
+                "Ghost": 2,
+                "Vandal": 13,
+                "Classic": 1
+            },
+            "gun_damage": {
+                "Ghost": 330,
+                "Vandal": 2506,
+                "Classic": 104
+            }
+        },
+        {
+            "platform_game_id": "val:5832e8f8-3341-4248-a590-072653b0ae5f",
+            "game_time": "2024-04-26T14:43:20.304Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Omen"
+            },
+            "kda": {
+                "kills": 14,
+                "deaths": 22,
+                "assists": 10,
+                "combatScore": 3242
+            },
+            "round_count": 29,
+            "gun_kills": {
+                "Vandal": 7,
+                "Sheriff": 1,
+                "Ghost": 3,
+                "Frenzy": 1,
+                "Phantom": 2
+            },
+            "gun_damage": {
+                "Vandal": 1160,
+                "Sheriff": 195,
+                "Ghost": 225,
+                "Frenzy": 156,
+                "Phantom": 435
+            }
+        },
+        {
+            "platform_game_id": "val:d9820e88-3b0b-425d-8115-df1bf81790c6",
+            "game_time": "2024-04-26T16:16:08.468Z",
+            "map": "Breeze",
+            "agents": {
+                "agent_name": "Cypher"
+            },
+            "kda": {
+                "kills": 11,
+                "deaths": 16,
+                "assists": 2,
+                "combatScore": 2810
+            },
+            "round_count": 19,
+            "gun_kills": {
+                "Ghost": 2,
+                "Phantom": 2,
+                "Vandal": 6,
+                "Bulldog": 1
+            },
+            "gun_damage": {
+                "Ghost": 347,
+                "Phantom": 272,
+                "Vandal": 1000,
+                "Sheriff": 110,
+                "Bulldog": 240
+            }
+        },
+        {
+            "platform_game_id": "val:00ffbab0-1da4-48c8-bce9-b86db7cd9acb",
+            "game_time": "2024-04-26T17:09:45.776Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Omen"
+            },
+            "kda": {
+                "kills": 15,
+                "deaths": 14,
+                "assists": 4,
+                "combatScore": 4267
+            },
+            "round_count": 18,
+            "gun_kills": {
+                "Classic": 2,
+                "Guardian": 2,
+                "Vandal": 7,
+                "Sheriff": 3,
+                "Bulldog": 1
+            },
+            "gun_damage": {
+                "Classic": 208,
+                "Guardian": 325,
+                "Vandal": 1600,
+                "Sheriff": 477,
+                "Bulldog": 300
+            }
+        },
+        {
+            "platform_game_id": "val:aa281213-2162-4f1d-b4aa-665d85746dd8",
+            "game_time": "2024-05-01T14:45:30.534Z",
+            "map": "Bind",
+            "agents": {
+                "agent_name": "Omen"
+            },
+            "kda": {
+                "kills": 16,
+                "deaths": 10,
+                "assists": 11,
+                "combatScore": 3985
+            },
+            "round_count": 18,
+            "gun_kills": {
+                "Vandal": 15,
+                "Classic": 1
+            },
+            "gun_damage": {
+                "Vandal": 2360,
+                "Classic": 156,
+                "Bucky": 13
+            }
+        },
+        {
+            "platform_game_id": "val:c9eb486f-f8d3-42f1-b436-f5b3158850a8",
+            "game_time": "2024-05-01T15:51:56.822Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Omen"
+            },
+            "kda": {
+                "kills": 18,
+                "deaths": 15,
+                "assists": 6,
+                "combatScore": 4567
+            },
+            "round_count": 23,
+            "gun_kills": {
+                "Classic": 5,
+                "Vandal": 10,
+                "Stinger": 1,
+                "Bulldog": 2
+            },
+            "gun_damage": {
+                "Classic": 479,
+                "Vandal": 1960,
+                "Stinger": 188,
+                "Bulldog": 220
+            }
+        },
+        {
+            "platform_game_id": "val:8c2e0c1b-77a7-43e3-b75b-62e13d1029b7",
+            "game_time": "2024-06-20T15:47:46.646Z",
+            "map": "Split",
+            "agents": {
+                "agent_name": "Omen"
+            },
+            "kda": {
+                "kills": 4,
+                "deaths": 12,
+                "assists": 5,
+                "combatScore": 1446
+            },
+            "round_count": 13,
+            "gun_kills": {
+                "Guardian": 1,
+                "Bulldog": 1,
+                "Vandal": 1,
+                "Classic": 1
+            },
+            "gun_damage": {
+                "Classic": 104,
+                "Vandal": 335,
+                "Sheriff": 55,
+                "Guardian": 195,
+                "Bulldog": 150,
+                "Stinger": 67
+            }
+        },
+        {
+            "platform_game_id": "val:b580a1ba-9e84-4c75-9f57-09e1e96fc99a",
+            "game_time": "2024-06-20T16:45:43.705Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Omen"
+            },
+            "kda": {
+                "kills": 13,
+                "deaths": 16,
+                "assists": 8,
+                "combatScore": 3542
+            },
+            "round_count": 23,
+            "gun_kills": {
+                "Guardian": 5,
+                "Vandal": 8
+            },
+            "gun_damage": {
+                "Vandal": 1386,
+                "Guardian": 910
+            }
+        },
+        {
+            "platform_game_id": "val:cd030b75-6958-4c90-833d-99f9c14485c1",
+            "game_time": "2024-06-20T17:46:37.564Z",
+            "map": "Breeze",
+            "agents": {
+                "agent_name": "Cypher"
+            },
+            "kda": {
+                "kills": 17,
+                "deaths": 16,
+                "assists": 3,
+                "combatScore": 4680
+            },
+            "round_count": 23,
+            "gun_kills": {
+                "Vandal": 14,
+                "Ghost": 1,
+                "Phantom": 2
+            },
+            "gun_damage": {
+                "Vandal": 2514,
+                "Ghost": 135,
+                "Phantom": 429
+            }
+        },
+        {
+            "platform_game_id": "val:7e0a9865-9c8e-4e32-84f7-1c0037b09121",
+            "game_time": "2024-06-25T17:42:20.759Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Omen"
+            },
+            "kda": {
+                "kills": 5,
+                "deaths": 15,
+                "assists": 11,
+                "combatScore": 1786
+            },
+            "round_count": 17,
+            "gun_kills": {
+                "Vandal": 4,
+                "Guardian": 1
+            },
+            "gun_damage": {
+                "Guardian": 675,
+                "Sheriff": 165,
+                "Vandal": 434,
+                "Classic": 26
+            }
+        },
+        {
+            "platform_game_id": "val:29245286-4105-4c1f-bde5-2a7995be22f2",
+            "game_time": "2024-06-25T18:51:49.508Z",
+            "map": "Icebox",
+            "agents": {
+                "agent_name": "Sage"
+            },
+            "kda": {
+                "kills": 3,
+                "deaths": 22,
+                "assists": 8,
+                "combatScore": 1444
+            },
+            "round_count": 25,
+            "gun_kills": {
+                "Vandal": 3
+            },
+            "gun_damage": {
+                "Classic": 146,
+                "Vandal": 806,
+                "Bulldog": 35
+            }
+        },
+        {
+            "platform_game_id": "val:f27e6f49-30d7-4268-b960-34904699b78f",
+            "game_time": "2024-06-27T17:49:30.320Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Omen"
+            },
+            "kda": {
+                "kills": 17,
+                "deaths": 13,
+                "assists": 9,
+                "combatScore": 4495
+            },
+            "round_count": 21,
+            "gun_kills": {
+                "Classic": 2,
+                "Guardian": 3,
+                "Vandal": 9,
+                "Sheriff": 3
+            },
+            "gun_damage": {
+                "Classic": 308,
+                "Guardian": 520,
+                "Vandal": 1500,
+                "Sheriff": 531
+            }
+        },
+        {
+            "platform_game_id": "val:519ecbfd-f20b-4de2-bd00-dcf772873201",
+            "game_time": "2024-06-27T18:48:51.563Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Omen"
+            },
+            "kda": {
+                "kills": 17,
+                "deaths": 13,
+                "assists": 15,
+                "combatScore": 4324
+            },
+            "round_count": 20,
+            "gun_kills": {
+                "Classic": 2,
+                "Vandal": 12,
+                "Guardian": 2,
+                "Frenzy": 1
+            },
+            "gun_damage": {
+                "Classic": 260,
+                "Vandal": 1967,
+                "Guardian": 390,
+                "Frenzy": 208
+            }
+        }
+    ]
+}

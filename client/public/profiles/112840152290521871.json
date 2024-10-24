@@ -1,0 +1,158 @@
+{
+    "id": "112840152290521871",
+    "first_name": "Mariela ",
+    "last_name": "Prada",
+    "status": "active",
+    "current_team_id": "112127272470502649",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "Alyssaa",
+    "current_team_acronym": "KR7",
+    "current_team_name": "Killer7",
+    "current_league_id": "109879575186437267",
+    "current_league_name": "Game Changers LATAM",
+    "region": "LATAM",
+    "game_records": [
+        {
+            "platform_game_id": "val:502c47ca-a8ea-4626-b190-843bf305b1ea",
+            "game_time": "2024-08-13T01:16:35.924Z",
+            "map": "Abyss",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 10,
+                "deaths": 17,
+                "assists": 6,
+                "combatScore": 3763
+            },
+            "round_count": 21,
+            "gun_kills": {
+                "Ghost": 1,
+                "Vandal": 6,
+                "Bulldog": 2,
+                "Sheriff": 1
+            },
+            "gun_damage": {
+                "Ghost": 60,
+                "Sheriff": 368,
+                "Vandal": 1236,
+                "Bulldog": 485,
+                "Classic": 26,
+                "Guardian": 325
+            }
+        },
+        {
+            "platform_game_id": "val:c75ddb0e-cb0b-4b3c-8fdf-13369a706d06",
+            "game_time": "2024-08-21T00:35:20.212Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 10,
+                "deaths": 17,
+                "assists": 5,
+                "combatScore": 3407
+            },
+            "round_count": 21,
+            "gun_kills": {
+                "Vandal": 7,
+                "Odin": 1,
+                "Guardian": 1
+            },
+            "gun_damage": {
+                "Vandal": 1409,
+                "Odin": 519,
+                "Classic": 62,
+                "Guardian": 196
+            }
+        },
+        {
+            "platform_game_id": "val:afd9aa6c-fc8f-47ba-8445-f13dd0d9bdf4",
+            "game_time": "2024-08-21T01:34:38.678Z",
+            "map": "Abyss",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 12,
+                "deaths": 16,
+                "assists": 7,
+                "combatScore": 3800
+            },
+            "round_count": 22,
+            "gun_kills": {
+                "Ghost": 4,
+                "Vandal": 5,
+                "Guardian": 1,
+                "Bulldog": 1
+            },
+            "gun_damage": {
+                "Ghost": 600,
+                "Sheriff": 50,
+                "Vandal": 1170,
+                "Guardian": 325,
+                "Bulldog": 230
+            }
+        },
+        {
+            "platform_game_id": "val:73e369c2-baf8-49b2-8cef-2f643c9236ec",
+            "game_time": "2024-08-28T00:12:30.753Z",
+            "map": "Abyss",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 7,
+                "deaths": 15,
+                "assists": 3,
+                "combatScore": 2047
+            },
+            "round_count": 16,
+            "gun_kills": {
+                "Ghost": 2,
+                "Guardian": 4,
+                "Vandal": 1
+            },
+            "gun_damage": {
+                "Ghost": 330,
+                "Guardian": 682,
+                "Vandal": 240,
+                "Outlaw": 75,
+                "Sheriff": 50
+            }
+        },
+        {
+            "platform_game_id": "val:17f0f8d7-4696-4ab6-8a19-03996a621bb6",
+            "game_time": "2024-08-28T01:08:04.824Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 8,
+                "deaths": 18,
+                "assists": 6,
+                "combatScore": 2176
+            },
+            "round_count": 22,
+            "gun_kills": {
+                "Phantom": 1,
+                "Spectre": 1,
+                "Guardian": 1,
+                "Vandal": 1,
+                "Odin": 2
+            },
+            "gun_damage": {
+                "Sheriff": 165,
+                "Phantom": 15,
+                "Vandal": 200,
+                "Stinger": 27,
+                "Classic": 130,
+                "Guardian": 348,
+                "Spectre": 153,
+                "Odin": 152
+            }
+        }
+    ]
+}

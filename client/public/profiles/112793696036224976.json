@@ -1,0 +1,132 @@
+{
+    "id": "112793696036224976",
+    "first_name": "Jo\u00e3o",
+    "last_name": "Moreira",
+    "status": "active",
+    "current_team_id": "112793488601579021",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "azpect",
+    "current_team_acronym": "PATA",
+    "current_team_name": "PS5PATAS",
+    "current_league_id": "106375817979489820",
+    "current_league_name": "Game Changers Series Brazil",
+    "region": "BR",
+    "game_records": [
+        {
+            "platform_game_id": "val:4fd38a29-f798-48a8-8009-be1f1369e729",
+            "game_time": "2024-07-22T20:58:00.395Z",
+            "map": "Haven",
+            "agents": {
+                "agent_name": "Jett"
+            },
+            "kda": {
+                "kills": 11,
+                "deaths": 13,
+                "assists": 3,
+                "combatScore": 3113
+            },
+            "round_count": 14,
+            "gun_kills": {
+                "Ghost": 2,
+                "Sheriff": 2,
+                "Vandal": 2,
+                "Operator": 3
+            },
+            "gun_damage": {
+                "Ghost": 210,
+                "Sheriff": 373,
+                "Vandal": 400,
+                "Operator": 530,
+                "Classic": 26,
+                "Frenzy": 104
+            }
+        },
+        {
+            "platform_game_id": "val:b450110b-9249-49f1-9b95-8fbfc84bb0bf",
+            "game_time": "2024-07-22T21:40:28.894Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Raze"
+            },
+            "kda": {
+                "kills": 4,
+                "deaths": 14,
+                "assists": 2,
+                "combatScore": 1512
+            },
+            "round_count": 14,
+            "gun_kills": {
+                "Shorty": 1,
+                "Sheriff": 1,
+                "Vandal": 2
+            },
+            "gun_damage": {
+                "Classic": 78,
+                "Shorty": 99,
+                "Spectre": 104,
+                "Sheriff": 214,
+                "Vandal": 407,
+                "Ghost": 195,
+                "Bucky": 20
+            }
+        },
+        {
+            "platform_game_id": "val:c92391f2-cff7-4763-a749-effc1d89bc89",
+            "game_time": "2024-07-24T19:57:36.017Z",
+            "map": "Haven",
+            "agents": {
+                "agent_name": "Jett"
+            },
+            "kda": {
+                "kills": 17,
+                "deaths": 19,
+                "assists": 4,
+                "combatScore": 4957
+            },
+            "round_count": 21,
+            "gun_kills": {
+                "Ghost": 2,
+                "Outlaw": 2,
+                "Operator": 1,
+                "Guardian": 1,
+                "Vandal": 8
+            },
+            "gun_damage": {
+                "Ghost": 410,
+                "Outlaw": 401,
+                "Operator": 255,
+                "Guardian": 336,
+                "Vandal": 1394,
+                "Sheriff": 55
+            }
+        },
+        {
+            "platform_game_id": "val:5c64a121-ee98-41c6-a172-abb3cf242b46",
+            "game_time": "2024-07-24T21:06:18.776Z",
+            "map": "Icebox",
+            "agents": {
+                "agent_name": "Jett"
+            },
+            "kda": {
+                "kills": 9,
+                "deaths": 15,
+                "assists": 3,
+                "combatScore": 3363
+            },
+            "round_count": 14,
+            "gun_kills": {
+                "Ghost": 1,
+                "Sheriff": 2,
+                "Vandal": 5,
+                "Classic": 1
+            },
+            "gun_damage": {
+                "Ghost": 105,
+                "Sheriff": 538,
+                "Vandal": 1135,
+                "Guardian": 195,
+                "Classic": 78
+            }
+        }
+    ]
+}

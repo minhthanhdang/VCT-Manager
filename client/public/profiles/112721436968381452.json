@@ -1,0 +1,73 @@
+{
+    "id": "112721436968381452",
+    "first_name": "Syeda Ayesha Samman",
+    "last_name": "Shah",
+    "status": "active",
+    "current_team_id": "112721482272112541",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "Skel",
+    "current_team_acronym": "GANG",
+    "current_team_name": "Gang Gang",
+    "current_league_id": "112609302000026507",
+    "current_league_name": "Game Changers South Asia",
+    "region": "SA",
+    "game_records": [
+        {
+            "platform_game_id": "val:bb3928a7-82be-4eee-bf67-2319e5d2a084",
+            "game_time": "2024-07-10T09:30:58.987Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Breach"
+            },
+            "kda": {
+                "kills": 6,
+                "deaths": 13,
+                "assists": 8,
+                "combatScore": 1969
+            },
+            "round_count": 15,
+            "gun_kills": {
+                "Vandal": 2,
+                "Spectre": 1,
+                "Phantom": 2
+            },
+            "gun_damage": {
+                "Classic": 26,
+                "Vandal": 430,
+                "Bulldog": 35,
+                "Sheriff": 55,
+                "Spectre": 154,
+                "Phantom": 474
+            }
+        },
+        {
+            "platform_game_id": "val:53fc51c8-0875-410f-a478-8368516a6e83",
+            "game_time": "2024-07-10T10:21:34.862Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 18,
+                "deaths": 18,
+                "assists": 5,
+                "combatScore": 5239
+            },
+            "round_count": 20,
+            "gun_kills": {
+                "Classic": 1,
+                "Ghost": 4,
+                "Sheriff": 2,
+                "Vandal": 9,
+                "Phantom": 1
+            },
+            "gun_damage": {
+                "Classic": 104,
+                "Ghost": 520,
+                "Sheriff": 379,
+                "Vandal": 1680,
+                "Phantom": 195
+            }
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "id": "109881320754490154",
+    "first_name": "Jason",
+    "last_name": "Huerta",
+    "status": "active",
+    "current_team_id": "108469348707752304",
+    "photo_url": "http://static.lolesports.com/players/1676655892722_silhouette_transparent.png",
+    "in_game_name": "Miku",
+    "current_team_acronym": "LEV",
+    "current_team_name": "Leviatan",
+    "current_league_id": "109879575186437267",
+    "current_league_name": "Game Changers LATAM",
+    "region": "LATAM",
+    "game_records": [
+        {
+            "platform_game_id": "val:8909b8fe-c61f-4317-9f68-18dbf8b99814",
+            "game_time": "2024-04-11T00:15:18.283Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Yoru"
+            },
+            "kda": {
+                "kills": 30,
+                "deaths": 17,
+                "assists": 2,
+                "combatScore": 8316
+            },
+            "round_count": 23,
+            "gun_kills": {
+                "Stinger": 4,
+                "Bulldog": 1,
+                "Vandal": 22,
+                "Classic": 1,
+                "Operator": 2
+            },
+            "gun_damage": {
+                "Stinger": 543,
+                "Bulldog": 185,
+                "Phantom": 35,
+                "Vandal": 3813,
+                "Classic": 156,
+                "Sheriff": 55,
+                "Operator": 450,
+                "Guardian": 142
+            }
+        },
+        {
+            "platform_game_id": "val:fe5f82b8-3eb0-4630-a899-2f00e87d945a",
+            "game_time": "2024-04-11T01:28:43.009Z",
+            "map": "Breeze",
+            "agents": {
+                "agent_name": "Chamber"
+            },
+            "kda": {
+                "kills": 25,
+                "deaths": 18,
+                "assists": 3,
+                "combatScore": 7020
+            },
+            "round_count": 23,
+            "gun_kills": {
+                "Classic": 1,
+                "Operator": 3,
+                "Vandal": 13,
+                "Ghost": 1,
+                "Guardian": 4,
+                "Stinger": 1
+            },
+            "gun_damage": {
+                "Classic": 182,
+                "Vandal": 2484,
+                "Ghost": 272,
+                "Operator": 570,
+                "Guardian": 650,
+                "Stinger": 108
+            }
+        }
+    ]
+}

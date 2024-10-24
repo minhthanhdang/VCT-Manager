@@ -1,0 +1,94 @@
+{
+    "id": "111810986077818285",
+    "first_name": "Ravin ",
+    "last_name": "Vadhera",
+    "status": "active",
+    "current_team_id": "109981407918358987",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "Rucifix",
+    "current_team_acronym": "OGS",
+    "current_team_name": "Orangutan",
+    "current_league_id": "110032750555964337",
+    "current_league_name": "VCT Challengers South Asia",
+    "region": "SA",
+    "game_records": [
+        {
+            "platform_game_id": "val:aa909ec0-faef-473d-a532-d9768ea4e108",
+            "game_time": "2024-02-11T09:48:58.691Z",
+            "map": "Split",
+            "agents": {
+                "agent_name": "Breach"
+            },
+            "kda": {
+                "kills": 7,
+                "deaths": 12,
+                "assists": 3,
+                "combatScore": 1907
+            },
+            "round_count": 14,
+            "gun_kills": {
+                "Vandal": 5,
+                "Classic": 1,
+                "Spectre": 1
+            },
+            "gun_damage": {
+                "Classic": 200,
+                "Vandal": 939,
+                "Spectre": 22
+            }
+        },
+        {
+            "platform_game_id": "val:cba6c977-59d9-46af-beec-7f6449353a76",
+            "game_time": "2024-02-15T09:24:26.920Z",
+            "map": "Icebox",
+            "agents": {
+                "agent_name": "Jett"
+            },
+            "kda": {
+                "kills": 9,
+                "deaths": 16,
+                "assists": 2,
+                "combatScore": 2434
+            },
+            "round_count": 16,
+            "gun_kills": {
+                "Ghost": 2,
+                "Operator": 2,
+                "Vandal": 3
+            },
+            "gun_damage": {
+                "Sheriff": 55,
+                "Vandal": 520,
+                "Ghost": 423,
+                "Operator": 300,
+                "Marshal": 144
+            }
+        },
+        {
+            "platform_game_id": "val:a6f42cbd-6cb7-4b06-bec9-7b863d935dff",
+            "game_time": "2024-02-15T10:13:07.867Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Raze"
+            },
+            "kda": {
+                "kills": 10,
+                "deaths": 16,
+                "assists": 1,
+                "combatScore": 2589
+            },
+            "round_count": 18,
+            "gun_kills": {
+                "Sheriff": 1,
+                "Vandal": 6,
+                "Guardian": 1
+            },
+            "gun_damage": {
+                "Ghost": 70,
+                "Sheriff": 159,
+                "Vandal": 994,
+                "Guardian": 149
+            }
+        }
+    ]
+}

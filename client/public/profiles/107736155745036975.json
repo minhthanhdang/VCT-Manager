@@ -1,0 +1,91 @@
+{
+    "id": "107736155745036975",
+    "first_name": "Dmitry",
+    "last_name": "Koblov",
+    "status": "active",
+    "current_team_id": "111702658076646312",
+    "photo_url": "http://static.lolesports.com/players/1643734200321_silhouette_transparent.png",
+    "in_game_name": "Edelweiss",
+    "current_team_acronym": "FUZO",
+    "current_team_name": "Fuzos Na Via",
+    "current_league_id": "109551158912464238",
+    "current_league_name": "VCT Challengers Portugal",
+    "region": "EMEA",
+    "game_records": [
+        {
+            "platform_game_id": "val:a01b854c-9380-458e-89c9-1a44dec5107d",
+            "game_time": "2024-05-26T14:14:35.371Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Fade"
+            },
+            "kda": {
+                "kills": 5,
+                "deaths": 18,
+                "assists": 10,
+                "combatScore": 1920
+            },
+            "round_count": 18,
+            "gun_kills": {
+                "Ghost": 2,
+                "Vandal": 3
+            },
+            "gun_damage": {
+                "Ghost": 330,
+                "Vandal": 947
+            }
+        },
+        {
+            "platform_game_id": "val:ca9c2a48-553e-4722-930f-f198c145127c",
+            "game_time": "2024-05-27T19:11:30.881Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "KAY/O"
+            },
+            "kda": {
+                "kills": 8,
+                "deaths": 13,
+                "assists": 6,
+                "combatScore": 2417
+            },
+            "round_count": 14,
+            "gun_kills": {
+                "Ghost": 6,
+                "Sheriff": 1,
+                "Vandal": 1
+            },
+            "gun_damage": {
+                "Ghost": 686,
+                "Vandal": 474,
+                "Sheriff": 269
+            }
+        },
+        {
+            "platform_game_id": "val:829c1580-6931-4218-b993-62152e3cb9d8",
+            "game_time": "2024-05-28T20:24:21.062Z",
+            "map": "Bind",
+            "agents": {
+                "agent_name": "Gekko"
+            },
+            "kda": {
+                "kills": 12,
+                "deaths": 17,
+                "assists": 3,
+                "combatScore": 2937
+            },
+            "round_count": 21,
+            "gun_kills": {
+                "Vandal": 7,
+                "Ghost": 1,
+                "Bulldog": 2,
+                "Sheriff": 1
+            },
+            "gun_damage": {
+                "Vandal": 1332,
+                "Sheriff": 255,
+                "Ghost": 60,
+                "Bulldog": 255
+            }
+        }
+    ]
+}

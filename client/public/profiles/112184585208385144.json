@@ -1,0 +1,74 @@
+{
+    "id": "112184585208385144",
+    "first_name": "Chnitsara",
+    "last_name": "Nansthit",
+    "status": "active",
+    "current_team_id": "112184356126189258",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "Freyaaa",
+    "current_team_acronym": "DGR",
+    "current_team_name": "Dangerous Rose",
+    "current_league_id": "107115678205203231",
+    "current_league_name": "Game Changers SEA",
+    "region": "SEA",
+    "game_records": [
+        {
+            "platform_game_id": "val:99a220f4-de49-4947-9354-ba33894288b3",
+            "game_time": "2024-04-01T11:15:44.007Z",
+            "map": "Breeze",
+            "agents": {
+                "agent_name": "Cypher"
+            },
+            "kda": {
+                "kills": 18,
+                "deaths": 16,
+                "assists": 10,
+                "combatScore": 5249
+            },
+            "round_count": 22,
+            "gun_kills": {
+                "Ghost": 2,
+                "Vandal": 12,
+                "Spectre": 2,
+                "Sheriff": 1
+            },
+            "gun_damage": {
+                "Ghost": 157,
+                "Classic": 206,
+                "Bulldog": 35,
+                "Vandal": 2122,
+                "Spectre": 198,
+                "Sheriff": 400
+            }
+        },
+        {
+            "platform_game_id": "val:ad58f0a6-31be-432c-b967-11fc960f3c47",
+            "game_time": "2024-04-01T12:24:52.201Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Cypher"
+            },
+            "kda": {
+                "kills": 5,
+                "deaths": 14,
+                "assists": 3,
+                "combatScore": 1657
+            },
+            "round_count": 17,
+            "gun_kills": {
+                "Ghost": 2,
+                "Classic": 1,
+                "Vandal": 1,
+                "Sheriff": 1
+            },
+            "gun_damage": {
+                "Ghost": 309,
+                "Classic": 182,
+                "Bulldog": 35,
+                "Vandal": 400,
+                "Sheriff": 214,
+                "Guardian": 65
+            }
+        }
+    ]
+}

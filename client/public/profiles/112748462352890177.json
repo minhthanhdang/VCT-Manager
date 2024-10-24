@@ -1,0 +1,154 @@
+{
+    "id": "112748462352890177",
+    "first_name": "Kasumi",
+    "last_name": "Yoshida",
+    "status": "active",
+    "current_team_id": "112279706800846545",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "nekopanchi",
+    "current_team_acronym": "MTR",
+    "current_team_name": "Meteor",
+    "current_league_id": "108752229027041361",
+    "current_league_name": "Game Changers Japan",
+    "region": "JP",
+    "game_records": [
+        {
+            "platform_game_id": "val:b0768305-9e38-4a62-a79a-2112e14905d6",
+            "game_time": "2024-07-16T01:17:12.249Z",
+            "map": "Abyss",
+            "agents": {
+                "agent_name": "Astra"
+            },
+            "kda": {
+                "kills": 17,
+                "deaths": 21,
+                "assists": 8,
+                "combatScore": 5058
+            },
+            "round_count": 29,
+            "gun_kills": {
+                "Ghost": 1,
+                "Phantom": 4,
+                "Operator": 1,
+                "Sheriff": 1,
+                "Vandal": 10
+            },
+            "gun_damage": {
+                "Ghost": 222,
+                "Classic": 26,
+                "Vandal": 1848,
+                "Phantom": 611,
+                "Operator": 150,
+                "Sheriff": 255
+            }
+        },
+        {
+            "platform_game_id": "val:bb5ad134-8081-4efe-bfa3-ad2271e1818f",
+            "game_time": "2024-07-16T02:36:23.626Z",
+            "map": "Haven",
+            "agents": {
+                "agent_name": "Omen"
+            },
+            "kda": {
+                "kills": 10,
+                "deaths": 17,
+                "assists": 9,
+                "combatScore": 2913
+            },
+            "round_count": 22,
+            "gun_kills": {
+                "Phantom": 9,
+                "Bulldog": 1
+            },
+            "gun_damage": {
+                "Classic": 74,
+                "Ghost": 60,
+                "Vandal": 216,
+                "Phantom": 1453,
+                "Bulldog": 115
+            }
+        },
+        {
+            "platform_game_id": "val:c4e4860c-16c0-465c-9abc-00c5274fba1a",
+            "game_time": "2024-07-17T01:17:44.513Z",
+            "map": "Icebox",
+            "agents": {
+                "agent_name": "Viper"
+            },
+            "kda": {
+                "kills": 16,
+                "deaths": 6,
+                "assists": 2,
+                "combatScore": 3983
+            },
+            "round_count": 16,
+            "gun_kills": {
+                "Ghost": 3,
+                "Bulldog": 4,
+                "Vandal": 8,
+                "Classic": 1
+            },
+            "gun_damage": {
+                "Ghost": 345,
+                "Bulldog": 475,
+                "Vandal": 1258,
+                "Classic": 208
+            }
+        },
+        {
+            "platform_game_id": "val:ded1c3a3-fd2e-4f51-b6aa-0538dba421ce",
+            "game_time": "2024-07-17T02:01:40.675Z",
+            "map": "Haven",
+            "agents": {
+                "agent_name": "Omen"
+            },
+            "kda": {
+                "kills": 10,
+                "deaths": 15,
+                "assists": 12,
+                "combatScore": 3095
+            },
+            "round_count": 20,
+            "gun_kills": {
+                "Classic": 1,
+                "Vandal": 7,
+                "Sheriff": 1,
+                "Guardian": 1
+            },
+            "gun_damage": {
+                "Classic": 152,
+                "Bulldog": 105,
+                "Vandal": 1250,
+                "Sheriff": 159,
+                "Guardian": 195
+            }
+        },
+        {
+            "platform_game_id": "val:86583353-3f88-4253-bbf6-ab98eb0034c8",
+            "game_time": "2024-07-17T02:56:27.956Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Omen"
+            },
+            "kda": {
+                "kills": 16,
+                "deaths": 12,
+                "assists": 9,
+                "combatScore": 4618
+            },
+            "round_count": 19,
+            "gun_kills": {
+                "Vandal": 11,
+                "Classic": 1,
+                "Guardian": 2,
+                "Phantom": 2
+            },
+            "gun_damage": {
+                "Classic": 83,
+                "Vandal": 2327,
+                "Guardian": 455,
+                "Phantom": 351
+            }
+        }
+    ]
+}

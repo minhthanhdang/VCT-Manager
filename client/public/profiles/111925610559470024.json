@@ -1,0 +1,105 @@
+{
+    "id": "111925610559470024",
+    "first_name": "Muhammad Aqil bin ",
+    "last_name": " Muhammad Azfar",
+    "status": "active",
+    "current_team_id": "111923539434774803",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "aplycs",
+    "current_team_acronym": "NXGA",
+    "current_team_name": "NEXGA",
+    "current_league_id": "105555705801095792",
+    "current_league_name": "VCT Challengers Singaport and Malaysia",
+    "region": "SGMY",
+    "game_records": [
+        {
+            "platform_game_id": "val:dbb813ca-d155-4520-9c9c-7a1223049ece",
+            "game_time": "2024-07-11T11:04:12.933Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Omen"
+            },
+            "kda": {
+                "kills": 15,
+                "deaths": 17,
+                "assists": 9,
+                "combatScore": 4542
+            },
+            "round_count": 21,
+            "gun_kills": {
+                "Vandal": 3,
+                "Sheriff": 1,
+                "Phantom": 7,
+                "Classic": 1,
+                "Guardian": 3
+            },
+            "gun_damage": {
+                "Spectre": 22,
+                "Vandal": 676,
+                "Sheriff": 214,
+                "Phantom": 1176,
+                "Classic": 182,
+                "Ghost": 30,
+                "Guardian": 827
+            }
+        },
+        {
+            "platform_game_id": "val:b8c9759d-ae82-4122-ae0e-2e28be68d3d9",
+            "game_time": "2024-07-11T12:19:21.025Z",
+            "map": "Bind",
+            "agents": {
+                "agent_name": "Brimstone"
+            },
+            "kda": {
+                "kills": 15,
+                "deaths": 11,
+                "assists": 12,
+                "combatScore": 4651
+            },
+            "round_count": 19,
+            "gun_kills": {
+                "Frenzy": 2,
+                "Stinger": 1,
+                "Phantom": 9,
+                "Vandal": 2
+            },
+            "gun_damage": {
+                "Frenzy": 292,
+                "Classic": 78,
+                "Phantom": 1600,
+                "Stinger": 151,
+                "Sheriff": 55,
+                "Vandal": 302
+            }
+        },
+        {
+            "platform_game_id": "val:3c5b3755-c581-4e02-a051-437b7ddf7e9a",
+            "game_time": "2024-07-11T13:23:47.666Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Omen"
+            },
+            "kda": {
+                "kills": 12,
+                "deaths": 17,
+                "assists": 15,
+                "combatScore": 3913
+            },
+            "round_count": 21,
+            "gun_kills": {
+                "Classic": 4,
+                "Phantom": 4,
+                "Guardian": 2,
+                "Vandal": 2
+            },
+            "gun_damage": {
+                "Classic": 494,
+                "Vandal": 773,
+                "Phantom": 825,
+                "Sheriff": 55,
+                "Guardian": 344,
+                "Spectre": 130
+            }
+        }
+    ]
+}

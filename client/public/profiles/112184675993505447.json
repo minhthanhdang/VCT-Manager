@@ -1,0 +1,70 @@
+{
+    "id": "112184675993505447",
+    "first_name": "Onnapha",
+    "last_name": "boungvatthana",
+    "status": "active",
+    "current_team_id": "112184372369781130",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "babykiwii",
+    "current_team_acronym": "LL",
+    "current_team_name": "LILITH",
+    "current_league_id": "107115678205203231",
+    "current_league_name": "Game Changers SEA",
+    "region": "SEA",
+    "game_records": [
+        {
+            "platform_game_id": "val:77eedd81-9089-462d-b67e-97d26304b550",
+            "game_time": "2024-04-01T09:06:44.709Z",
+            "map": "Bind",
+            "agents": {
+                "agent_name": "Cypher"
+            },
+            "kda": {
+                "kills": 6,
+                "deaths": 15,
+                "assists": 1,
+                "combatScore": 2157
+            },
+            "round_count": 18,
+            "gun_kills": {
+                "Phantom": 3,
+                "Vandal": 2,
+                "Spectre": 1
+            },
+            "gun_damage": {
+                "Classic": 78,
+                "Phantom": 866,
+                "Vandal": 400,
+                "Ghost": 30,
+                "Spectre": 156
+            }
+        },
+        {
+            "platform_game_id": "val:28289d9b-2b14-4601-a805-9b36689a917c",
+            "game_time": "2024-04-01T10:08:16.362Z",
+            "map": "Breeze",
+            "agents": {
+                "agent_name": "Cypher"
+            },
+            "kda": {
+                "kills": 10,
+                "deaths": 16,
+                "assists": 4,
+                "combatScore": 3151
+            },
+            "round_count": 16,
+            "gun_kills": {
+                "Sheriff": 1,
+                "Vandal": 8,
+                "Marshal": 1
+            },
+            "gun_damage": {
+                "Ghost": 90,
+                "Classic": 152,
+                "Sheriff": 92,
+                "Vandal": 1600,
+                "Marshal": 202
+            }
+        }
+    ]
+}

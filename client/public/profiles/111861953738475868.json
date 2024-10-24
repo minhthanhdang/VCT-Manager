@@ -1,0 +1,150 @@
+{
+    "id": "111861953738475868",
+    "first_name": "Pedro",
+    "last_name": "Mota",
+    "status": "active",
+    "current_team_id": "111702658076646312",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "kAnz1Niiii",
+    "current_team_acronym": "FUZO",
+    "current_team_name": "Fuzos Na Via",
+    "current_league_id": "109551158912464238",
+    "current_league_name": "VCT Challengers Portugal",
+    "region": "EMEA",
+    "game_records": [
+        {
+            "platform_game_id": "val:a8752b02-dfe3-4272-9bf9-436047637576",
+            "game_time": "2024-02-12T19:09:10.500Z",
+            "map": "Icebox",
+            "agents": {
+                "agent_name": "Killjoy"
+            },
+            "kda": {
+                "kills": 12,
+                "deaths": 14,
+                "assists": 1,
+                "combatScore": 3523
+            },
+            "round_count": 17,
+            "gun_kills": {
+                "Vandal": 8,
+                "Guardian": 2,
+                "Ghost": 1,
+                "Sheriff": 1
+            },
+            "gun_damage": {
+                "Vandal": 1463,
+                "Guardian": 439,
+                "Ghost": 317,
+                "Sheriff": 279,
+                "Outlaw": 140
+            }
+        },
+        {
+            "platform_game_id": "val:1db63a72-bede-4e0f-ae00-f7bc3984fa9c",
+            "game_time": "2024-02-13T19:08:50.678Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Jett"
+            },
+            "kda": {
+                "kills": 12,
+                "deaths": 17,
+                "assists": 3,
+                "combatScore": 3317
+            },
+            "round_count": 18,
+            "gun_kills": {
+                "Ghost": 3,
+                "Outlaw": 2,
+                "Vandal": 5,
+                "Sheriff": 1
+            },
+            "gun_damage": {
+                "Ghost": 315,
+                "Outlaw": 280,
+                "Vandal": 960,
+                "Sheriff": 269,
+                "Classic": 26
+            }
+        },
+        {
+            "platform_game_id": "val:62abdad3-d22c-4861-806a-a7200dfa1904",
+            "game_time": "2024-02-19T20:15:38.426Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Yoru"
+            },
+            "kda": {
+                "kills": 14,
+                "deaths": 10,
+                "assists": 6,
+                "combatScore": 3616
+            },
+            "round_count": 18,
+            "gun_kills": {
+                "Ghost": 2,
+                "Vandal": 11,
+                "Bulldog": 1
+            },
+            "gun_damage": {
+                "Ghost": 240,
+                "Bulldog": 300,
+                "Vandal": 1780
+            }
+        },
+        {
+            "platform_game_id": "val:87e95f5f-2c9c-4888-8cff-c9d7845382dd",
+            "game_time": "2024-02-27T22:53:53.258Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Yoru"
+            },
+            "kda": {
+                "kills": 18,
+                "deaths": 13,
+                "assists": 4,
+                "combatScore": 4712
+            },
+            "round_count": 19,
+            "gun_kills": {
+                "Ghost": 4,
+                "Classic": 1,
+                "Vandal": 11,
+                "Operator": 2
+            },
+            "gun_damage": {
+                "Ghost": 502,
+                "Classic": 130,
+                "Vandal": 2075,
+                "Operator": 300,
+                "Sheriff": 50
+            }
+        },
+        {
+            "platform_game_id": "val:5771375a-0ac1-410b-9515-cb611c831b13",
+            "game_time": "2024-02-28T23:01:05.080Z",
+            "map": "Breeze",
+            "agents": {
+                "agent_name": "Yoru"
+            },
+            "kda": {
+                "kills": 4,
+                "deaths": 13,
+                "assists": 3,
+                "combatScore": 1244
+            },
+            "round_count": 13,
+            "gun_kills": {
+                "Sheriff": 1,
+                "Vandal": 2,
+                "Ghost": 1
+            },
+            "gun_damage": {
+                "Sheriff": 390,
+                "Vandal": 423,
+                "Ghost": 25
+            }
+        }
+    ]
+}

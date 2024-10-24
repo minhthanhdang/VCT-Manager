@@ -1,0 +1,109 @@
+{
+    "id": "111781918274373002",
+    "first_name": "Alessandro",
+    "last_name": "Bergamo",
+    "status": "active",
+    "current_team_id": "111771854107659259",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "Titan2",
+    "current_team_acronym": "HGE",
+    "current_team_name": "Happy Game Esport",
+    "current_league_id": "109551156421687480",
+    "current_league_name": "VCT Challengers Italy",
+    "region": "EMEA",
+    "game_records": [
+        {
+            "platform_game_id": "val:7ad83673-cac8-45ae-b745-39d430d214d1",
+            "game_time": "2024-01-27T18:00:37.847Z",
+            "map": "Split",
+            "agents": {
+                "agent_name": "Skye"
+            },
+            "kda": {
+                "kills": 9,
+                "deaths": 14,
+                "assists": 8,
+                "combatScore": 2912
+            },
+            "round_count": 19,
+            "gun_kills": {
+                "Ghost": 1,
+                "Phantom": 3,
+                "Classic": 2,
+                "Spectre": 2,
+                "Bulldog": 1
+            },
+            "gun_damage": {
+                "Ghost": 198,
+                "Spectre": 266,
+                "Phantom": 816,
+                "Sheriff": 55,
+                "Vandal": 40,
+                "Classic": 312,
+                "Bulldog": 150
+            }
+        },
+        {
+            "platform_game_id": "val:e57d543e-33ce-4de2-9c64-5ff4aa27e3bf",
+            "game_time": "2024-01-28T19:23:50.656Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "KAY/O"
+            },
+            "kda": {
+                "kills": 17,
+                "deaths": 17,
+                "assists": 9,
+                "combatScore": 5451
+            },
+            "round_count": 21,
+            "gun_kills": {
+                "Vandal": 6,
+                "Phantom": 6,
+                "Sheriff": 1,
+                "Guardian": 2
+            },
+            "gun_damage": {
+                "Ghost": 30,
+                "Vandal": 1305,
+                "Phantom": 905,
+                "Classic": 97,
+                "Sheriff": 159,
+                "Guardian": 649
+            }
+        },
+        {
+            "platform_game_id": "val:6cd72d48-474d-4ca8-adce-b4ef248e1693",
+            "game_time": "2024-02-03T20:00:06.228Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Raze"
+            },
+            "kda": {
+                "kills": 17,
+                "deaths": 12,
+                "assists": 7,
+                "combatScore": 5063
+            },
+            "round_count": 16,
+            "gun_kills": {
+                "Sheriff": 1,
+                "Spectre": 2,
+                "Phantom": 8,
+                "Classic": 2,
+                "Judge": 1,
+                "Vandal": 1,
+                "Outlaw": 1
+            },
+            "gun_damage": {
+                "Sheriff": 110,
+                "Spectre": 197,
+                "Phantom": 1321,
+                "Vandal": 256,
+                "Classic": 312,
+                "Judge": 101,
+                "Outlaw": 420
+            }
+        }
+    ]
+}

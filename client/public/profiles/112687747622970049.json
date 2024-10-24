@@ -1,0 +1,74 @@
+{
+    "id": "112687747622970049",
+    "first_name": "Elia Son",
+    "last_name": "Cravanzola",
+    "status": "active",
+    "current_team_id": "109620593566686202",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "esc",
+    "current_team_acronym": "AXL",
+    "current_team_name": "Axolotl Esports",
+    "current_league_id": "109551156421687480",
+    "current_league_name": "VCT Challengers Italy",
+    "region": "EMEA",
+    "game_records": [
+        {
+            "platform_game_id": "val:80161678-464e-4e92-96d0-5e2992a65430",
+            "game_time": "2024-06-29T18:27:28.680Z",
+            "map": "Icebox",
+            "agents": {
+                "agent_name": "Viper"
+            },
+            "kda": {
+                "kills": 8,
+                "deaths": 15,
+                "assists": 2,
+                "combatScore": 2595
+            },
+            "round_count": 14,
+            "gun_kills": {
+                "Vandal": 2,
+                "Phantom": 4,
+                "Sheriff": 1,
+                "Guardian": 1
+            },
+            "gun_damage": {
+                "Ghost": 30,
+                "Vandal": 311,
+                "Stinger": 126,
+                "Phantom": 686,
+                "Sheriff": 319,
+                "Guardian": 130
+            }
+        },
+        {
+            "platform_game_id": "val:3ed62061-075a-472e-889d-d29286adb507",
+            "game_time": "2024-06-30T18:18:37.118Z",
+            "map": "Icebox",
+            "agents": {
+                "agent_name": "Viper"
+            },
+            "kda": {
+                "kills": 11,
+                "deaths": 16,
+                "assists": 2,
+                "combatScore": 3058
+            },
+            "round_count": 20,
+            "gun_kills": {
+                "Vandal": 7,
+                "Spectre": 1,
+                "Sheriff": 1,
+                "Ghost": 1,
+                "Shorty": 1
+            },
+            "gun_damage": {
+                "Ghost": 230,
+                "Vandal": 1258,
+                "Spectre": 156,
+                "Sheriff": 214,
+                "Shorty": 53
+            }
+        }
+    ]
+}

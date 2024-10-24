@@ -1,0 +1,75 @@
+{
+    "id": "111956750623292684",
+    "first_name": "Raymond Reeve ",
+    "last_name": "Pereyras",
+    "status": "active",
+    "current_team_id": "111913412556195719",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "altG",
+    "current_team_acronym": "AIMP",
+    "current_team_name": "AIM PH",
+    "current_league_id": "105555704030157191",
+    "current_league_name": "VCT Challengers SEA Philippines",
+    "region": "SEA",
+    "game_records": [
+        {
+            "platform_game_id": "val:63ae4374-cf92-4646-b754-d104fde0f8ea",
+            "game_time": "2024-02-27T08:34:26.894Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Phoenix"
+            },
+            "kda": {
+                "kills": 10,
+                "deaths": 16,
+                "assists": 6,
+                "combatScore": 3973
+            },
+            "round_count": 16,
+            "gun_kills": {
+                "Ghost": 1,
+                "Spectre": 4,
+                "Stinger": 1,
+                "Vandal": 2,
+                "Classic": 1
+            },
+            "gun_damage": {
+                "Ghost": 317,
+                "Spectre": 769,
+                "Vandal": 702,
+                "Sheriff": 100,
+                "Stinger": 232,
+                "Frenzy": 130,
+                "Classic": 78
+            }
+        },
+        {
+            "platform_game_id": "val:892c2e42-bc51-4a80-9e43-96a64a81c596",
+            "game_time": "2024-02-28T12:59:37.910Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Phoenix"
+            },
+            "kda": {
+                "kills": 11,
+                "deaths": 18,
+                "assists": 5,
+                "combatScore": 3691
+            },
+            "round_count": 20,
+            "gun_kills": {
+                "Bulldog": 3,
+                "Vandal": 7,
+                "Guardian": 1
+            },
+            "gun_damage": {
+                "Ghost": 43,
+                "Bulldog": 590,
+                "Vandal": 1695,
+                "Spectre": 64,
+                "Classic": 104,
+                "Guardian": 179
+            }
+        }
+    ]
+}

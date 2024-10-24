@@ -1,0 +1,45 @@
+{
+    "id": "112433787445798094",
+    "first_name": "Davide",
+    "last_name": "Cusmai",
+    "status": "active",
+    "current_team_id": "111771881726716002",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "Davia",
+    "current_team_acronym": "VX3",
+    "current_team_name": "Vx300 Gaming",
+    "current_league_id": "109551156421687480",
+    "current_league_name": "VCT Challengers Italy",
+    "region": "EMEA",
+    "game_records": [
+        {
+            "platform_game_id": "val:2944cc89-c9b6-4fda-9a2b-f3431652b275",
+            "game_time": "2024-05-18T16:57:02.670Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Raze"
+            },
+            "kda": {
+                "kills": 19,
+                "deaths": 16,
+                "assists": 6,
+                "combatScore": 5610
+            },
+            "round_count": 20,
+            "gun_kills": {
+                "Sheriff": 3,
+                "Vandal": 11,
+                "Ghost": 1,
+                "Phantom": 1
+            },
+            "gun_damage": {
+                "Classic": 78,
+                "Sheriff": 872,
+                "Vandal": 1911,
+                "Ghost": 55,
+                "Guardian": 28,
+                "Phantom": 239
+            }
+        }
+    ]
+}

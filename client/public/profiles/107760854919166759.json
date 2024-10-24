@@ -1,0 +1,68 @@
+{
+    "id": "107760854919166759",
+    "first_name": "Zhong",
+    "last_name": "Kang",
+    "status": "active",
+    "current_team_id": "107761408072272990",
+    "photo_url": "http://static.lolesports.com/players/1643734200321_silhouette_transparent.png",
+    "in_game_name": "shinsei",
+    "current_team_acronym": "BLD",
+    "current_team_name": "Bleed Esports",
+    "current_league_id": "107910334624279390",
+    "current_league_name": "VCT Challengers APAC",
+    "region": "Pacific",
+    "game_records": [
+        {
+            "platform_game_id": "val:8e4d92c9-d6f0-46c2-b00c-473f4db104b3",
+            "game_time": "2024-07-11T14:30:55.004Z",
+            "map": "Icebox",
+            "agents": {
+                "agent_name": "Jett"
+            },
+            "kda": {
+                "kills": 33,
+                "deaths": 27,
+                "assists": 0,
+                "combatScore": 9002
+            },
+            "round_count": 33,
+            "gun_kills": {
+                "Ghost": 4,
+                "Vandal": 15,
+                "Operator": 10,
+                "Phantom": 2
+            },
+            "gun_damage": {
+                "Ghost": 560,
+                "Vandal": 2806,
+                "Operator": 1920,
+                "Phantom": 224
+            }
+        },
+        {
+            "platform_game_id": "val:95739a18-5e23-41c4-83ea-06c5ddf3109a",
+            "game_time": "2024-07-11T15:58:31.639Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Jett"
+            },
+            "kda": {
+                "kills": 20,
+                "deaths": 18,
+                "assists": 2,
+                "combatScore": 5334
+            },
+            "round_count": 22,
+            "gun_kills": {
+                "Sheriff": 3,
+                "Vandal": 11,
+                "Operator": 4
+            },
+            "gun_damage": {
+                "Sheriff": 483,
+                "Vandal": 2220,
+                "Operator": 588
+            }
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "id": "108825702058647318",
+    "first_name": "Kai En",
+    "last_name": "Chin",
+    "status": "active",
+    "current_team_id": "110490682816310099",
+    "photo_url": "http://static.lolesports.com/players/1643734200321_silhouette_transparent.png",
+    "in_game_name": "Snowwke",
+    "current_team_acronym": "THE",
+    "current_team_name": "THE HERO KDA",
+    "current_league_id": "107115678205203231",
+    "current_league_name": "Game Changers SEA",
+    "region": "SEA",
+    "game_records": [
+        {
+            "platform_game_id": "val:bb3928a7-82be-4eee-bf67-2319e5d2a084",
+            "game_time": "2024-07-10T09:30:58.987Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Raze"
+            },
+            "kda": {
+                "kills": 7,
+                "deaths": 14,
+                "assists": 3,
+                "combatScore": 2039
+            },
+            "round_count": 15,
+            "gun_kills": {
+                "Vandal": 2,
+                "Classic": 1,
+                "Ghost": 2,
+                "Spectre": 1,
+                "Phantom": 1
+            },
+            "gun_damage": {
+                "Classic": 130,
+                "Vandal": 493,
+                "Bulldog": 70,
+                "Ghost": 315,
+                "Spectre": 156,
+                "Phantom": 312
+            }
+        },
+        {
+            "platform_game_id": "val:53fc51c8-0875-410f-a478-8368516a6e83",
+            "game_time": "2024-07-10T10:21:34.862Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Raze"
+            },
+            "kda": {
+                "kills": 14,
+                "deaths": 18,
+                "assists": 6,
+                "combatScore": 4709
+            },
+            "round_count": 20,
+            "gun_kills": {
+                "Vandal": 12
+            },
+            "gun_damage": {
+                "Ghost": 30,
+                "Vandal": 2409,
+                "Classic": 78,
+                "Stinger": 145
+            }
+        }
+    ]
+}

@@ -1,0 +1,123 @@
+{
+    "id": "112279762023715202",
+    "first_name": "Karen",
+    "last_name": "Nona",
+    "status": "active",
+    "current_team_id": "112279706800846545",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "Merununtius",
+    "current_team_acronym": "MTR",
+    "current_team_name": "Meteor",
+    "current_league_id": "108752229027041361",
+    "current_league_name": "Game Changers Japan",
+    "region": "JP",
+    "game_records": [
+        {
+            "platform_game_id": "val:0b9b55b0-979b-4c25-8033-8ccdc7a8f451",
+            "game_time": "2024-04-30T09:30:01.727Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "KAY/O"
+            },
+            "kda": {
+                "kills": 10,
+                "deaths": 16,
+                "assists": 7,
+                "combatScore": 2837
+            },
+            "round_count": 18,
+            "gun_kills": {
+                "Classic": 1,
+                "Vandal": 6,
+                "Ghost": 2,
+                "Sheriff": 1
+            },
+            "gun_damage": {
+                "Ghost": 280,
+                "Classic": 78,
+                "Vandal": 1180,
+                "Sheriff": 160
+            }
+        },
+        {
+            "platform_game_id": "val:10da5862-0d69-41a9-87cd-23fb41244828",
+            "game_time": "2024-04-30T10:21:29.640Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "KAY/O"
+            },
+            "kda": {
+                "kills": 16,
+                "deaths": 17,
+                "assists": 17,
+                "combatScore": 4906
+            },
+            "round_count": 20,
+            "gun_kills": {
+                "Ghost": 2,
+                "Sheriff": 2,
+                "Vandal": 11,
+                "Guardian": 1
+            },
+            "gun_damage": {
+                "Ghost": 415,
+                "Classic": 6,
+                "Sheriff": 269,
+                "Vandal": 1839,
+                "Guardian": 195,
+                "Stinger": 151
+            }
+        },
+        {
+            "platform_game_id": "val:8060a2fc-2329-4102-99fd-0a9fa48607aa",
+            "game_time": "2024-05-01T07:56:11.185Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "KAY/O"
+            },
+            "kda": {
+                "kills": 7,
+                "deaths": 16,
+                "assists": 9,
+                "combatScore": 2043
+            },
+            "round_count": 19,
+            "gun_kills": {
+                "Ghost": 1,
+                "Vandal": 4,
+                "Guardian": 2
+            },
+            "gun_damage": {
+                "Ghost": 226,
+                "Vandal": 757,
+                "Guardian": 185,
+                "Classic": 24
+            }
+        },
+        {
+            "platform_game_id": "val:7e87fb99-e947-48d8-9af7-e1312a5e2d03",
+            "game_time": "2024-05-01T08:43:10.172Z",
+            "map": "Bind",
+            "agents": {
+                "agent_name": "Breach"
+            },
+            "kda": {
+                "kills": 14,
+                "deaths": 18,
+                "assists": 12,
+                "combatScore": 4080
+            },
+            "round_count": 22,
+            "gun_kills": {
+                "Vandal": 10,
+                "Sheriff": 4
+            },
+            "gun_damage": {
+                "Bulldog": 58,
+                "Vandal": 1830,
+                "Sheriff": 740,
+                "Classic": 22
+            }
+        }
+    ]
+}

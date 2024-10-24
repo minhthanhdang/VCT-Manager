@@ -1,0 +1,64 @@
+{
+    "id": "111800073817383624",
+    "first_name": "Chung-Kang",
+    "last_name": "Pu",
+    "status": "active",
+    "current_team_id": "111799164304781604",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "Lingchuan",
+    "current_team_acronym": "HKUF",
+    "current_team_name": "HKUF",
+    "current_league_id": "105555699868690469",
+    "current_league_name": "VCT Challengers SEA Hong Kong and Taiwan",
+    "region": "SEA",
+    "game_records": [
+        {
+            "platform_game_id": "val:33452f2a-0ac8-45da-babe-d3291c04db69",
+            "game_time": "2024-03-07T14:25:10.721Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Breach"
+            },
+            "kda": {
+                "kills": 2,
+                "deaths": 14,
+                "assists": 7,
+                "combatScore": 748
+            },
+            "round_count": 15,
+            "gun_kills": {
+                "Vandal": 2
+            },
+            "gun_damage": {
+                "Sheriff": 105,
+                "Vandal": 280,
+                "Classic": 130
+            }
+        },
+        {
+            "platform_game_id": "val:8f184e3c-98c7-47cc-8da2-1070ade09495",
+            "game_time": "2024-03-07T15:04:07.879Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Omen"
+            },
+            "kda": {
+                "kills": 13,
+                "deaths": 16,
+                "assists": 4,
+                "combatScore": 3561
+            },
+            "round_count": 22,
+            "gun_kills": {
+                "Classic": 2,
+                "Sheriff": 4,
+                "Vandal": 7
+            },
+            "gun_damage": {
+                "Classic": 220,
+                "Sheriff": 681,
+                "Vandal": 1314
+            }
+        }
+    ]
+}

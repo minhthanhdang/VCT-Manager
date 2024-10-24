@@ -1,0 +1,74 @@
+{
+    "id": "110099889105798741",
+    "first_name": "Diogo",
+    "last_name": "Barros",
+    "status": "active",
+    "current_team_id": "109641989010564822",
+    "photo_url": "http://static.lolesports.com/players/1679990979398_placeholder.png",
+    "in_game_name": "nask",
+    "current_team_acronym": "FXL",
+    "current_team_name": "FTW Le\u00e7a FC",
+    "current_league_id": "109551158912464238",
+    "current_league_name": "VCT Challengers Portugal",
+    "region": "EMEA",
+    "game_records": [
+        {
+            "platform_game_id": "val:d72e9703-6ef6-446a-9ec2-b65c7e7210df",
+            "game_time": "2024-06-23T17:13:26.220Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 14,
+                "deaths": 17,
+                "assists": 9,
+                "combatScore": 4043
+            },
+            "round_count": 22,
+            "gun_kills": {
+                "Ghost": 5,
+                "Odin": 2,
+                "Guardian": 3,
+                "Vandal": 2
+            },
+            "gun_damage": {
+                "Ghost": 574,
+                "Classic": 26,
+                "Odin": 401,
+                "Vandal": 394,
+                "Guardian": 505,
+                "Sheriff": 55,
+                "Phantom": 23
+            }
+        },
+        {
+            "platform_game_id": "val:57803ce7-9ec9-4295-aa06-8431c6b16b1f",
+            "game_time": "2024-06-24T18:08:41.483Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Neon"
+            },
+            "kda": {
+                "kills": 20,
+                "deaths": 18,
+                "assists": 5,
+                "combatScore": 5850
+            },
+            "round_count": 21,
+            "gun_kills": {
+                "Ghost": 2,
+                "Spectre": 4,
+                "Vandal": 11
+            },
+            "gun_damage": {
+                "Ghost": 237,
+                "Spectre": 370,
+                "Vandal": 2607,
+                "Sheriff": 145,
+                "Frenzy": 21,
+                "Stinger": 22
+            }
+        }
+    ]
+}

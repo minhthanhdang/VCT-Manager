@@ -1,0 +1,101 @@
+{
+    "id": "112007913540240130",
+    "first_name": "Kieran",
+    "last_name": " Phang",
+    "status": "active",
+    "current_team_id": "109760458549960480",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "Ender1",
+    "current_team_acronym": "KZ",
+    "current_team_name": "Kizuna Esports",
+    "current_league_id": "105555705801095792",
+    "current_league_name": "VCT Challengers Singaport and Malaysia",
+    "region": "SGMY",
+    "game_records": [
+        {
+            "platform_game_id": "val:f42e2cc0-5bd9-44fa-8cb9-13213a51cd00",
+            "game_time": "2024-03-28T10:52:24.340Z",
+            "map": "Bind",
+            "agents": {
+                "agent_name": "Viper"
+            },
+            "kda": {
+                "kills": 17,
+                "deaths": 12,
+                "assists": 3,
+                "combatScore": 4595
+            },
+            "round_count": 22,
+            "gun_kills": {
+                "Ghost": 2,
+                "Vandal": 12,
+                "Classic": 1,
+                "Judge": 2
+            },
+            "gun_damage": {
+                "Ghost": 240,
+                "Vandal": 2205,
+                "Classic": 115,
+                "Judge": 323
+            }
+        },
+        {
+            "platform_game_id": "val:62c38eb5-b978-479b-b8c6-5689a05c2dea",
+            "game_time": "2024-03-28T11:50:08.468Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Raze"
+            },
+            "kda": {
+                "kills": 13,
+                "deaths": 16,
+                "assists": 4,
+                "combatScore": 3918
+            },
+            "round_count": 19,
+            "gun_kills": {
+                "Vandal": 7,
+                "Ghost": 1,
+                "Spectre": 2,
+                "Judge": 2
+            },
+            "gun_damage": {
+                "Judge": 391,
+                "Vandal": 1455,
+                "Bucky": 134,
+                "Phantom": 101,
+                "Ghost": 165,
+                "Spectre": 48
+            }
+        },
+        {
+            "platform_game_id": "val:544c6fce-d5de-4028-a116-58bcd68eef08",
+            "game_time": "2024-03-28T12:43:30.859Z",
+            "map": "Icebox",
+            "agents": {
+                "agent_name": "Killjoy"
+            },
+            "kda": {
+                "kills": 12,
+                "deaths": 16,
+                "assists": 2,
+                "combatScore": 3461
+            },
+            "round_count": 17,
+            "gun_kills": {
+                "Sheriff": 3,
+                "Vandal": 7,
+                "Operator": 1,
+                "Classic": 1
+            },
+            "gun_damage": {
+                "Sheriff": 483,
+                "": 36,
+                "Vandal": 1406,
+                "Operator": 150,
+                "Guardian": 65,
+                "Classic": 74
+            }
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "id": "111836448121236724",
+    "first_name": "Gilang ",
+    "last_name": "Airlangga Duta Adhiguna",
+    "status": "active",
+    "current_team_id": "111836507968682130",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "mnemonic",
+    "current_team_acronym": "CLWN",
+    "current_team_name": "5 Clown",
+    "current_league_id": "105555627532605797",
+    "current_league_name": "VCT Challengers SEA Indonesia",
+    "region": "ID",
+    "game_records": [
+        {
+            "platform_game_id": "val:c569fad0-ff75-451a-a9de-d346567b9eee",
+            "game_time": "2024-03-02T04:03:08.304Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Omen"
+            },
+            "kda": {
+                "kills": 4,
+                "deaths": 13,
+                "assists": 0,
+                "combatScore": 1224
+            },
+            "round_count": 12,
+            "gun_kills": {
+                "Classic": 1,
+                "Sheriff": 2,
+                "Vandal": 1
+            },
+            "gun_damage": {
+                "Classic": 115,
+                "Sheriff": 373,
+                "Vandal": 240
+            }
+        },
+        {
+            "platform_game_id": "val:15cca7c3-99af-41e5-95eb-231a155d6034",
+            "game_time": "2024-03-02T04:37:51.202Z",
+            "map": "Bind",
+            "agents": {
+                "agent_name": "Brimstone"
+            },
+            "kda": {
+                "kills": 10,
+                "deaths": 19,
+                "assists": 3,
+                "combatScore": 2820
+            },
+            "round_count": 19,
+            "gun_kills": {
+                "Guardian": 1,
+                "Vandal": 6,
+                "Sheriff": 3
+            },
+            "gun_damage": {
+                "Guardian": 260,
+                "Vandal": 960,
+                "Sheriff": 532
+            }
+        }
+    ]
+}

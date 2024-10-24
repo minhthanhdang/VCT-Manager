@@ -1,0 +1,43 @@
+{
+    "id": "112602493241027423",
+    "first_name": "Joia",
+    "last_name": "Helsper",
+    "status": "active",
+    "current_team_id": "112433635106412996",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "B0uncy",
+    "current_team_acronym": "LONE",
+    "current_team_name": "LONETEAM",
+    "current_league_id": "109551156421687480",
+    "current_league_name": "VCT Challengers Italy",
+    "region": "EMEA",
+    "game_records": [
+        {
+            "platform_game_id": "val:3e7bc4f9-3ed8-462c-a721-970772a0cfcd",
+            "game_time": "2024-06-24T15:59:59.741Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Raze"
+            },
+            "kda": {
+                "kills": 8,
+                "deaths": 16,
+                "assists": 1,
+                "combatScore": 2430
+            },
+            "round_count": 19,
+            "gun_kills": {
+                "Bulldog": 1,
+                "Classic": 1,
+                "Vandal": 5
+            },
+            "gun_damage": {
+                "Bulldog": 140,
+                "Vandal": 832,
+                "Classic": 148,
+                "Sheriff": 55,
+                "Stinger": 69
+            }
+        }
+    ]
+}

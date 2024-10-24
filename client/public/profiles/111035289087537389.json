@@ -1,0 +1,161 @@
+{
+    "id": "111035289087537389",
+    "first_name": "JuleKha",
+    "last_name": "Parvin",
+    "status": "active",
+    "current_team_id": "110014359029298656",
+    "photo_url": null,
+    "in_game_name": "Amy1",
+    "current_team_acronym": "GES",
+    "current_team_name": "Global Esports Phoenix ",
+    "current_league_id": "107115678205203231",
+    "current_league_name": "Game Changers SEA",
+    "region": "SEA",
+    "game_records": [
+        {
+            "platform_game_id": "val:bb3928a7-82be-4eee-bf67-2319e5d2a084",
+            "game_time": "2024-07-10T09:30:58.987Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Viper"
+            },
+            "kda": {
+                "kills": 9,
+                "deaths": 10,
+                "assists": 10,
+                "combatScore": 2675
+            },
+            "round_count": 15,
+            "gun_kills": {
+                "Spectre": 1,
+                "Sheriff": 1,
+                "Bulldog": 1,
+                "Vandal": 4,
+                "Ghost": 1,
+                "Phantom": 1
+            },
+            "gun_damage": {
+                "Spectre": 171,
+                "Sheriff": 110,
+                "Bulldog": 265,
+                "Vandal": 1024,
+                "Ghost": 90,
+                "Phantom": 245
+            }
+        },
+        {
+            "platform_game_id": "val:53fc51c8-0875-410f-a478-8368516a6e83",
+            "game_time": "2024-07-10T10:21:34.862Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Breach"
+            },
+            "kda": {
+                "kills": 7,
+                "deaths": 14,
+                "assists": 14,
+                "combatScore": 2367
+            },
+            "round_count": 20,
+            "gun_kills": {
+                "Ghost": 2,
+                "Sheriff": 1,
+                "Vandal": 2,
+                "Phantom": 1
+            },
+            "gun_damage": {
+                "Ghost": 210,
+                "Sheriff": 269,
+                "Vandal": 770,
+                "Classic": 22,
+                "Phantom": 195
+            }
+        },
+        {
+            "platform_game_id": "val:90b2805a-0d3a-4791-add7-7b1df315b63f",
+            "game_time": "2024-07-11T09:29:59.732Z",
+            "map": "Bind",
+            "agents": {
+                "agent_name": "Gekko"
+            },
+            "kda": {
+                "kills": 12,
+                "deaths": 11,
+                "assists": 6,
+                "combatScore": 3333
+            },
+            "round_count": 18,
+            "gun_kills": {
+                "Classic": 3,
+                "Spectre": 1,
+                "Vandal": 7
+            },
+            "gun_damage": {
+                "Classic": 208,
+                "Spectre": 104,
+                "Guardian": 65,
+                "Vandal": 1268,
+                "Ghost": 30
+            }
+        },
+        {
+            "platform_game_id": "val:300875d7-3d94-4614-b8b5-c95acd0f97f5",
+            "game_time": "2024-07-11T10:24:53.108Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Breach"
+            },
+            "kda": {
+                "kills": 15,
+                "deaths": 15,
+                "assists": 7,
+                "combatScore": 4241
+            },
+            "round_count": 22,
+            "gun_kills": {
+                "Ghost": 2,
+                "Vandal": 11,
+                "Frenzy": 1,
+                "Classic": 1
+            },
+            "gun_damage": {
+                "Ghost": 145,
+                "Bulldog": 18,
+                "Vandal": 1986,
+                "Melee": 50,
+                "Frenzy": 167,
+                "Classic": 130,
+                "Sheriff": 55
+            }
+        },
+        {
+            "platform_game_id": "val:aaee58ce-9a6c-41d4-9948-35f2fdbf18bd",
+            "game_time": "2024-07-11T11:30:02.301Z",
+            "map": "Haven",
+            "agents": {
+                "agent_name": "Breach"
+            },
+            "kda": {
+                "kills": 12,
+                "deaths": 14,
+                "assists": 15,
+                "combatScore": 3690
+            },
+            "round_count": 22,
+            "gun_kills": {
+                "Classic": 2,
+                "Sheriff": 2,
+                "Vandal": 7,
+                "Guardian": 1
+            },
+            "gun_damage": {
+                "Classic": 178,
+                "Sheriff": 220,
+                "Vandal": 1652,
+                "Guardian": 308,
+                "Ghost": 60,
+                "Phantom": 121
+            }
+        }
+    ]
+}

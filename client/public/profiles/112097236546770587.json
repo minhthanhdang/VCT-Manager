@@ -1,0 +1,69 @@
+{
+    "id": "112097236546770587",
+    "first_name": "Amarri",
+    "last_name": "Lee Andre Peak",
+    "status": "active",
+    "current_team_id": "108058641500699213",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "PA1NT",
+    "current_team_acronym": "MIBR",
+    "current_team_name": "MIBR",
+    "current_league_id": "109974795266458277",
+    "current_league_name": "VCT Americas",
+    "region": "Americas",
+    "game_records": [
+        {
+            "platform_game_id": "val:fce4cb46-61a1-41f5-9518-ebe93b951d2c",
+            "game_time": "2024-06-22T20:49:25.148Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Iso"
+            },
+            "kda": {
+                "kills": 11,
+                "deaths": 17,
+                "assists": 6,
+                "combatScore": 3261
+            },
+            "round_count": 21,
+            "gun_kills": {
+                "Ghost": 1,
+                "Vandal": 5,
+                "Sheriff": 2,
+                "Stinger": 1,
+                "Bulldog": 2
+            },
+            "gun_damage": {
+                "Ghost": 105,
+                "Vandal": 1094,
+                "Stinger": 350,
+                "Sheriff": 533,
+                "Bulldog": 80
+            }
+        },
+        {
+            "platform_game_id": "val:9a0a4c1a-a098-459a-86f7-1205e50d4aa6",
+            "game_time": "2024-06-22T22:05:48.640Z",
+            "map": "Icebox",
+            "agents": {
+                "agent_name": "Jett"
+            },
+            "kda": {
+                "kills": 8,
+                "deaths": 18,
+                "assists": 6,
+                "combatScore": 2679
+            },
+            "round_count": 19,
+            "gun_kills": {
+                "Vandal": 8
+            },
+            "gun_damage": {
+                "Ghost": 60,
+                "Sheriff": 211,
+                "Vandal": 1642,
+                "Guardian": 130
+            }
+        }
+    ]
+}

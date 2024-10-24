@@ -1,0 +1,69 @@
+{
+    "id": "111878439153514690",
+    "first_name": "YEKAI",
+    "last_name": "SHI",
+    "status": "active",
+    "current_team_id": "111878200333186955",
+    "photo_url": "http://static.lolesports.com/players/1718885245337_TYL.AAK29270.png",
+    "in_game_name": "AAK",
+    "current_team_acronym": "TYL",
+    "current_team_name": "TYLOO GAMING",
+    "current_league_id": "111691194187846945",
+    "current_league_name": "VCT China",
+    "region": "China",
+    "game_records": [
+        {
+            "platform_game_id": "val:99dd2b67-bb9f-4adc-b7ab-1c2d6387c8f9",
+            "game_time": "2024-06-16T08:51:10.645Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Viper"
+            },
+            "kda": {
+                "kills": 16,
+                "deaths": 17,
+                "assists": 3,
+                "combatScore": 4652
+            },
+            "round_count": 22,
+            "gun_kills": {
+                "Vandal": 12,
+                "Classic": 1,
+                "Phantom": 3
+            },
+            "gun_damage": {
+                "Ghost": 80,
+                "Vandal": 2436,
+                "Classic": 104,
+                "Phantom": 179
+            }
+        },
+        {
+            "platform_game_id": "val:22ed953f-ded4-421c-9700-079125389cca",
+            "game_time": "2024-06-16T10:07:07.709Z",
+            "map": "Icebox",
+            "agents": {
+                "agent_name": "Viper"
+            },
+            "kda": {
+                "kills": 7,
+                "deaths": 15,
+                "assists": 4,
+                "combatScore": 2532
+            },
+            "round_count": 16,
+            "gun_kills": {
+                "Vandal": 6,
+                "Operator": 1
+            },
+            "gun_damage": {
+                "Ghost": 67,
+                "Classic": 208,
+                "Vandal": 1231,
+                "Operator": 150,
+                "Phantom": 140,
+                "Guardian": 65
+            }
+        }
+    ]
+}

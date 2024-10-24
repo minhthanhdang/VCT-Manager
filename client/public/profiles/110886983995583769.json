@@ -1,0 +1,69 @@
+{
+    "id": "110886983995583769",
+    "first_name": "Catherine ",
+    "last_name": "Mac Donald",
+    "status": "active",
+    "current_team_id": "107910153514729818",
+    "photo_url": "http://static.lolesports.com/players/1692001040991_silhouette_transparent.png",
+    "in_game_name": "Banana1",
+    "current_team_acronym": "FSN",
+    "current_team_name": "Fusion",
+    "current_league_id": "109879575186437267",
+    "current_league_name": "Game Changers LATAM",
+    "region": "LATAM",
+    "game_records": [
+        {
+            "platform_game_id": "val:a9d2c54a-9177-4b85-b1dc-f5f5c50576e0",
+            "game_time": "2024-04-30T23:52:37.905Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Omen"
+            },
+            "kda": {
+                "kills": 4,
+                "deaths": 13,
+                "assists": 4,
+                "combatScore": 1110
+            },
+            "round_count": 12,
+            "gun_kills": {
+                "Classic": 2,
+                "Ghost": 1,
+                "Vandal": 1
+            },
+            "gun_damage": {
+                "Classic": 260,
+                "Ghost": 180,
+                "Vandal": 177
+            }
+        },
+        {
+            "platform_game_id": "val:281a01ff-59a9-4f5b-81ef-294482a4e25d",
+            "game_time": "2024-05-01T00:33:04.775Z",
+            "map": "Bind",
+            "agents": {
+                "agent_name": "Viper"
+            },
+            "kda": {
+                "kills": 9,
+                "deaths": 18,
+                "assists": 7,
+                "combatScore": 2988
+            },
+            "round_count": 22,
+            "gun_kills": {
+                "Ghost": 2,
+                "Vandal": 4,
+                "Guardian": 1,
+                "Spectre": 1
+            },
+            "gun_damage": {
+                "Classic": 52,
+                "Ghost": 490,
+                "Vandal": 1067,
+                "Guardian": 195,
+                "Spectre": 156
+            }
+        }
+    ]
+}

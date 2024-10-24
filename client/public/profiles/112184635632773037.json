@@ -1,0 +1,122 @@
+{
+    "id": "112184635632773037",
+    "first_name": "Aria",
+    "last_name": "Mizuguchi",
+    "status": "active",
+    "current_team_id": "112184363776389689",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "elfie",
+    "current_team_acronym": "MKS",
+    "current_team_name": "Mommy's Kitten",
+    "current_league_id": "107115678205203231",
+    "current_league_name": "Game Changers SEA",
+    "region": "SEA",
+    "game_records": [
+        {
+            "platform_game_id": "val:8abbcde2-7b3c-48ba-a330-6cf0c23acca5",
+            "game_time": "2024-04-01T08:58:27.927Z",
+            "map": "Icebox",
+            "agents": {
+                "agent_name": "Reyna"
+            },
+            "kda": {
+                "kills": 6,
+                "deaths": 14,
+                "assists": 1,
+                "combatScore": 1741
+            },
+            "round_count": 13,
+            "gun_kills": {
+                "Ghost": 1,
+                "Sheriff": 2,
+                "Vandal": 1,
+                "Phantom": 1,
+                "Guardian": 1
+            },
+            "gun_damage": {
+                "Ghost": 100,
+                "Sheriff": 258,
+                "Vandal": 200,
+                "Phantom": 105,
+                "Guardian": 195,
+                "Spectre": 188
+            }
+        },
+        {
+            "platform_game_id": "val:841f46f6-857c-47d7-94bc-97ce470a486c",
+            "game_time": "2024-04-01T09:41:53.538Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Chamber"
+            },
+            "kda": {
+                "kills": 17,
+                "deaths": 14,
+                "assists": 0,
+                "combatScore": 4752
+            },
+            "round_count": 16,
+            "gun_kills": {
+                "Outlaw": 2,
+                "Guardian": 3,
+                "Vandal": 6
+            },
+            "gun_damage": {
+                "Outlaw": 399,
+                "Guardian": 374,
+                "Vandal": 1028
+            }
+        },
+        {
+            "platform_game_id": "val:cd691b81-d58e-474d-9471-c5ef78857bd8",
+            "game_time": "2024-04-02T09:03:47.535Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Chamber"
+            },
+            "kda": {
+                "kills": 12,
+                "deaths": 15,
+                "assists": 4,
+                "combatScore": 4046
+            },
+            "round_count": 16,
+            "gun_kills": {
+                "Operator": 2,
+                "Phantom": 3,
+                "Vandal": 3
+            },
+            "gun_damage": {
+                "Vandal": 880,
+                "Bucky": 91,
+                "Operator": 300,
+                "Phantom": 759
+            }
+        },
+        {
+            "platform_game_id": "val:3dc0d36d-2fb1-49a9-8555-9278ccf39f7a",
+            "game_time": "2024-04-02T10:00:25.470Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Gekko"
+            },
+            "kda": {
+                "kills": 6,
+                "deaths": 13,
+                "assists": 1,
+                "combatScore": 1981
+            },
+            "round_count": 16,
+            "gun_kills": {
+                "Vandal": 2,
+                "Phantom": 4
+            },
+            "gun_damage": {
+                "Ghost": 135,
+                "Sheriff": 110,
+                "Vandal": 373,
+                "Phantom": 865
+            }
+        }
+    ]
+}

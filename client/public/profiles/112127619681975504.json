@@ -1,0 +1,115 @@
+{
+    "id": "112127619681975504",
+    "first_name": "Angela ",
+    "last_name": "Kwon",
+    "status": "active",
+    "current_team_id": "112127218115639934",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "Yuna1",
+    "current_team_acronym": "UW",
+    "current_team_name": "University War",
+    "current_league_id": "109879575186437267",
+    "current_league_name": "Game Changers LATAM",
+    "region": "LATAM",
+    "game_records": [
+        {
+            "platform_game_id": "val:98f7aa5c-0606-4f6e-b645-e9e51b57a0ff",
+            "game_time": "2024-05-02T23:31:42.234Z",
+            "map": "Icebox",
+            "agents": {
+                "agent_name": "Viper"
+            },
+            "kda": {
+                "kills": 14,
+                "deaths": 16,
+                "assists": 3,
+                "combatScore": 3942
+            },
+            "round_count": 20,
+            "gun_kills": {
+                "Bulldog": 2,
+                "Vandal": 10,
+                "Sheriff": 1
+            },
+            "gun_damage": {
+                "Ghost": 90,
+                "Bulldog": 414,
+                "Vandal": 1782,
+                "Sheriff": 264
+            }
+        },
+        {
+            "platform_game_id": "val:33f6b307-c30f-4fc5-9d08-8c4dcf7b6a93",
+            "game_time": "2024-05-18T23:57:04.027Z",
+            "map": "Breeze",
+            "agents": {
+                "agent_name": "Jett"
+            },
+            "kda": {
+                "kills": 15,
+                "deaths": 16,
+                "assists": 3,
+                "combatScore": 4474
+            },
+            "round_count": 22,
+            "gun_kills": {
+                "Ghost": 1,
+                "Vandal": 11,
+                "Sheriff": 2
+            },
+            "gun_damage": {
+                "Ghost": 55,
+                "Vandal": 2077,
+                "Sheriff": 373
+            }
+        },
+        {
+            "platform_game_id": "val:8b6946da-3eaf-4778-bd97-833037dc2ffe",
+            "game_time": "2024-07-31T20:13:51.158Z",
+            "map": "Haven",
+            "agents": {
+                "agent_name": "Omen"
+            },
+            "kda": {
+                "kills": 19,
+                "deaths": 17,
+                "assists": 5,
+                "combatScore": 5065
+            },
+            "round_count": 23,
+            "gun_kills": {
+                "Vandal": 18,
+                "Guardian": 1
+            },
+            "gun_damage": {
+                "Classic": 26,
+                "Vandal": 3167,
+                "Guardian": 65
+            }
+        },
+        {
+            "platform_game_id": "val:ca53886b-3c75-49f9-ac65-363b9f0f1f2b",
+            "game_time": "2024-08-12T22:03:00.349Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Omen"
+            },
+            "kda": {
+                "kills": 4,
+                "deaths": 15,
+                "assists": 3,
+                "combatScore": 1706
+            },
+            "round_count": 14,
+            "gun_kills": {
+                "Vandal": 3,
+                "Guardian": 1
+            },
+            "gun_damage": {
+                "Vandal": 840,
+                "Guardian": 294,
+                "Classic": 78
+            }
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "id": "108076829264740999",
+    "first_name": "Sachar",
+    "last_name": "Swayambika",
+    "status": "active",
+    "current_team_id": "108076630730769001",
+    "photo_url": "http://static.lolesports.com/players/1643734200321_silhouette_transparent.png",
+    "in_game_name": "Sway",
+    "current_team_acronym": "OGT",
+    "current_team_name": "Orangutan",
+    "current_league_id": "107115678205203231",
+    "current_league_name": "Game Changers SEA",
+    "region": "SEA",
+    "game_records": [
+        {
+            "platform_game_id": "val:08eb3a1d-fc84-4d5a-90a2-b715128ff295",
+            "game_time": "2024-07-10T11:44:53.579Z",
+            "map": "Haven",
+            "agents": {
+                "agent_name": "Neon"
+            },
+            "kda": {
+                "kills": 21,
+                "deaths": 19,
+                "assists": 13,
+                "combatScore": 6586
+            },
+            "round_count": 25,
+            "gun_kills": {
+                "Ghost": 2,
+                "Vandal": 9,
+                "Guardian": 1,
+                "Bulldog": 3
+            },
+            "gun_damage": {
+                "Ghost": 405,
+                "Classic": 78,
+                "Vandal": 2091,
+                "Guardian": 195,
+                "Bulldog": 280
+            }
+        },
+        {
+            "platform_game_id": "val:d1295421-44b8-447c-ae72-7a6f66219846",
+            "game_time": "2024-07-10T13:14:49.621Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Neon"
+            },
+            "kda": {
+                "kills": 17,
+                "deaths": 16,
+                "assists": 5,
+                "combatScore": 4901
+            },
+            "round_count": 19,
+            "gun_kills": {
+                "Vandal": 13
+            },
+            "gun_damage": {
+                "Ghost": 295,
+                "Vandal": 2363,
+                "Classic": 22
+            }
+        }
+    ]
+}

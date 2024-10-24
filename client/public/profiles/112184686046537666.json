@@ -1,0 +1,67 @@
+{
+    "id": "112184686046537666",
+    "first_name": "Teedraphat",
+    "last_name": "Sakdee",
+    "status": "active",
+    "current_team_id": "112184372369781130",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "vvv",
+    "current_team_acronym": "LL",
+    "current_team_name": "LILITH",
+    "current_league_id": "107115678205203231",
+    "current_league_name": "Game Changers SEA",
+    "region": "SEA",
+    "game_records": [
+        {
+            "platform_game_id": "val:77eedd81-9089-462d-b67e-97d26304b550",
+            "game_time": "2024-04-01T09:06:44.709Z",
+            "map": "Bind",
+            "agents": {
+                "agent_name": "Reyna"
+            },
+            "kda": {
+                "kills": 16,
+                "deaths": 15,
+                "assists": 5,
+                "combatScore": 4857
+            },
+            "round_count": 18,
+            "gun_kills": {
+                "Sheriff": 4,
+                "Vandal": 11,
+                "Ghost": 1
+            },
+            "gun_damage": {
+                "Ghost": 237,
+                "Vandal": 2177,
+                "Sheriff": 760,
+                "Spectre": 106
+            }
+        },
+        {
+            "platform_game_id": "val:28289d9b-2b14-4601-a805-9b36689a917c",
+            "game_time": "2024-04-01T10:08:16.362Z",
+            "map": "Breeze",
+            "agents": {
+                "agent_name": "Jett"
+            },
+            "kda": {
+                "kills": 16,
+                "deaths": 14,
+                "assists": 2,
+                "combatScore": 4431
+            },
+            "round_count": 16,
+            "gun_kills": {
+                "Sheriff": 3,
+                "Vandal": 11,
+                "Marshal": 2
+            },
+            "gun_damage": {
+                "Sheriff": 732,
+                "Vandal": 1919,
+                "Marshal": 404
+            }
+        }
+    ]
+}

@@ -1,0 +1,120 @@
+{
+    "id": "112528562631240987",
+    "first_name": "Alvin",
+    "last_name": "Hong",
+    "status": "active",
+    "current_team_id": "112058374977618088",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "alvinboy",
+    "current_team_acronym": "SAD",
+    "current_team_name": "SaD Esports",
+    "current_league_id": "105555635175479654",
+    "current_league_name": "VCT Challengers North America",
+    "region": "NA",
+    "game_records": [
+        {
+            "platform_game_id": "val:955c34ea-9595-42d1-83ee-0aba1c769aba",
+            "game_time": "2024-05-30T20:04:06.908Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Cypher"
+            },
+            "kda": {
+                "kills": 17,
+                "deaths": 19,
+                "assists": 2,
+                "combatScore": 4707
+            },
+            "round_count": 25,
+            "gun_kills": {
+                "Vandal": 12,
+                "Sheriff": 4,
+                "Phantom": 1
+            },
+            "gun_damage": {
+                "Ghost": 32,
+                "Vandal": 2019,
+                "Sheriff": 746,
+                "Classic": 26,
+                "Phantom": 179
+            }
+        },
+        {
+            "platform_game_id": "val:8fb53e79-5f7a-4196-a2af-673842e9f9ff",
+            "game_time": "2024-05-30T21:10:45.327Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Killjoy"
+            },
+            "kda": {
+                "kills": 10,
+                "deaths": 14,
+                "assists": 1,
+                "combatScore": 3402
+            },
+            "round_count": 18,
+            "gun_kills": {
+                "Sheriff": 2,
+                "Vandal": 8
+            },
+            "gun_damage": {
+                "Ghost": 60,
+                "Vandal": 1719,
+                "Sheriff": 318,
+                "Classic": 15,
+                "Guardian": 41
+            }
+        },
+        {
+            "platform_game_id": "val:9823e257-ff55-436f-812e-c22a0e71ba33",
+            "game_time": "2024-06-06T20:01:34.279Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Killjoy"
+            },
+            "kda": {
+                "kills": 9,
+                "deaths": 15,
+                "assists": 0,
+                "combatScore": 2518
+            },
+            "round_count": 18,
+            "gun_kills": {
+                "Guardian": 2,
+                "Vandal": 6,
+                "Sheriff": 1
+            },
+            "gun_damage": {
+                "": 30,
+                "Guardian": 390,
+                "Vandal": 1152,
+                "Sheriff": 159
+            }
+        },
+        {
+            "platform_game_id": "val:f9970d8c-0e0c-4b85-8b2b-570b2a3b6397",
+            "game_time": "2024-06-06T20:59:29.075Z",
+            "map": "Split",
+            "agents": {
+                "agent_name": "Yoru"
+            },
+            "kda": {
+                "kills": 13,
+                "deaths": 18,
+                "assists": 7,
+                "combatScore": 3351
+            },
+            "round_count": 21,
+            "gun_kills": {
+                "Frenzy": 3,
+                "Vandal": 10
+            },
+            "gun_damage": {
+                "Frenzy": 302,
+                "Bulldog": 220,
+                "Vandal": 1365,
+                "Sheriff": 55
+            }
+        }
+    ]
+}

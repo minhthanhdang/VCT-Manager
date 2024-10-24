@@ -1,0 +1,73 @@
+{
+    "id": "112829096887354461",
+    "first_name": "Ja-kyung",
+    "last_name": "Kim",
+    "status": "active",
+    "current_team_id": "111006703702614704",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "ran",
+    "current_team_acronym": "NCGC",
+    "current_team_name": "Nuclear GC",
+    "current_league_id": "109029777807406730",
+    "current_league_name": "Game Changers Korea",
+    "region": "KR",
+    "game_records": [
+        {
+            "platform_game_id": "val:4df2a0ba-2257-4733-b920-77336a99d29c",
+            "game_time": "2024-07-26T11:29:28.077Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 12,
+                "deaths": 14,
+                "assists": 5,
+                "combatScore": 3410
+            },
+            "round_count": 22,
+            "gun_kills": {
+                "Vandal": 7,
+                "Sheriff": 1,
+                "Phantom": 2,
+                "Spectre": 1
+            },
+            "gun_damage": {
+                "Vandal": 1358,
+                "Sheriff": 264,
+                "Phantom": 353,
+                "Spectre": 154
+            }
+        },
+        {
+            "platform_game_id": "val:4557c78d-f104-4543-8c83-c8bb7255fcb5",
+            "game_time": "2024-07-28T06:03:36.694Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 11,
+                "deaths": 18,
+                "assists": 3,
+                "combatScore": 3127
+            },
+            "round_count": 21,
+            "gun_kills": {
+                "Vandal": 3,
+                "Odin": 2,
+                "Sheriff": 1,
+                "Spectre": 2,
+                "Guardian": 2
+            },
+            "gun_damage": {
+                "Classic": 156,
+                "Vandal": 706,
+                "Odin": 419,
+                "Sheriff": 159,
+                "Spectre": 148,
+                "Guardian": 455
+            }
+        }
+    ]
+}

@@ -1,0 +1,129 @@
+{
+    "id": "111903174695339141",
+    "first_name": "Guilherme",
+    "last_name": "Silva",
+    "status": "active",
+    "current_team_id": "111702667590900651",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "Nexy",
+    "current_team_acronym": "HOF",
+    "current_team_name": "HOF Esports",
+    "current_league_id": "109551158912464238",
+    "current_league_name": "VCT Challengers Portugal",
+    "region": "EMEA",
+    "game_records": [
+        {
+            "platform_game_id": "val:3c717bb2-4276-414b-936b-c749e41c0c99",
+            "game_time": "2024-02-12T22:22:42.243Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Phoenix"
+            },
+            "kda": {
+                "kills": 5,
+                "deaths": 14,
+                "assists": 1,
+                "combatScore": 1653
+            },
+            "round_count": 13,
+            "gun_kills": {
+                "Classic": 1,
+                "Vandal": 3,
+                "Ghost": 1
+            },
+            "gun_damage": {
+                "Classic": 130,
+                "Vandal": 532,
+                "Ghost": 243
+            }
+        },
+        {
+            "platform_game_id": "val:0f0e6bff-eb2c-4f2f-9b03-8acfc0eb88a9",
+            "game_time": "2024-02-13T21:23:00.252Z",
+            "map": "Icebox",
+            "agents": {
+                "agent_name": "Viper"
+            },
+            "kda": {
+                "kills": 19,
+                "deaths": 17,
+                "assists": 9,
+                "combatScore": 5259
+            },
+            "round_count": 21,
+            "gun_kills": {
+                "Ghost": 4,
+                "Bulldog": 1,
+                "Vandal": 10,
+                "Spectre": 2,
+                "Guardian": 2
+            },
+            "gun_damage": {
+                "Ghost": 592,
+                "Bulldog": 102,
+                "Vandal": 1862,
+                "Spectre": 324,
+                "Phantom": 65,
+                "Sheriff": 105,
+                "Guardian": 325
+            }
+        },
+        {
+            "platform_game_id": "val:a0f134c6-8494-4467-ab57-53da7b8e9088",
+            "game_time": "2024-02-18T15:04:05.038Z",
+            "map": "Icebox",
+            "agents": {
+                "agent_name": "Viper"
+            },
+            "kda": {
+                "kills": 7,
+                "deaths": 14,
+                "assists": 1,
+                "combatScore": 2423
+            },
+            "round_count": 14,
+            "gun_kills": {
+                "Ghost": 3,
+                "Sheriff": 1,
+                "Vandal": 2,
+                "Guardian": 1
+            },
+            "gun_damage": {
+                "Ghost": 545,
+                "Vandal": 554,
+                "Sheriff": 214,
+                "Guardian": 195
+            }
+        },
+        {
+            "platform_game_id": "val:62abdad3-d22c-4861-806a-a7200dfa1904",
+            "game_time": "2024-02-19T20:15:38.426Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "KAY/O"
+            },
+            "kda": {
+                "kills": 12,
+                "deaths": 16,
+                "assists": 7,
+                "combatScore": 3528
+            },
+            "round_count": 18,
+            "gun_kills": {
+                "Ghost": 1,
+                "Spectre": 1,
+                "Phantom": 8,
+                "Classic": 1,
+                "Bulldog": 1
+            },
+            "gun_damage": {
+                "Ghost": 105,
+                "Spectre": 132,
+                "Phantom": 1530,
+                "Classic": 313,
+                "Vandal": 80,
+                "Bulldog": 64
+            }
+        }
+    ]
+}

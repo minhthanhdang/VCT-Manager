@@ -1,0 +1,887 @@
+{
+    "id": "111781930655438603",
+    "first_name": "Alessandro",
+    "last_name": "Simonetti",
+    "status": "active",
+    "current_team_id": "111771854107659259",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "BALLI ",
+    "current_team_acronym": "HGE",
+    "current_team_name": "Happy Game Esport",
+    "current_league_id": "109551156421687480",
+    "current_league_name": "VCT Challengers Italy",
+    "region": "EMEA",
+    "game_records": [
+        {
+            "platform_game_id": "val:7ad83673-cac8-45ae-b745-39d430d214d1",
+            "game_time": "2024-01-27T18:00:37.847Z",
+            "map": "Split",
+            "agents": {
+                "agent_name": "Reyna"
+            },
+            "kda": {
+                "kills": 12,
+                "deaths": 15,
+                "assists": 1,
+                "combatScore": 3013
+            },
+            "round_count": 19,
+            "gun_kills": {
+                "Ghost": 3,
+                "Vandal": 8,
+                "Sheriff": 1
+            },
+            "gun_damage": {
+                "Ghost": 375,
+                "Vandal": 1360,
+                "Sheriff": 159
+            }
+        },
+        {
+            "platform_game_id": "val:e57d543e-33ce-4de2-9c64-5ff4aa27e3bf",
+            "game_time": "2024-01-28T19:23:50.656Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 24,
+                "deaths": 13,
+                "assists": 7,
+                "combatScore": 6230
+            },
+            "round_count": 21,
+            "gun_kills": {
+                "Sheriff": 1,
+                "Guardian": 7,
+                "Vandal": 15
+            },
+            "gun_damage": {
+                "Sheriff": 255,
+                "Guardian": 1081,
+                "Vandal": 2067,
+                "Classic": 52,
+                "Odin": 95
+            }
+        },
+        {
+            "platform_game_id": "val:6cd72d48-474d-4ca8-adce-b4ef248e1693",
+            "game_time": "2024-02-03T20:00:06.228Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 19,
+                "deaths": 10,
+                "assists": 2,
+                "combatScore": 5027
+            },
+            "round_count": 16,
+            "gun_kills": {
+                "Sheriff": 1,
+                "Vandal": 15
+            },
+            "gun_damage": {
+                "Sheriff": 199,
+                "Vandal": 2530
+            }
+        },
+        {
+            "platform_game_id": "val:4257659d-65c6-40ec-b533-4b14908f299c",
+            "game_time": "2024-02-04T21:15:43.497Z",
+            "map": "Split",
+            "agents": {
+                "agent_name": "Reyna"
+            },
+            "kda": {
+                "kills": 21,
+                "deaths": 16,
+                "assists": 4,
+                "combatScore": 5966
+            },
+            "round_count": 22,
+            "gun_kills": {
+                "Ghost": 5,
+                "Vandal": 15,
+                "Operator": 1
+            },
+            "gun_damage": {
+                "Ghost": 777,
+                "Vandal": 2910,
+                "Operator": 270
+            }
+        },
+        {
+            "platform_game_id": "val:7072016a-834d-46fb-a141-a67267ca3e65",
+            "game_time": "2024-02-10T20:50:36.480Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 12,
+                "deaths": 17,
+                "assists": 3,
+                "combatScore": 3574
+            },
+            "round_count": 17,
+            "gun_kills": {
+                "Ghost": 3,
+                "Vandal": 5,
+                "Guardian": 4
+            },
+            "gun_damage": {
+                "Ghost": 308,
+                "Bulldog": 70,
+                "Sheriff": 220,
+                "Vandal": 896,
+                "Classic": 26,
+                "Guardian": 650
+            }
+        },
+        {
+            "platform_game_id": "val:5653c313-c888-4f8c-920b-afbfd385c982",
+            "game_time": "2024-02-11T19:51:53.648Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 23,
+                "deaths": 15,
+                "assists": 7,
+                "combatScore": 6341
+            },
+            "round_count": 23,
+            "gun_kills": {
+                "Ghost": 2,
+                "Guardian": 3,
+                "Vandal": 14,
+                "Sheriff": 1
+            },
+            "gun_damage": {
+                "Ghost": 307,
+                "Guardian": 715,
+                "Vandal": 2521,
+                "Sheriff": 159
+            }
+        },
+        {
+            "platform_game_id": "val:ecf2eb44-cd03-4134-a377-95cf32afcdbd",
+            "game_time": "2024-02-17T19:20:10.682Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 3,
+                "deaths": 12,
+                "assists": 3,
+                "combatScore": 1203
+            },
+            "round_count": 14,
+            "gun_kills": {
+                "Ghost": 1,
+                "Guardian": 1,
+                "Vandal": 1
+            },
+            "gun_damage": {
+                "Ghost": 105,
+                "Sheriff": 100,
+                "Guardian": 390,
+                "Phantom": 25,
+                "Vandal": 159,
+                "Ares": 19
+            }
+        },
+        {
+            "platform_game_id": "val:a9447ee7-3d49-4c88-a5d1-5e4c4deebe7c",
+            "game_time": "2024-02-18T18:00:10.992Z",
+            "map": "Split",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 6,
+                "deaths": 13,
+                "assists": 4,
+                "combatScore": 1897
+            },
+            "round_count": 14,
+            "gun_kills": {
+                "Sheriff": 1,
+                "Bulldog": 1,
+                "Spectre": 1,
+                "Vandal": 1,
+                "Guardian": 1
+            },
+            "gun_damage": {
+                "Sheriff": 215,
+                "Bulldog": 122,
+                "Spectre": 26,
+                "Vandal": 373,
+                "Guardian": 195
+            }
+        },
+        {
+            "platform_game_id": "val:fb745caf-8d37-4ff5-bc35-3bec8f12b5c0",
+            "game_time": "2024-02-19T19:15:51.880Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 20,
+                "deaths": 15,
+                "assists": 12,
+                "combatScore": 6150
+            },
+            "round_count": 22,
+            "gun_kills": {
+                "Bulldog": 1,
+                "Odin": 6,
+                "Phantom": 4,
+                "Sheriff": 2,
+                "Marshal": 1,
+                "Guardian": 3,
+                "Shorty": 1
+            },
+            "gun_damage": {
+                "Ghost": 132,
+                "Bulldog": 143,
+                "Odin": 979,
+                "Vandal": 61,
+                "Phantom": 977,
+                "Sheriff": 379,
+                "Guardian": 444,
+                "Marshal": 202,
+                "Shorty": 165
+            }
+        },
+        {
+            "platform_game_id": "val:c9ee6ae7-5a07-45c7-aa16-6f5bcee05116",
+            "game_time": "2024-03-02T20:08:59.270Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 22,
+                "deaths": 11,
+                "assists": 6,
+                "combatScore": 5923
+            },
+            "round_count": 19,
+            "gun_kills": {
+                "Ghost": 6,
+                "Outlaw": 2,
+                "Sheriff": 1,
+                "Vandal": 4,
+                "Guardian": 3,
+                "Odin": 4
+            },
+            "gun_damage": {
+                "Ghost": 877,
+                "Outlaw": 280,
+                "Sheriff": 159,
+                "Vandal": 861,
+                "Guardian": 409,
+                "Odin": 840
+            }
+        },
+        {
+            "platform_game_id": "val:e11423fa-179b-41c0-8ae8-d20c44ce97a4",
+            "game_time": "2024-03-03T20:56:30.937Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 23,
+                "deaths": 15,
+                "assists": 4,
+                "combatScore": 6582
+            },
+            "round_count": 22,
+            "gun_kills": {
+                "Vandal": 17,
+                "Ghost": 1,
+                "Guardian": 1,
+                "Phantom": 2
+            },
+            "gun_damage": {
+                "Marshal": 101,
+                "Phantom": 451,
+                "Vandal": 3049,
+                "Ghost": 226,
+                "Guardian": 130
+            }
+        },
+        {
+            "platform_game_id": "val:75abca8d-e2ef-4814-a068-b0cadd27f5ff",
+            "game_time": "2024-03-09T20:59:09.840Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Killjoy"
+            },
+            "kda": {
+                "kills": 16,
+                "deaths": 19,
+                "assists": 2,
+                "combatScore": 4714
+            },
+            "round_count": 21,
+            "gun_kills": {
+                "Sheriff": 1,
+                "Classic": 1,
+                "Vandal": 11,
+                "Ghost": 1,
+                "Guardian": 1,
+                "Odin": 1
+            },
+            "gun_damage": {
+                "": 161,
+                "Sheriff": 106,
+                "Spectre": 94,
+                "Classic": 26,
+                "Vandal": 2129,
+                "Ghost": 165,
+                "Guardian": 195,
+                "Odin": 198
+            }
+        },
+        {
+            "platform_game_id": "val:c3df377a-90bd-49d3-a2f4-40a250aa3e13",
+            "game_time": "2024-03-10T20:10:08.863Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 7,
+                "deaths": 13,
+                "assists": 3,
+                "combatScore": 2226
+            },
+            "round_count": 12,
+            "gun_kills": {
+                "Sheriff": 1,
+                "Guardian": 2,
+                "Vandal": 1,
+                "Ghost": 2
+            },
+            "gun_damage": {
+                "Sheriff": 214,
+                "Guardian": 490,
+                "Vandal": 160,
+                "Ghost": 247
+            }
+        },
+        {
+            "platform_game_id": "val:ae794b16-c879-4500-8b8d-5443c0d1edeb",
+            "game_time": "2024-03-11T19:11:35.171Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 16,
+                "deaths": 14,
+                "assists": 4,
+                "combatScore": 4684
+            },
+            "round_count": 18,
+            "gun_kills": {
+                "Vandal": 13,
+                "Phantom": 1,
+                "Guardian": 1
+            },
+            "gun_damage": {
+                "Sheriff": 55,
+                "Vandal": 2345,
+                "Phantom": 175,
+                "Guardian": 260
+            }
+        },
+        {
+            "platform_game_id": "val:b89e631c-78a8-4bf8-b97d-2db9c75b0824",
+            "game_time": "2024-05-18T16:00:31.200Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "KAY/O"
+            },
+            "kda": {
+                "kills": 9,
+                "deaths": 14,
+                "assists": 9,
+                "combatScore": 2686
+            },
+            "round_count": 16,
+            "gun_kills": {
+                "Vandal": 5,
+                "Guardian": 2,
+                "Ghost": 2
+            },
+            "gun_damage": {
+                "Vandal": 808,
+                "Guardian": 438,
+                "Ghost": 189,
+                "Bulldog": 20
+            }
+        },
+        {
+            "platform_game_id": "val:43a82d0d-75f1-48c4-abb9-fe6da02da2c2",
+            "game_time": "2024-05-19T18:24:15.594Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 18,
+                "deaths": 7,
+                "assists": 11,
+                "combatScore": 5963
+            },
+            "round_count": 17,
+            "gun_kills": {
+                "Ghost": 1,
+                "Ares": 4,
+                "Vandal": 7,
+                "Guardian": 3,
+                "Odin": 2
+            },
+            "gun_damage": {
+                "Ghost": 113,
+                "Ares": 537,
+                "Vandal": 1095,
+                "Guardian": 650,
+                "Odin": 893
+            }
+        },
+        {
+            "platform_game_id": "val:decd391c-14e5-4be2-80b0-d90e50d50bfd",
+            "game_time": "2024-05-25T17:27:04.929Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 8,
+                "deaths": 17,
+                "assists": 4,
+                "combatScore": 2851
+            },
+            "round_count": 17,
+            "gun_kills": {
+                "Phantom": 3,
+                "Vandal": 3,
+                "Sheriff": 2
+            },
+            "gun_damage": {
+                "Phantom": 654,
+                "Vandal": 859,
+                "Odin": 38,
+                "Sheriff": 214,
+                "Classic": 22
+            }
+        },
+        {
+            "platform_game_id": "val:a183c15e-6030-44e0-892f-c158ee97ddb3",
+            "game_time": "2024-05-26T19:30:24.031Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 20,
+                "deaths": 12,
+                "assists": 4,
+                "combatScore": 5891
+            },
+            "round_count": 23,
+            "gun_kills": {
+                "Classic": 2,
+                "Ghost": 1,
+                "Vandal": 10,
+                "Sheriff": 4,
+                "Operator": 1
+            },
+            "gun_damage": {
+                "Classic": 207,
+                "Ghost": 102,
+                "Vandal": 1982,
+                "Odin": 193,
+                "Sheriff": 566,
+                "Operator": 150
+            }
+        },
+        {
+            "platform_game_id": "val:c61083b2-097c-4827-a46b-4ae1051d1fed",
+            "game_time": "2024-05-27T18:41:27.253Z",
+            "map": "Split",
+            "agents": {
+                "agent_name": "Clove"
+            },
+            "kda": {
+                "kills": 21,
+                "deaths": 18,
+                "assists": 9,
+                "combatScore": 5797
+            },
+            "round_count": 21,
+            "gun_kills": {
+                "Classic": 1,
+                "Vandal": 15,
+                "Ghost": 1,
+                "Bulldog": 1,
+                "Phantom": 3
+            },
+            "gun_damage": {
+                "Ghost": 274,
+                "Classic": 208,
+                "Vandal": 2777,
+                "Bulldog": 35,
+                "Phantom": 370
+            }
+        },
+        {
+            "platform_game_id": "val:823e8bc8-188b-42d7-a4aa-8576c6dccf1a",
+            "game_time": "2024-06-01T17:07:12.342Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 14,
+                "deaths": 8,
+                "assists": 4,
+                "combatScore": 3777
+            },
+            "round_count": 16,
+            "gun_kills": {
+                "Frenzy": 1,
+                "Guardian": 2,
+                "Vandal": 5,
+                "Odin": 1,
+                "Sheriff": 1
+            },
+            "gun_damage": {
+                "Frenzy": 130,
+                "Guardian": 390,
+                "Vandal": 680,
+                "Odin": 132,
+                "Sheriff": 159
+            }
+        },
+        {
+            "platform_game_id": "val:4adbc984-3cd6-4758-9b11-f8bbc2720c4a",
+            "game_time": "2024-06-02T18:53:36.850Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 21,
+                "deaths": 19,
+                "assists": 1,
+                "combatScore": 5857
+            },
+            "round_count": 23,
+            "gun_kills": {
+                "Sheriff": 5,
+                "Vandal": 11,
+                "Spectre": 3
+            },
+            "gun_damage": {
+                "Sheriff": 677,
+                "Bulldog": 35,
+                "Vandal": 2040,
+                "Spectre": 372
+            }
+        },
+        {
+            "platform_game_id": "val:8d11e81e-e7ed-45a1-a762-dadfbf710e9a",
+            "game_time": "2024-06-15T15:59:32.564Z",
+            "map": "Icebox",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 9,
+                "deaths": 13,
+                "assists": 2,
+                "combatScore": 2832
+            },
+            "round_count": 13,
+            "gun_kills": {
+                "Sheriff": 1,
+                "Vandal": 8
+            },
+            "gun_damage": {
+                "Classic": 78,
+                "Sheriff": 159,
+                "Vandal": 1483
+            }
+        },
+        {
+            "platform_game_id": "val:7175997b-b24e-45bd-b690-6ae9052c1ffd",
+            "game_time": "2024-06-16T18:04:55.611Z",
+            "map": "Bind",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 25,
+                "deaths": 14,
+                "assists": 7,
+                "combatScore": 6634
+            },
+            "round_count": 19,
+            "gun_kills": {
+                "Ghost": 5,
+                "Bulldog": 4,
+                "Outlaw": 1,
+                "Vandal": 8,
+                "Phantom": 4,
+                "Guardian": 2
+            },
+            "gun_damage": {
+                "Ghost": 629,
+                "Bulldog": 539,
+                "Outlaw": 238,
+                "Vandal": 1608,
+                "Phantom": 701,
+                "Guardian": 390
+            }
+        },
+        {
+            "platform_game_id": "val:695aaa11-e2aa-4fdf-98c1-4d48ac4374dc",
+            "game_time": "2024-06-22T17:04:05.896Z",
+            "map": "Bind",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 26,
+                "deaths": 15,
+                "assists": 2,
+                "combatScore": 7111
+            },
+            "round_count": 22,
+            "gun_kills": {
+                "Ghost": 5,
+                "Sheriff": 2,
+                "Vandal": 19
+            },
+            "gun_damage": {
+                "Ghost": 666,
+                "Sheriff": 414,
+                "Vandal": 3335
+            }
+        },
+        {
+            "platform_game_id": "val:71d944fc-1593-4911-90a8-493d3d0b3ee5",
+            "game_time": "2024-06-23T18:51:18.616Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 22,
+                "deaths": 16,
+                "assists": 4,
+                "combatScore": 5949
+            },
+            "round_count": 22,
+            "gun_kills": {
+                "Ghost": 2,
+                "Sheriff": 2,
+                "Vandal": 12,
+                "Odin": 2
+            },
+            "gun_damage": {
+                "Ghost": 235,
+                "Sheriff": 242,
+                "Guardian": 65,
+                "Vandal": 2266,
+                "Odin": 380
+            }
+        },
+        {
+            "platform_game_id": "val:86a321fd-135d-49c7-993c-eedd3d4a68dd",
+            "game_time": "2024-06-24T17:58:54.275Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 19,
+                "deaths": 19,
+                "assists": 10,
+                "combatScore": 6024
+            },
+            "round_count": 22,
+            "gun_kills": {
+                "Sheriff": 6,
+                "Vandal": 2,
+                "Phantom": 8,
+                "Guardian": 1
+            },
+            "gun_damage": {
+                "Sheriff": 703,
+                "Guardian": 262,
+                "Vandal": 421,
+                "Phantom": 1465,
+                "Odin": 131,
+                "Ghost": 30
+            }
+        },
+        {
+            "platform_game_id": "val:73c248a4-15e3-459f-a009-d39dc9b41d72",
+            "game_time": "2024-06-29T17:24:37.489Z",
+            "map": "Ascent",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 22,
+                "deaths": 15,
+                "assists": 9,
+                "combatScore": 6303
+            },
+            "round_count": 22,
+            "gun_kills": {
+                "Ghost": 1,
+                "Ares": 1,
+                "Vandal": 9,
+                "Sheriff": 3,
+                "Guardian": 1,
+                "Odin": 2,
+                "Melee": 1
+            },
+            "gun_damage": {
+                "Ghost": 215,
+                "Ares": 30,
+                "Bulldog": 239,
+                "Vandal": 1494,
+                "Sheriff": 480,
+                "Guardian": 195,
+                "Odin": 354,
+                "Melee": 150
+            }
+        },
+        {
+            "platform_game_id": "val:3ed62061-075a-472e-889d-d29286adb507",
+            "game_time": "2024-06-30T18:18:37.118Z",
+            "map": "Icebox",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 13,
+                "deaths": 12,
+                "assists": 6,
+                "combatScore": 3600
+            },
+            "round_count": 20,
+            "gun_kills": {
+                "Outlaw": 3,
+                "Vandal": 10
+            },
+            "gun_damage": {
+                "Classic": 22,
+                "Ghost": 30,
+                "Outlaw": 560,
+                "Vandal": 2007
+            }
+        },
+        {
+            "platform_game_id": "val:1733fa5e-e05d-43c4-a73d-91292c442b80",
+            "game_time": "2024-07-07T16:00:57.903Z",
+            "map": "Bind",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 21,
+                "deaths": 17,
+                "assists": 6,
+                "combatScore": 5910
+            },
+            "round_count": 22,
+            "gun_kills": {
+                "Ghost": 4,
+                "Bulldog": 2,
+                "Guardian": 3,
+                "Vandal": 7,
+                "Classic": 1,
+                "Phantom": 2
+            },
+            "gun_damage": {
+                "Ghost": 325,
+                "Bulldog": 294,
+                "Guardian": 568,
+                "Vandal": 1426,
+                "Classic": 104,
+                "Sheriff": 55,
+                "Phantom": 312
+            }
+        },
+        {
+            "platform_game_id": "val:c008cc40-071e-4bf6-9506-435256b5d26f",
+            "game_time": "2024-07-07T17:03:35.365Z",
+            "map": "Haven",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 15,
+                "deaths": 13,
+                "assists": 10,
+                "combatScore": 4581
+            },
+            "round_count": 22,
+            "gun_kills": {
+                "Vandal": 13
+            },
+            "gun_damage": {
+                "Ghost": 60,
+                "Vandal": 2551,
+                "Sheriff": 55
+            }
+        },
+        {
+            "platform_game_id": "val:e2946a51-a724-4486-a9ff-5111765704a8",
+            "game_time": "2024-07-07T17:59:42.029Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 18,
+                "deaths": 14,
+                "assists": 8,
+                "combatScore": 5067
+            },
+            "round_count": 23,
+            "gun_kills": {
+                "Ghost": 1,
+                "Vandal": 12,
+                "Bulldog": 1,
+                "Phantom": 2,
+                "Sheriff": 2
+            },
+            "gun_damage": {
+                "Ghost": 165,
+                "Vandal": 2254,
+                "Spectre": 22,
+                "Bulldog": 150,
+                "Phantom": 475,
+                "Stinger": 80,
+                "Sheriff": 264,
+                "Classic": 70
+            }
+        }
+    ]
+}

@@ -1,0 +1,103 @@
+{
+    "id": "112007904254968548",
+    "first_name": "Bryston",
+    "last_name": "Tan",
+    "status": "active",
+    "current_team_id": "112007981153900160",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "miz",
+    "current_team_acronym": "PDF",
+    "current_team_name": "Please Dont Fire",
+    "current_league_id": "105555705801095792",
+    "current_league_name": "VCT Challengers Singaport and Malaysia",
+    "region": "SGMY",
+    "game_records": [
+        {
+            "platform_game_id": "val:f42e2cc0-5bd9-44fa-8cb9-13213a51cd00",
+            "game_time": "2024-03-28T10:52:24.340Z",
+            "map": "Bind",
+            "agents": {
+                "agent_name": "Skye"
+            },
+            "kda": {
+                "kills": 14,
+                "deaths": 16,
+                "assists": 9,
+                "combatScore": 4070
+            },
+            "round_count": 22,
+            "gun_kills": {
+                "Bulldog": 1,
+                "Vandal": 9,
+                "Classic": 1,
+                "Spectre": 1,
+                "Phantom": 1,
+                "Shorty": 1
+            },
+            "gun_damage": {
+                "Bulldog": 185,
+                "Vandal": 1659,
+                "Classic": 151,
+                "Spectre": 130,
+                "Sheriff": 41,
+                "Phantom": 280,
+                "Shorty": 11
+            }
+        },
+        {
+            "platform_game_id": "val:62c38eb5-b978-479b-b8c6-5689a05c2dea",
+            "game_time": "2024-03-28T11:50:08.468Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Skye"
+            },
+            "kda": {
+                "kills": 8,
+                "deaths": 17,
+                "assists": 8,
+                "combatScore": 2396
+            },
+            "round_count": 19,
+            "gun_kills": {
+                "Phantom": 3,
+                "Spectre": 1,
+                "Vandal": 2,
+                "Stinger": 1,
+                "Bulldog": 1
+            },
+            "gun_damage": {
+                "Sheriff": 110,
+                "Phantom": 534,
+                "Spectre": 158,
+                "Vandal": 300,
+                "Stinger": 54,
+                "Bulldog": 255
+            }
+        },
+        {
+            "platform_game_id": "val:544c6fce-d5de-4028-a116-58bcd68eef08",
+            "game_time": "2024-03-28T12:43:30.859Z",
+            "map": "Icebox",
+            "agents": {
+                "agent_name": "Gekko"
+            },
+            "kda": {
+                "kills": 7,
+                "deaths": 16,
+                "assists": 3,
+                "combatScore": 2116
+            },
+            "round_count": 17,
+            "gun_kills": {
+                "Phantom": 4,
+                "Vandal": 3
+            },
+            "gun_damage": {
+                "Phantom": 777,
+                "Judge": 60,
+                "Vandal": 545,
+                "Stinger": 108
+            }
+        }
+    ]
+}

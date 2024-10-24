@@ -1,0 +1,115 @@
+{
+    "id": "112184585555601312",
+    "first_name": "Deneene",
+    "last_name": "Villarin",
+    "status": "active",
+    "current_team_id": "112184363776389689",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "Rinn",
+    "current_team_acronym": "MKS",
+    "current_team_name": "Mommy's Kitten",
+    "current_league_id": "107115678205203231",
+    "current_league_name": "Game Changers SEA",
+    "region": "SEA",
+    "game_records": [
+        {
+            "platform_game_id": "val:8abbcde2-7b3c-48ba-a330-6cf0c23acca5",
+            "game_time": "2024-04-01T08:58:27.927Z",
+            "map": "Icebox",
+            "agents": {
+                "agent_name": "Viper"
+            },
+            "kda": {
+                "kills": 4,
+                "deaths": 14,
+                "assists": 3,
+                "combatScore": 1557
+            },
+            "round_count": 13,
+            "gun_kills": {
+                "Ghost": 1,
+                "Vandal": 2,
+                "Stinger": 1
+            },
+            "gun_damage": {
+                "Ghost": 252,
+                "Vandal": 618,
+                "Sheriff": 42,
+                "Stinger": 161
+            }
+        },
+        {
+            "platform_game_id": "val:841f46f6-857c-47d7-94bc-97ce470a486c",
+            "game_time": "2024-04-01T09:41:53.538Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Raze"
+            },
+            "kda": {
+                "kills": 8,
+                "deaths": 16,
+                "assists": 1,
+                "combatScore": 2627
+            },
+            "round_count": 16,
+            "gun_kills": {
+                "Sheriff": 1,
+                "Vandal": 3,
+                "Ghost": 2
+            },
+            "gun_damage": {
+                "Sheriff": 269,
+                "Vandal": 600,
+                "Ghost": 240,
+                "Phantom": 39
+            }
+        },
+        {
+            "platform_game_id": "val:cd691b81-d58e-474d-9471-c5ef78857bd8",
+            "game_time": "2024-04-02T09:03:47.535Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Raze"
+            },
+            "kda": {
+                "kills": 7,
+                "deaths": 15,
+                "assists": 1,
+                "combatScore": 2203
+            },
+            "round_count": 16,
+            "gun_kills": {
+                "Vandal": 5,
+                "Guardian": 1
+            },
+            "gun_damage": {
+                "Vandal": 962,
+                "Guardian": 195,
+                "Ghost": 30
+            }
+        },
+        {
+            "platform_game_id": "val:3dc0d36d-2fb1-49a9-8555-9278ccf39f7a",
+            "game_time": "2024-04-02T10:00:25.470Z",
+            "map": "Sunset",
+            "agents": {
+                "agent_name": "Raze"
+            },
+            "kda": {
+                "kills": 8,
+                "deaths": 15,
+                "assists": 1,
+                "combatScore": 2650
+            },
+            "round_count": 16,
+            "gun_kills": {
+                "Vandal": 7
+            },
+            "gun_damage": {
+                "Classic": 216,
+                "Vandal": 1432,
+                "Sheriff": 110
+            }
+        }
+    ]
+}

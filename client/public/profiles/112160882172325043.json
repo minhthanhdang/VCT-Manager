@@ -1,0 +1,110 @@
+{
+    "id": "112160882172325043",
+    "first_name": "Dario",
+    "last_name": "Tan Yi Da",
+    "status": "active",
+    "current_team_id": "112007981153900160",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "kestrel",
+    "current_team_acronym": "PDF",
+    "current_team_name": "Please Dont Fire",
+    "current_league_id": "105555705801095792",
+    "current_league_name": "VCT Challengers Singaport and Malaysia",
+    "region": "SGMY",
+    "game_records": [
+        {
+            "platform_game_id": "val:f42e2cc0-5bd9-44fa-8cb9-13213a51cd00",
+            "game_time": "2024-03-28T10:52:24.340Z",
+            "map": "Bind",
+            "agents": {
+                "agent_name": "Cypher"
+            },
+            "kda": {
+                "kills": 18,
+                "deaths": 11,
+                "assists": 3,
+                "combatScore": 4837
+            },
+            "round_count": 22,
+            "gun_kills": {
+                "Spectre": 4,
+                "Phantom": 8,
+                "Shorty": 1,
+                "Ghost": 2,
+                "Bulldog": 3
+            },
+            "gun_damage": {
+                "Ghost": 234,
+                "Spectre": 312,
+                "Phantom": 1407,
+                "Shorty": 154,
+                "Bulldog": 536,
+                "Sheriff": 165
+            }
+        },
+        {
+            "platform_game_id": "val:62c38eb5-b978-479b-b8c6-5689a05c2dea",
+            "game_time": "2024-03-28T11:50:08.468Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Breach"
+            },
+            "kda": {
+                "kills": 13,
+                "deaths": 14,
+                "assists": 4,
+                "combatScore": 3500
+            },
+            "round_count": 19,
+            "gun_kills": {
+                "Classic": 3,
+                "Sheriff": 1,
+                "Phantom": 4,
+                "Vandal": 2,
+                "Stinger": 1,
+                "Spectre": 1,
+                "Ghost": 1
+            },
+            "gun_damage": {
+                "Classic": 276,
+                "Sheriff": 105,
+                "Vandal": 717,
+                "Phantom": 652,
+                "Stinger": 172,
+                "Spectre": 107,
+                "Ghost": 91
+            }
+        },
+        {
+            "platform_game_id": "val:544c6fce-d5de-4028-a116-58bcd68eef08",
+            "game_time": "2024-03-28T12:43:30.859Z",
+            "map": "Icebox",
+            "agents": {
+                "agent_name": "Sova"
+            },
+            "kda": {
+                "kills": 15,
+                "deaths": 14,
+                "assists": 3,
+                "combatScore": 4822
+            },
+            "round_count": 17,
+            "gun_kills": {
+                "Phantom": 7,
+                "Guardian": 2,
+                "Sheriff": 2,
+                "Vandal": 3,
+                "Bucky": 1
+            },
+            "gun_damage": {
+                "Ghost": 170,
+                "Phantom": 1266,
+                "Guardian": 455,
+                "Bulldog": 70,
+                "Sheriff": 354,
+                "Vandal": 440,
+                "Bucky": 160
+            }
+        }
+    ]
+}

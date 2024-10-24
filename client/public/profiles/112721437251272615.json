@@ -1,0 +1,46 @@
+{
+    "id": "112721437251272615",
+    "first_name": "Ayesha Junaid",
+    "last_name": "Khan",
+    "status": "active",
+    "current_team_id": "112721482272112541",
+    "photo_url": "https://s3.us-west-2.amazonaws.com/static.lolesports.com/players/default-headshot.png",
+    "in_game_name": "AfterLyfe",
+    "current_team_acronym": "GANG",
+    "current_team_name": "Gang Gang",
+    "current_league_id": "112609302000026507",
+    "current_league_name": "Game Changers South Asia",
+    "region": "SA",
+    "game_records": [
+        {
+            "platform_game_id": "val:bb3928a7-82be-4eee-bf67-2319e5d2a084",
+            "game_time": "2024-07-10T09:30:58.987Z",
+            "map": "Lotus",
+            "agents": {
+                "agent_name": "Iso"
+            },
+            "kda": {
+                "kills": 8,
+                "deaths": 14,
+                "assists": 5,
+                "combatScore": 2659
+            },
+            "round_count": 15,
+            "gun_kills": {
+                "Sheriff": 2,
+                "Vandal": 3,
+                "Ghost": 1,
+                "Spectre": 1,
+                "Bulldog": 1
+            },
+            "gun_damage": {
+                "Ghost": 289,
+                "Sheriff": 204,
+                "Vandal": 929,
+                "Classic": 130,
+                "Spectre": 316,
+                "Bulldog": 115
+            }
+        }
+    ]
+}
