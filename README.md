@@ -3,21 +3,24 @@
   ![Architecture](client/public/architecture.png)
 
  #### Try it out [https://vct-esports-manager.mtd-dev.com/](https://vct-esports-manager.mtd-dev.com/)
- (Please try the newest version of our app on the website. There are new features implemented for finalist round. The video on Youtube might not be updated yet since it's spring in Australia, pollen makes my throat swells :(. Below are the [screenshot](#screenshots) as well )
+ (Please try the newest version of our app on the website. There are new features implemented for finalist round. The video on Youtube might not be updated yet since it's spring in Australia, pollen makes my throat swells :(. Below are the [screenshots](#screenshots) as well )
+  ## Features
+  - **Chatbot interface**: You can ask the chatbot various question, including generic questions about Valorant, creating a team, asking about a specific player, or generate a strategy.
+  - **Team comp suggestion**: After our bot created a team for you, the dashboard will show the **suggested agents** on all 7 maps currently in rotation. You can generate the strategy for each map (on both offense and defense side). **This is an important feature, it has the ability to provide real, accurate, non-hallucination strategies. The algorithm creates a team with on-META AGENTS on specific maps (also take player's performance into consideration). The strategy suggested after consulting many current strategies on the Internet.**
+  - **Player profile view**: We visualize players' profiles so you can **COMPARE statistics** of different **agents, maps, offense/defense**, as well as the **time series** performance of a player. That way, you might see the player strengths and weaknesses, as well as the current trend of the player's performance.
+
  ## How it works & Architecture
-  - AWS Bedrock agent handles the question answer part. The agent has the knowledge base and action groups (including **algorithms** to select team composition) to work with (see below). It's initial instruction is also really clear and provide a lot of information about Valorant.
+  - **AWS Bedrock agent** handles the question answer part. The agent has the knowledge base and action groups (including **algorithms** to select team composition) to work with (see below). It's initial instruction is also really clear and provide a lot of information about Valorant.
   - Claude 3 Sonnet is used as the foundation model.
   - We heavily modified the Orchestration setting. An example is provided in the template, guidelines are modified.
-  - Next.js application invoke the BedrockAgentRuntime to get the response, using Javascript SDK.
-  - The Agent response includes players' IDs, so that we can display the portfolios at the front-end. The portfolios' data (summarized) is stored on the server.
+  - Next.js application invoke the **BedrockAgentRuntime** to get the response, using **AWS Javascript SDK**.
+  - The Agent response includes **players' IDs**, so that we can display the portfolios at the front-end. The portfolios' data (summarized) is stored on the server.
   - The chart data is process from summarized data in run-time with javascript. This helps reduce storage but increase loading time.
-  - The video only demonstrates the older version of the chatbot. Please go to our website to use the newest version. Please test the app for result.
+  - The video might demonstrate the older version of the chatbot. Please go to our website to use the newest version. Please test the app for result.
 
   ![Agent](client/public/Agent_Image.png)
 
- ## Features
-  - Chatbot interface: You can ask the chatbot various question, including generic questions about Valorant, creating a team, asking about a specific player, or generate a strategy.
-  - Player profiles & Team comp suggestion: After our bot created a team for you, the dashboard will show the player profiles and **suggested agents** on all 7 maps currently in rotation. You can generate the strategy for each map (on both offense and defense side).
+
 
  ## Human reasoning behind Team composition creation
 
@@ -120,4 +123,7 @@ Again, the recent performances are looked at. There are some "definitions" on wh
  ![ReplacePlayer](client/public/ss5.png)
  ### Best map
  ![Bestmap](client/public/ss4.png)
- 
+ ### Mix-gender team & Charts
+ ![MixGenderTeam_Charts](client/public/ss6.png)
+ ### Agents and Maps Charts & Tooltip
+ ![AgentMapChartsTooltip](client/public/ss7.png)
