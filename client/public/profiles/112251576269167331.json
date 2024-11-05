@@ -8,9 +8,6 @@
     "in_game_name": "Enderzita",
     "current_team_acronym": "PAPI",
     "current_team_name": "p\u00e1prica picante",
-    "current_league_id": "106375817979489820",
-    "current_league_name": "Game Changers Series Brazil",
-    "region": "BR",
     "game_records": [
         {
             "platform_game_id": "val:92c38b57-8ee4-4927-95d4-b771d1848708",
@@ -30,12 +27,200 @@
                 "Vandal": 11,
                 "Ghost": 1
             },
-            "gun_damage": {
-                "Ghost": 150,
-                "Classic": 78,
-                "Vandal": 2087,
-                "Bulldog": 115
-            }
+            "round_records": [
+                {
+                    "round": 1,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 30,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 1,
+                    "damage": 30
+                },
+                {
+                    "round": 2,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 78,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 78
+                },
+                {
+                    "round": 3,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 258,
+                    "kill": 1,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 217.08672330000002
+                },
+                {
+                    "round": 4,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 1,
+                    "damage": 0
+                },
+                {
+                    "round": 5,
+                    "side": "defense",
+                    "win": true,
+                    "acs": 260,
+                    "kill": 1,
+                    "death": 0,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 280
+                },
+                {
+                    "round": 6,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 34,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 34
+                },
+                {
+                    "round": 7,
+                    "side": "defense",
+                    "win": true,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 0,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                },
+                {
+                    "round": 8,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 829,
+                    "kill": 3,
+                    "death": 0,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 497.9237634
+                },
+                {
+                    "round": 9,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                },
+                {
+                    "round": 10,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 161,
+                    "kill": 1,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 40
+                },
+                {
+                    "round": 11,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 669,
+                    "kill": 2,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 418
+                },
+                {
+                    "round": 12,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 393,
+                    "kill": 1,
+                    "death": 1,
+                    "assist": 1,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 276.61265430000003
+                },
+                {
+                    "round": 13,
+                    "side": "offense",
+                    "win": true,
+                    "acs": 301,
+                    "kill": 1,
+                    "death": 0,
+                    "assist": 2,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 161
+                },
+                {
+                    "round": 14,
+                    "side": "offense",
+                    "win": true,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                },
+                {
+                    "round": 15,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 115,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 115.5
+                },
+                {
+                    "round": 16,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 260,
+                    "kill": 1,
+                    "death": 0,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 160
+                }
+            ]
         },
         {
             "platform_game_id": "val:864b441f-d3cf-44de-b0e7-ceec0c79501f",
@@ -57,15 +242,212 @@
                 "Guardian": 1,
                 "Vandal": 2
             },
-            "gun_damage": {
-                "Sheriff": 99,
-                "Bulldog": 323,
-                "": 48,
-                "Vandal": 507,
-                "Classic": 26,
-                "Ghost": 30,
-                "Guardian": 109
-            }
+            "round_records": [
+                {
+                    "round": 1,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 1,
+                    "damage": 0
+                },
+                {
+                    "round": 2,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 180,
+                    "kill": 1,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 99.1450882
+                },
+                {
+                    "round": 3,
+                    "side": "defense",
+                    "win": true,
+                    "acs": 7,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 7
+                },
+                {
+                    "round": 4,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 173,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 175.0
+                },
+                {
+                    "round": 5,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                },
+                {
+                    "round": 6,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                },
+                {
+                    "round": 7,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 300,
+                    "kill": 1,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 1,
+                    "firstDeath": 0,
+                    "damage": 150.5
+                },
+                {
+                    "round": 8,
+                    "side": "defense",
+                    "win": true,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 0,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                },
+                {
+                    "round": 9,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                },
+                {
+                    "round": 10,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 122,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 122
+                },
+                {
+                    "round": 11,
+                    "side": "defense",
+                    "win": true,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 0,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                },
+                {
+                    "round": 12,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 70,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 70
+                },
+                {
+                    "round": 13,
+                    "side": "offense",
+                    "win": true,
+                    "acs": 74,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 74
+                },
+                {
+                    "round": 14,
+                    "side": "offense",
+                    "win": true,
+                    "acs": 210,
+                    "kill": 1,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 109.2826843
+                },
+                {
+                    "round": 15,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 200,
+                    "kill": 1,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 90
+                },
+                {
+                    "round": 16,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 39,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 40.9274082
+                },
+                {
+                    "round": 17,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 607,
+                    "kill": 2,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 388
+                }
+            ]
         },
         {
             "platform_game_id": "val:fade3203-836a-4550-98ad-16f31da20746",
@@ -87,12 +469,224 @@
                 "Bulldog": 3,
                 "Vandal": 7
             },
-            "gun_damage": {
-                "Ghost": 135,
-                "Sheriff": 689,
-                "Bulldog": 440,
-                "Vandal": 1339
-            }
+            "round_records": [
+                {
+                    "round": 1,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 145,
+                    "kill": 1,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 30
+                },
+                {
+                    "round": 2,
+                    "side": "offense",
+                    "win": true,
+                    "acs": 505,
+                    "kill": 2,
+                    "death": 0,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 319.0
+                },
+                {
+                    "round": 3,
+                    "side": "offense",
+                    "win": true,
+                    "acs": 250,
+                    "kill": 1,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 1,
+                    "firstDeath": 0,
+                    "damage": 105
+                },
+                {
+                    "round": 4,
+                    "side": "offense",
+                    "win": true,
+                    "acs": 559,
+                    "kill": 2,
+                    "death": 0,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 341.23437690000003
+                },
+                {
+                    "round": 5,
+                    "side": "offense",
+                    "win": true,
+                    "acs": 250,
+                    "kill": 1,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 1,
+                    "firstDeath": 0,
+                    "damage": 120
+                },
+                {
+                    "round": 6,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                },
+                {
+                    "round": 7,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 629,
+                    "kill": 2,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 379.1599506
+                },
+                {
+                    "round": 8,
+                    "side": "offense",
+                    "win": true,
+                    "acs": 260,
+                    "kill": 1,
+                    "death": 0,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 200
+                },
+                {
+                    "round": 9,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                },
+                {
+                    "round": 10,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 320,
+                    "kill": 1,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 180.7990112
+                },
+                {
+                    "round": 11,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 1,
+                    "damage": 0
+                },
+                {
+                    "round": 12,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 120,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 1,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 120
+                },
+                {
+                    "round": 13,
+                    "side": "defense",
+                    "win": true,
+                    "acs": 230,
+                    "kill": 1,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 105
+                },
+                {
+                    "round": 14,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 230,
+                    "kill": 1,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 115.5
+                },
+                {
+                    "round": 15,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 617,
+                    "kill": 2,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 372.4113
+                },
+                {
+                    "round": 16,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                },
+                {
+                    "round": 17,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                },
+                {
+                    "round": 18,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 50,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 2,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                }
+            ]
         },
         {
             "platform_game_id": "val:e8f434f7-70fd-4aeb-a55f-a7f19a4530e7",
@@ -116,14 +710,284 @@
                 "Classic": 1,
                 "Sheriff": 1
             },
-            "gun_damage": {
-                "Ghost": 60,
-                "Spectre": 162,
-                "Bulldog": 249,
-                "Vandal": 2058,
-                "Classic": 156,
-                "Sheriff": 209
-            }
+            "round_records": [
+                {
+                    "round": 1,
+                    "side": "defense",
+                    "win": true,
+                    "acs": 90,
+                    "kill": 1,
+                    "death": 0,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 30
+                },
+                {
+                    "round": 2,
+                    "side": "defense",
+                    "win": true,
+                    "acs": 391,
+                    "kill": 2,
+                    "death": 0,
+                    "assist": 2,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 122.7
+                },
+                {
+                    "round": 3,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 40,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 40
+                },
+                {
+                    "round": 4,
+                    "side": "defense",
+                    "win": true,
+                    "acs": 349,
+                    "kill": 1,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 255.2080173
+                },
+                {
+                    "round": 5,
+                    "side": "defense",
+                    "win": true,
+                    "acs": 410,
+                    "kill": 2,
+                    "death": 0,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 245
+                },
+                {
+                    "round": 6,
+                    "side": "defense",
+                    "win": true,
+                    "acs": 40,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 40
+                },
+                {
+                    "round": 7,
+                    "side": "defense",
+                    "win": true,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 0,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                },
+                {
+                    "round": 8,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 838,
+                    "kill": 3,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 560
+                },
+                {
+                    "round": 9,
+                    "side": "defense",
+                    "win": true,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                },
+                {
+                    "round": 10,
+                    "side": "defense",
+                    "win": true,
+                    "acs": 344,
+                    "kill": 2,
+                    "death": 0,
+                    "assist": 2,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 200
+                },
+                {
+                    "round": 11,
+                    "side": "defense",
+                    "win": true,
+                    "acs": 690,
+                    "kill": 2,
+                    "death": 1,
+                    "assist": 1,
+                    "firstKill": 1,
+                    "firstDeath": 0,
+                    "damage": 400
+                },
+                {
+                    "round": 12,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                },
+                {
+                    "round": 13,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 30,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 1,
+                    "damage": 30
+                },
+                {
+                    "round": 14,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 300,
+                    "kill": 1,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 156
+                },
+                {
+                    "round": 15,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 40,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 40
+                },
+                {
+                    "round": 16,
+                    "side": "offense",
+                    "win": true,
+                    "acs": 300,
+                    "kill": 1,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 1,
+                    "firstDeath": 0,
+                    "damage": 159.5
+                },
+                {
+                    "round": 17,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                },
+                {
+                    "round": 18,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 140,
+                    "kill": 1,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 40
+                },
+                {
+                    "round": 19,
+                    "side": "offense",
+                    "win": true,
+                    "acs": 80,
+                    "kill": 0,
+                    "death": 0,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 80
+                },
+                {
+                    "round": 20,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 1,
+                    "damage": 0
+                },
+                {
+                    "round": 21,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 50,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 50
+                },
+                {
+                    "round": 22,
+                    "side": "offense",
+                    "win": true,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                },
+                {
+                    "round": 23,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 200,
+                    "kill": 1,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 200
+                }
+            ]
         },
         {
             "platform_game_id": "val:5a3d6037-6358-4feb-8440-0f60b7e02314",
@@ -144,12 +1008,212 @@
                 "Vandal": 5,
                 "Ghost": 2
             },
-            "gun_damage": {
-                "Classic": 26,
-                "Sheriff": 873,
-                "Vandal": 1013,
-                "Ghost": 195
-            }
+            "round_records": [
+                {
+                    "round": 1,
+                    "side": "defense",
+                    "win": true,
+                    "acs": 83,
+                    "kill": 0,
+                    "death": 0,
+                    "assist": 1,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 58
+                },
+                {
+                    "round": 2,
+                    "side": "defense",
+                    "win": true,
+                    "acs": 118,
+                    "kill": 1,
+                    "death": 0,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 59.180002290000004
+                },
+                {
+                    "round": 3,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 282,
+                    "kill": 1,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 159.5
+                },
+                {
+                    "round": 4,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                },
+                {
+                    "round": 5,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 436,
+                    "kill": 2,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 227.2130051
+                },
+                {
+                    "round": 6,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 610,
+                    "kill": 2,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 320
+                },
+                {
+                    "round": 7,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 34,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 34
+                },
+                {
+                    "round": 8,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 351,
+                    "kill": 1,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 1,
+                    "firstDeath": 0,
+                    "damage": 231.7470512
+                },
+                {
+                    "round": 9,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 570,
+                    "kill": 1,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 449.5
+                },
+                {
+                    "round": 10,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                },
+                {
+                    "round": 11,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 92,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 1,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 92
+                },
+                {
+                    "round": 12,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                },
+                {
+                    "round": 13,
+                    "side": "offense",
+                    "win": true,
+                    "acs": 374,
+                    "kill": 2,
+                    "death": 0,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 195
+                },
+                {
+                    "round": 14,
+                    "side": "offense",
+                    "win": true,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 0,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                },
+                {
+                    "round": 15,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 1,
+                    "damage": 0
+                },
+                {
+                    "round": 16,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 536,
+                    "kill": 2,
+                    "death": 0,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 400
+                },
+                {
+                    "round": 17,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 40,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 40
+                }
+            ]
         },
         {
             "platform_game_id": "val:4def8692-d0dd-4939-99f1-a02e3ec60c04",
@@ -170,13 +1234,248 @@
                 "Vandal": 10,
                 "Sheriff": 1
             },
-            "gun_damage": {
-                "": 152,
-                "Classic": 403,
-                "Vandal": 1774,
-                "Stinger": 57,
-                "Sheriff": 214
-            }
+            "round_records": [
+                {
+                    "round": 1,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 256,
+                    "kill": 1,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 116
+                },
+                {
+                    "round": 2,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                },
+                {
+                    "round": 3,
+                    "side": "defense",
+                    "win": true,
+                    "acs": 403,
+                    "kill": 2,
+                    "death": 0,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 230
+                },
+                {
+                    "round": 4,
+                    "side": "defense",
+                    "win": true,
+                    "acs": 80,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 1,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 80
+                },
+                {
+                    "round": 5,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 362,
+                    "kill": 1,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 1,
+                    "firstDeath": 0,
+                    "damage": 303.6733807199999
+                },
+                {
+                    "round": 6,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 1,
+                    "damage": 0
+                },
+                {
+                    "round": 7,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 470,
+                    "kill": 2,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 200
+                },
+                {
+                    "round": 8,
+                    "side": "defense",
+                    "win": true,
+                    "acs": 118,
+                    "kill": 0,
+                    "death": 0,
+                    "assist": 2,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 93.5
+                },
+                {
+                    "round": 9,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 324,
+                    "kill": 1,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 262.793854
+                },
+                {
+                    "round": 10,
+                    "side": "defense",
+                    "win": true,
+                    "acs": 260,
+                    "kill": 1,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 1,
+                    "firstDeath": 0,
+                    "damage": 214.5
+                },
+                {
+                    "round": 11,
+                    "side": "defense",
+                    "win": true,
+                    "acs": 509,
+                    "kill": 2,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 500.9079666
+                },
+                {
+                    "round": 12,
+                    "side": "defense",
+                    "win": true,
+                    "acs": 584,
+                    "kill": 2,
+                    "death": 0,
+                    "assist": 1,
+                    "firstKill": 1,
+                    "firstDeath": 0,
+                    "damage": 366.6663629
+                },
+                {
+                    "round": 13,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 289,
+                    "kill": 1,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 143.87517830000002
+                },
+                {
+                    "round": 14,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 275,
+                    "kill": 1,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 156
+                },
+                {
+                    "round": 15,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                },
+                {
+                    "round": 16,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                },
+                {
+                    "round": 17,
+                    "side": "offense",
+                    "win": true,
+                    "acs": 40,
+                    "kill": 0,
+                    "death": 0,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 40
+                },
+                {
+                    "round": 18,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                },
+                {
+                    "round": 19,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 74,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 74
+                },
+                {
+                    "round": 20,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 22,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 22.8680649
+                }
+            ]
         },
         {
             "platform_game_id": "val:578615a7-5fd5-4bb7-a846-2587b8482cae",
@@ -197,11 +1496,188 @@
                 "Vandal": 1,
                 "Classic": 1
             },
-            "gun_damage": {
-                "Ghost": 296,
-                "Vandal": 320,
-                "Classic": 156
-            }
+            "round_records": [
+                {
+                    "round": 1,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 220,
+                    "kill": 1,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 71.25
+                },
+                {
+                    "round": 2,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                },
+                {
+                    "round": 3,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                },
+                {
+                    "round": 4,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                },
+                {
+                    "round": 5,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                },
+                {
+                    "round": 6,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                },
+                {
+                    "round": 7,
+                    "side": "defense",
+                    "win": true,
+                    "acs": 260,
+                    "kill": 1,
+                    "death": 0,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 200
+                },
+                {
+                    "round": 8,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 40,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 40
+                },
+                {
+                    "round": 9,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 293,
+                    "kill": 1,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 156
+                },
+                {
+                    "round": 10,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 80,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 80
+                },
+                {
+                    "round": 11,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                },
+                {
+                    "round": 12,
+                    "side": "defense",
+                    "win": true,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 0,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                },
+                {
+                    "round": 13,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 530,
+                    "kill": 2,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 225
+                },
+                {
+                    "round": 14,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                },
+                {
+                    "round": 15,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                }
+            ]
         },
         {
             "platform_game_id": "val:1ac52dda-6d3b-447b-84b3-a2083dff7b40",
@@ -222,12 +1698,236 @@
                 "Vandal": 8,
                 "Ghost": 4
             },
-            "gun_damage": {
-                "": 54,
-                "Spectre": 540,
-                "Vandal": 1519,
-                "Ghost": 480
-            }
+            "round_records": [
+                {
+                    "round": 1,
+                    "side": "defense",
+                    "win": true,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                },
+                {
+                    "round": 2,
+                    "side": "defense",
+                    "win": true,
+                    "acs": 148,
+                    "kill": 1,
+                    "death": 0,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 96
+                },
+                {
+                    "round": 3,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 0,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 999
+                },
+                {
+                    "round": 4,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 0,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                },
+                {
+                    "round": 5,
+                    "side": "defense",
+                    "win": true,
+                    "acs": 549,
+                    "kill": 2,
+                    "death": 0,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 435.311554
+                },
+                {
+                    "round": 6,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                },
+                {
+                    "round": 7,
+                    "side": "defense",
+                    "win": true,
+                    "acs": 117,
+                    "kill": 1,
+                    "death": 0,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 160
+                },
+                {
+                    "round": 8,
+                    "side": "defense",
+                    "win": true,
+                    "acs": 237,
+                    "kill": 1,
+                    "death": 0,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 188.6051235
+                },
+                {
+                    "round": 9,
+                    "side": "defense",
+                    "win": true,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 0,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                },
+                {
+                    "round": 10,
+                    "side": "defense",
+                    "win": true,
+                    "acs": 339,
+                    "kill": 2,
+                    "death": 0,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 230.27758790000001
+                },
+                {
+                    "round": 11,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                },
+                {
+                    "round": 12,
+                    "side": "defense",
+                    "win": true,
+                    "acs": 101,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 1,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 101.8548698
+                },
+                {
+                    "round": 13,
+                    "side": "offense",
+                    "win": true,
+                    "acs": 790,
+                    "kill": 3,
+                    "death": 0,
+                    "assist": 0,
+                    "firstKill": 1,
+                    "firstDeath": 0,
+                    "damage": 363
+                },
+                {
+                    "round": 14,
+                    "side": "offense",
+                    "win": true,
+                    "acs": 170,
+                    "kill": 1,
+                    "death": 0,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 135
+                },
+                {
+                    "round": 15,
+                    "side": "offense",
+                    "win": true,
+                    "acs": 180,
+                    "kill": 1,
+                    "death": 0,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 130
+                },
+                {
+                    "round": 16,
+                    "side": "offense",
+                    "win": true,
+                    "acs": 155,
+                    "kill": 1,
+                    "death": 0,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 160
+                },
+                {
+                    "round": 17,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 274,
+                    "kill": 1,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 143.0568581
+                },
+                {
+                    "round": 18,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 120,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 1,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 120
+                },
+                {
+                    "round": 19,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                }
+            ]
         },
         {
             "platform_game_id": "val:16f4057d-1bad-435b-a6ea-3eff5cf19fda",
@@ -248,14 +1948,188 @@
                 "Vandal": 3,
                 "Classic": 1
             },
-            "gun_damage": {
-                "Ghost": 300,
-                "Vandal": 980,
-                "Sheriff": 92,
-                "Spectre": 38,
-                "Classic": 126,
-                "": 18
-            }
+            "round_records": [
+                {
+                    "round": 1,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 250,
+                    "kill": 1,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 1,
+                    "firstDeath": 0,
+                    "damage": 105
+                },
+                {
+                    "round": 2,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                },
+                {
+                    "round": 3,
+                    "side": "offense",
+                    "win": true,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 0,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                },
+                {
+                    "round": 4,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 76,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 77.6613254
+                },
+                {
+                    "round": 5,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 92,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 1,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 92.3662491
+                },
+                {
+                    "round": 6,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 120,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 120
+                },
+                {
+                    "round": 7,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 38,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 48.71314479999997
+                },
+                {
+                    "round": 8,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 74,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 1,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 74.3178406
+                },
+                {
+                    "round": 9,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 1,
+                    "damage": 0
+                },
+                {
+                    "round": 10,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 300,
+                    "kill": 1,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 200
+                },
+                {
+                    "round": 11,
+                    "side": "offense",
+                    "win": true,
+                    "acs": 510,
+                    "kill": 2,
+                    "death": 0,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 360
+                },
+                {
+                    "round": 12,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 40,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 40.110662500000004
+                },
+                {
+                    "round": 13,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 576,
+                    "kill": 2,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 1,
+                    "firstDeath": 0,
+                    "damage": 343.1
+                },
+                {
+                    "round": 14,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 1,
+                    "damage": 0
+                },
+                {
+                    "round": 15,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 120,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 1,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 120
+                }
+            ]
         },
         {
             "platform_game_id": "val:675c8cb3-e158-4fa9-9b16-95986a0dd58d",
@@ -274,12 +2148,342 @@
             "gun_kills": {
                 "Vandal": 10
             },
-            "gun_damage": {
-                "Ghost": 30,
-                "Vandal": 2028,
-                "Sheriff": 141,
-                "Classic": 26
-            }
+            "round_records": [
+                {
+                    "round": 1,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 30,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 30
+                },
+                {
+                    "round": 2,
+                    "side": "offense",
+                    "win": true,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                },
+                {
+                    "round": 3,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 94,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 94
+                },
+                {
+                    "round": 4,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                },
+                {
+                    "round": 5,
+                    "side": "offense",
+                    "win": true,
+                    "acs": 220,
+                    "kill": 1,
+                    "death": 0,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 160
+                },
+                {
+                    "round": 6,
+                    "side": "offense",
+                    "win": true,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                },
+                {
+                    "round": 7,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 480,
+                    "kill": 2,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 380
+                },
+                {
+                    "round": 8,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                },
+                {
+                    "round": 9,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                },
+                {
+                    "round": 10,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 188,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 2,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 164.1258926
+                },
+                {
+                    "round": 11,
+                    "side": "offense",
+                    "win": true,
+                    "acs": 96,
+                    "kill": 0,
+                    "death": 0,
+                    "assist": 1,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 71
+                },
+                {
+                    "round": 12,
+                    "side": "offense",
+                    "win": false,
+                    "acs": 154,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 154
+                },
+                {
+                    "round": 13,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                },
+                {
+                    "round": 14,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 26,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 26
+                },
+                {
+                    "round": 15,
+                    "side": "defense",
+                    "win": true,
+                    "acs": 494,
+                    "kill": 2,
+                    "death": 0,
+                    "assist": 1,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 280
+                },
+                {
+                    "round": 16,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                },
+                {
+                    "round": 17,
+                    "side": "defense",
+                    "win": false,
+                    "acs": 897,
+                    "kill": 3,
+                    "death": 1,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 734
+                },
+                {
+                    "round": 18,
+                    "side": "defense",
+                    "win": true,
+                    "acs": 0,
+                    "kill": 0,
+                    "death": 0,
+                    "assist": 0,
+                    "firstKill": 0,
+                    "firstDeath": 0,
+                    "damage": 0
+                }
+            ]
+        }
+    ],
+    "current_league_id": "106375817979489820",
+    "current_league_name": "Game Changers Series Brazil",
+    "region": "BR",
+    "roles": [
+        "Sentinel"
+    ],
+    "agent_statistics": [
+        {
+            "agent": "Viper",
+            "acs": 212.4,
+            "kills": 0.69,
+            "deaths": 0.78,
+            "assists": 0.18,
+            "game_count": 3
+        },
+        {
+            "agent": "Cypher",
+            "acs": 182.76,
+            "kills": 0.68,
+            "deaths": 0.85,
+            "assists": 0.17,
+            "game_count": 3
+        },
+        {
+            "agent": "Killjoy",
+            "acs": 171.66,
+            "kills": 0.59,
+            "deaths": 0.77,
+            "assists": 0.13,
+            "game_count": 4
+        }
+    ],
+    "offense_statistics": {
+        "average_combat_score_per_round": 159.68,
+        "kill_death_ratio": 0.7,
+        "first_kill_rate": 0.06,
+        "first_death_rate": 0.06,
+        "average_damage_per_round": 103.91
+    },
+    "defense_statistics": {
+        "average_combat_score_per_round": 185.07,
+        "kill_death_ratio": 0.9,
+        "first_kill_rate": 0.07,
+        "first_death_rate": 0.05,
+        "average_damage_per_round": 133.75
+    },
+    "general_statistics": {
+        "acs": 187.21,
+        "kill_death_ratio": 0.8,
+        "assists": 0.16
+    },
+    "five_latest_games_from_latest_to_older": [
+        {
+            "team1": "p\u00e1prica picante",
+            "team2": "Team Leveling",
+            "map": "Bind",
+            "player_agent": "Viper",
+            "player_kda": {
+                "kills": 10,
+                "deaths": 15,
+                "assists": 4,
+                "combatScore": 3309
+            },
+            "player_round_count": 18
+        },
+        {
+            "team1": "p\u00e1prica picante",
+            "team2": "Team Leveling",
+            "map": "Haven",
+            "player_agent": "Killjoy",
+            "player_kda": {
+                "kills": 6,
+                "deaths": 13,
+                "assists": 3,
+                "combatScore": 2196
+            },
+            "player_round_count": 14
+        },
+        {
+            "team1": "Team Leveling",
+            "team2": "p\u00e1prica picante",
+            "map": "Icebox",
+            "player_agent": "Killjoy",
+            "player_kda": {
+                "kills": 16,
+                "deaths": 7,
+                "assists": 2,
+                "combatScore": 3750
+            },
+            "player_round_count": 19
+        },
+        {
+            "team1": "LOUD",
+            "team2": "p\u00e1prica picante",
+            "map": "Sunset",
+            "player_agent": "Cypher",
+            "player_kda": {
+                "kills": 5,
+                "deaths": 13,
+                "assists": 0,
+                "combatScore": 1423
+            },
+            "player_round_count": 14
+        },
+        {
+            "team1": "LOUD",
+            "team2": "p\u00e1prica picante",
+            "map": "Haven",
+            "player_agent": "Killjoy",
+            "player_kda": {
+                "kills": 14,
+                "deaths": 16,
+                "assists": 4,
+                "combatScore": 4066
+            },
+            "player_round_count": 19
         }
     ]
 }

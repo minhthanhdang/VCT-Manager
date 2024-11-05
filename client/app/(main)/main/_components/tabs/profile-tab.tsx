@@ -28,14 +28,14 @@ export const ProfileTab = ({
 
   return (
     <div className="relative flex w-full h-full bg-black overflow-y-scroll scrollbar-thin scrollbar-thumb-gray-700 scrollbar-track-gray-900">
-      <div className="relative h-full w-full grid grid-rows-8 gap-2">
-        <div className="relative row-span-2  bg-[#ff4655] py-8 px-10">
+      <div className="relative h-full w-full grid grid-rows-10 gap-2 row-">
+        <div className="relative row-span-3 bg-[#ff4655] px-10 flex items-center">
           <div className="h-full grid grid-cols-12 ">
-          <div className="col-span-3">
-            <Image src="/PlaceholderAvatar.png" alt="Avatar" width={180} height={180} />
+          <div className="col-span-3 flex items-center">
+            <Image src="/PlaceholderAvatar.png" alt="Avatar" width={180} height={180} className="aspect-square"/>
           </div>
 
-          <div className="col-span-9 flex flex-col ps-10 text-black">
+          <div className="col-span-9 flex flex-col ps-10 text-black justify-center">
             <div className="text-[24px] font-bold uppercase leading-5">
               {profile.first_name} {profile.last_name}
             </div>
@@ -74,7 +74,7 @@ export const ProfileTab = ({
           </div>
         </div>
 
-        <div className="relative flex flex-col w-full h-full row-span-6">
+        <div className="relative flex flex-col w-full h-full row-span-7">
           <GeneralTab records={profile.game_records}/>
         </div>
         

@@ -54,7 +54,7 @@ export const MapsLineChart = ({
   console.log(chartData)
 
   return (
-    <Card>
+    <Card className="w-full">
       <CardHeader>
         <CardTitle>Player's Average Combat Score On Different Maps</CardTitle>
         <CardDescription>Maps performance in last 6 appearances</CardDescription>
@@ -74,7 +74,7 @@ export const MapsLineChart = ({
               dataKey="dataPoint"
               hide={true}
             />
-            <ChartTooltip cursor={true} content={<ChartTooltipContent />} />
+            <ChartTooltip cursor={true} content={<ChartTooltipContent hideLabel={true}/>} />
             {labels.map((data, index) => (
               <Line
                 key={index}

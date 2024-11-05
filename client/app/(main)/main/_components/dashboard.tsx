@@ -9,17 +9,22 @@ import {
   TabsTrigger,
 } from "@/components/ui/tabs"
 import { NoProfile } from "./other/no-profile";
+import { TeamTab } from "./tabs/team-tab";
+import { IndividualTab } from "./tabs/individuals-tab";
 
 interface DashboardProps {
   players: any;
+  sessionId: string;
 }
 
 export const Dashboard = ({
-  players
+  players,
+  sessionId
 }: DashboardProps) => {
 
   const [profiles, setProfiles] = useState<any[]>([]);
 
+  // Load static profiles if receive new IDs
   useEffect(() => {
     const fetchPlayers = async (player_files: string) => {
 
@@ -27,47 +32,50 @@ export const Dashboard = ({
         setProfiles([]);
         return;
       }
-
-      try {
-        const temp_profiles = [];
-        for (let i = 0; i < player_files.length; i++) {
+      const temp_profiles = [];
+      
+        
+      for (let i = 0; i < player_files.length; i++) {
+        try {
           const file_path = "/profiles/" + player_files[i] + ".json";
           const response = await fetch(file_path)
           const data = await response.json();
           temp_profiles.push(data);
           console.log(data);
+        } catch (error) {
+          console.error('Error loading JSON:', error);
         }
-        setProfiles( temp_profiles);
-      } catch (error) {
-        console.error('Error loading JSON:', error);
       }
+        setProfiles(temp_profiles);
     }
 
     fetchPlayers(players);
   }, [players]);
   
+  console.log(players)
+  console.log("Profiles: ", profiles);
   if (profiles && profiles.length > 0) {
     return (
-      <Tabs defaultValue={profiles[0].id} className="w-full">
-        <TabsList className="grid w-full grid-cols-5 overflow-hidden bg-black">
-          {profiles.map((profile: any) => (
-            <TabsTrigger value={profile.id} key={profile.id} className="overflow-hidden ">
-            
-              {profile.first_name} {profile.last_name}
-             
-            </TabsTrigger>
-          ))}
+      <Tabs className="relative w-full h-full overflow-hidden" defaultValue="team">
+        <TabsList className="relative flex w-full gap-2 overflow-hidden bg-black">
+
+          <TabsTrigger value="team" className="overflow-hidden flex-grow">
+            Team Composition
+          </TabsTrigger>
+          <TabsTrigger value="individuals" className="overflow-hidden flex-grow">
+            Individual Profiles
+          </TabsTrigger>
         </TabsList>
-
-        {profiles.map((profile: any) => (
-          <TabsContent value={profile.id} key={profile.id} className="relative w-full h-full">
-            <ProfileTab profile={profile} />
-          </TabsContent>
-        ))}
-
+        <TabsContent value="team" className="relative w-full h-full overflow-hidden">
+          <TeamTab profiles={profiles} sessionId={sessionId}/>
+        </TabsContent>
+        <TabsContent value="individuals" className="relative w-full h-full overflow-hidden">
+          <IndividualTab profiles={profiles} />
+        </TabsContent>  
       </Tabs>
     )
   } else {
+    // Placeholder for no profiles
     console.log("No profiles");
     return (
       <NoProfile />

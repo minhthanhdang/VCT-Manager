@@ -64,13 +64,13 @@ export const GunChart = ({
   }, [chartData]);
   
   return (
-    <Card>
+    <Card className="relative w-full h-full">
       <CardHeader>
         <CardTitle>Total Gun Kills</CardTitle>
         <CardDescription>Recent matches</CardDescription>
       </CardHeader>
       <CardContent className="px-3 py-1 pt-0 ps-5">
-        <ChartContainer config={chartConfig} className="h-[200px]">
+        <ChartContainer config={chartConfig} className="h-[200px] w-full">
           <BarChart
             accessibilityLayer
             data={barChartData}

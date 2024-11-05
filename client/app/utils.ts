@@ -1,3 +1,5 @@
+import { profile } from "console";
+
 export function findSubstringById(text: string) {
   // Loop through the string from the end
   for (let i = text.length - 1; i >= 0; i--) {
@@ -242,4 +244,135 @@ export function getMapsKDRatio(records: any) {
     result = result.slice(0, 5);
   }
   return result;
+}
+
+export function getSuggestMapAgents(profiles: any[]) {
+  try {
+
+  let best_agents = {
+    "Abyss": [
+      ["Sova", "KAY/O", "Gekko"],
+      ["Cypher", "Deadlock"],
+      ["Omen", "Astra", "Viper"],
+      ["Jett", "Yoru"]
+    ],
+    "Ascent": [
+      ["Fade", "Sova", "KAY/O"],
+      ["Cypher", "Killjoy", "Sage"],
+      ["Astra", "Brimstone", "Omen"],
+      ["Jett", "Reyna", "Neon"],
+    ],
+    "Bind": [
+      ["Skye", "Fade", "Gekko"],
+      ["Sage", "Cypher", "Killjoy"],
+      ["Viper", "Brimstone", "Harbor"],
+      ["Raze", "Jett", "Yoru"],
+    ],
+    "Haven": [
+      ["Breach", "Sova", "KAY/O"],
+      ["Killjoy", "Cypher", "Chamber"],
+      ["Omen", "Astra", "Clove"],
+      ["Jett", "Neon", "Phoenix"]
+    ],
+    "Pearl": [
+      ["Fade", "KAY/O", "Sova"],
+      ["Cypher", "Killjoy", "Chamber"],
+      ["Astra", "Omen"],
+      ["Neon", "Jett", "Yoru"]
+    ],
+    "Split": [
+      ["KAY/O", "Breach", "Skye"],
+      ["Cypher", "Deadlock", "Chamber"],
+      ["Viper", "Omen", "Clove"],
+      ["Raze", "Jett"]
+    ],
+    "Sunset": [
+      ["Sova", "Breach", "Fade"],
+      ["Cypher"],
+      ["Omen", "Clove"],
+      ["Neon", "Raze", "Yoru"]
+    ]
+  }
+
+  // Get list of 5 agent stats for 5 profiles
+  const agent_stats = profiles.map((profile) => profile["agent_statistics"])
+  let result: any = {}
+
+  // Get list of 5 agent pools of 5 players
+  let agent_pools: any[] = []
+  for (const agent_stat of agent_stats) {
+    agent_pools.push(agent_stat.map((stat: any) => stat["agent"]))
+  }
+  
+  // Loop through the maps
+  for (let [map, role_agents] of Object.entries(best_agents)) {
+    let temp: any[] = [];
+    role_agents = role_agents.reverse();
+
+    role_agents.push(role_agents.flat());
+
+    // Loop through each position
+    for (let i = 0; i < role_agents.length; i++) {
+      let agent_pool = agent_pools[i];
+      let found = false;
+      for (const agent of agent_pool) {
+        if (role_agents[i].includes(agent) && !temp.includes(agent)) {
+          temp.push(agent)
+          found = true
+          break
+        }
+      }
+      if (!found) {
+        for (const agent of agent_pool) {
+          if (!temp.includes(agent)) {
+            temp.push(agent)
+            found = true
+            break
+          }
+        }
+      }
+      if (!found) {
+        for (const agent of role_agents[i]) {
+          if (!temp.includes(agent)) {
+            temp.push(agent)
+            found = true
+            break
+          }
+        }
+      }
+    }
+
+    result[map] = temp;
+  }
+  return result;
+  }
+  catch (error) {
+    return {}
+  }
+}
+
+export function getMostPlayedMaps(records: any[]) {
+  let temp: any = {};
+  for (let i = 0; i < records.length; i++) {
+    let record = records[i];
+    if (!record.map) {
+      continue
+    }
+    let map = record.map;
+    if (!temp.hasOwnProperty(map)) {
+      temp[map] = 0;
+    }
+    temp[map]++;
+  }
+
+  temp = Object.entries(temp).map(([key, value]) => ({ map: key, played: value }));
+  temp = temp.sort((a: any, b: any) => b.played - a.played);
+
+  temp = temp.slice(0, 5);
+  if (temp.length > 5) {
+    let other = temp.slice(5).reduce((acc: number, curr: any) => acc + curr.played, 0);
+    temp.push({ map: "Other", played: other });
+  }
+
+  return temp;
 }

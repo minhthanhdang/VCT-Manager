@@ -61,13 +61,13 @@ export const MapKDRChart = ({
   }, [chartData]);
 
   return (
-    <Card>
+    <Card className="relative w-full">
       <CardHeader>
         <CardTitle>K/D Ratios</CardTitle>
         <CardDescription>Recent matches</CardDescription>
       </CardHeader>
-      <CardContent className="px-3 py-1 pt-0 pb-4 ps-5">
-        <ChartContainer config={chartConfig} className="h-[200px]">
+      <CardContent className="px-3 py-1 pt-0 pb-4 ps-5 w-full">
+        <ChartContainer config={chartConfig} className="h-[200px] w-full">
           <BarChart
             accessibilityLayer
             data={barChartData}

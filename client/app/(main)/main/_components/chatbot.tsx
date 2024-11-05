@@ -1,6 +1,7 @@
 "use client"
 
 import * as z from "zod"
+import { toast } from "sonner"
 
 import { useState } from "react"
 import { useForm } from "react-hook-form"
@@ -26,10 +27,14 @@ const test_messages: ChatMessage[] = [
 
 interface ChatBotProps {
   setPlayerIds: (players: any[]) => void;
+  playerIds: any[];
+  setSession: (sessionId: string) => void;
 }
 
 const ChatBot = ({
-  setPlayerIds
+  setPlayerIds,
+  playerIds,
+  setSession
 } : ChatBotProps) => {
 
   const [messages, setMessages] = useState<ChatMessage[]>(test_messages);
@@ -49,14 +54,25 @@ const ChatBot = ({
     try{
       const response = await axios.post("/api/invokeAgent", {
         prompt: values.prompt,
-        sessionId: sessionId
+        sessionId: sessionId,
+        ids: playerIds
       })
       console.log(response);
-      setMessages((current) => [...current,{ role: "user", message: values.prompt}, { role: "agent", message: response.data.completion }])
-      setSessionId(response.data.sessionId);
-      if (response.data.players && response.data.players.length > 0) {
-        setPlayerIds(response.data.players);
-      } 
+      if ("error" in response.data) {
+        console.log(response.data.error);
+        toast("Please try again", {
+          description: response.data.error
+        })
+        return;
+      } else {
+        setMessages((current) => [...current,{ role: "user", message: values.prompt}, { role: "agent", message: response.data.completion }])
+        setSessionId(response.data.sessionId);
+        setSession(response.data.sessionId);
+        if (response.data.players && response.data.players.length > 0) {
+          setPlayerIds(response.data.players);
+        } 
+      }
+      
       console.log(isLoading)
     } catch (error: any) {
       console.log(error);

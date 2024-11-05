@@ -89,7 +89,7 @@ export const AgentCountChart = ({
       </CardContent>
       <CardFooter className="flex-col gap-2 text-sm">
         <div className="leading-none text-muted-foreground">
-          Showing game played for the last 6 months
+          Showing game played for the last 7 months
         </div>
       </CardFooter>
     </Card>

@@ -3,14 +3,11 @@
     "first_name": "portilla",
     "last_name": "joselyn",
     "status": "active",
-    "current_team_id": "108452432292545538",
+    "current_team_id": "108469348707752304",
     "photo_url": "http://static.lolesports.com/players/1643734200321_silhouette_transparent.png",
     "in_game_name": "almndra",
-    "current_team_acronym": "UC",
-    "current_team_name": "Cruzados Esports",
-    "current_league_id": "109879575186437267",
-    "current_league_name": "Game Changers LATAM",
-    "region": "LATAM",
+    "current_team_acronym": "LEV",
+    "current_team_name": "Leviatan",
     "game_records": [
         {
             "platform_game_id": "val:5065db7d-ca9d-43e6-bb7f-88bce499e9f3",
@@ -30,12 +27,57 @@
                 "Vandal": 6,
                 "Ghost": 1
             },
-            "gun_damage": {
-                "Vandal": 1006,
-                "Ghost": 182,
-                "Bulldog": 70,
-                "Classic": 104
-            }
+            "round_records": []
+        }
+    ],
+    "current_league_id": "109879575186437267",
+    "current_league_name": "Game Changers LATAM",
+    "region": "LATAM",
+    "roles": [
+        "Initiator"
+    ],
+    "agent_statistics": [
+        {
+            "agent": "Fade",
+            "acs": 128.59,
+            "kills": 0.41,
+            "deaths": 0.88,
+            "assists": 0.41,
+            "game_count": 1
+        }
+    ],
+    "offense_statistics": {
+        "average_combat_score_per_round": 0.0,
+        "kill_death_ratio": 0.0,
+        "first_kill_rate": 0.0,
+        "first_death_rate": 0.0,
+        "average_damage_per_round": 0.0
+    },
+    "defense_statistics": {
+        "average_combat_score_per_round": 0.0,
+        "kill_death_ratio": 0.0,
+        "first_kill_rate": 0.0,
+        "first_death_rate": 0.0,
+        "average_damage_per_round": 0.0
+    },
+    "general_statistics": {
+        "acs": 128.59,
+        "kill_death_ratio": 0.47,
+        "assists": 0.41
+    },
+    "five_latest_games_from_latest_to_older": [
+        {
+            "team1": "Leviatan",
+            "team2": "University War",
+            "map": "Sunset",
+            "player_agent": "Fade",
+            "player_kda": {
+                "kills": 7,
+                "deaths": 15,
+                "assists": 7,
+                "combatScore": 2186
+            },
+            "player_round_count": 17
         }
     ]
 }

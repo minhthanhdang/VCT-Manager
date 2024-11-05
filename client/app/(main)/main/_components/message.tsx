@@ -14,7 +14,7 @@ export const Message = ({
     <div className=
       "relative max-w-[85%] border-2 rounded-xl flex py-3 px-4">
       <div className={cn(
-        "w-full text-white",
+        "w-full text-white whitespace-pre-line",
         role === "user" ? "border-gray-100 text-right" : "border-black text-left"
       )}>
         {message}

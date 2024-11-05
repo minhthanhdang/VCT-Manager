@@ -12,7 +12,7 @@ export async function POST(
   req: Request,
 ) {
   const body = await req.json();
-  let { prompt, sessionId } = body;
+  let { prompt, sessionId, ids } = body;
   console.log("Prompt: ", prompt);
 
   const client = new BedrockAgentRuntimeClient({
@@ -22,13 +22,24 @@ export async function POST(
   if (sessionId === undefined || sessionId === null || sessionId === "") {
     sessionId = uuidv4();
   }
+
+  let idsString = ""
+  if (ids === undefined || ids === null || ids.length === 0) {
+    ids = [];
+  } else {
+    idsString = ids.join(", ");
+    idsString = "Here are the IDs of current players on the team: " + idsString + ". ";
+  }
+
+  let input_prompt = prompt + "\n" + idsString;
   const command = new InvokeAgentCommand({
-    agentId: "UWO1RKWHK4",
-    agentAliasId: "J4JQKPQII1",
+    agentId: "F3AX09JOGV",
+    agentAliasId: "0YNAEK6UJJ",
     sessionId: sessionId,
-    inputText: prompt,
+    inputText: input_prompt,
   })
   
+  console.log(input_prompt)
   
   try {
     let completion = "";
@@ -50,28 +61,31 @@ export async function POST(
 
     console.log(completion)
 
-    let ids: any[] = [];
+    let new_ids: any[] = [];
 
     const { beforeSubstring, afterSubstring} = findSubstringById(completion);
 
     if (afterSubstring === null) {
-      ids = [];
+      new_ids = [];
     } else {
       const values = afterSubstring.match(/\d{12,}/g);
 
       // Extract only the matched IDs
-      ids = values ? values.map(id => id.trim()) : [];
+      new_ids = values ? values.map(id => id.trim()) : [];
     }
 
-    console.log("Extracted IDs: ", ids);
+    console.log("Extracted IDs: ", new_ids);
 
-    if (!ids || ids.length != 5) {
+    if (!new_ids || new_ids.length != 5) {
       return NextResponse.json({ sessionId: sessionId, completion: completion, players: [] });
     }
     
-    return NextResponse.json({ sessionId: sessionId, completion: beforeSubstring, players: ids });
-  } catch (err) {
-    console.log(err)
+    return NextResponse.json({ sessionId: sessionId, completion: beforeSubstring, players: new_ids });
+  } catch (err: any) {
+    console.log(err.message)
+    if (err.message.includes("Your request rate is too high")) {
+      return NextResponse.json({ error: "Agent throttling error" });
+    }
     return NextResponse.json({ error: "Error" });
   }
 }

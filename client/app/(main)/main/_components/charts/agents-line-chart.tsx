@@ -74,7 +74,7 @@ export const AgentsLineChart = ({
               dataKey="dataPoint"
               hide={true}
             />
-            <ChartTooltip cursor={true} content={<ChartTooltipContent />} />
+            <ChartTooltip cursor={true} content={<ChartTooltipContent hideLabel={true}/>} />
             {labels.map((data, index) => (
               <Line
                 key={index}

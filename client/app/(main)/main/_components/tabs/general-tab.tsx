@@ -15,12 +15,13 @@ import {
 import { AcsChart } from "../charts/acs-chart"
 import { useState, useEffect } from "react";
 import { GunChart } from "../charts/gun-chart";
-import { getAgentCount, getAgentsKDRatio, getAgentsLineChartData, getMapsKDRatio, getMapsLineChartData } from "@/app/utils";
+import { getAgentCount, getAgentsKDRatio, getAgentsLineChartData, getMapsKDRatio, getMapsLineChartData, getMostPlayedMaps } from "@/app/utils";
 import { AgentCountChart } from "../charts/agent-count-chart";
 import { AgentsLineChart } from "../charts/agents-line-chart";
 import { AgentKDRChart } from "../charts/agent-kdr-chart";
 import { MapsLineChart } from "../charts/maps-line-chart";
 import { MapKDRChart } from "../charts/map-kdr-chart";
+import { MapCountChart } from "../charts/map-count-chart";
 
 interface GeneralTabProps {
   records: any;
@@ -33,7 +34,7 @@ export const GeneralTab = ({
   const [acs, setAcs] = useState<{ acs: number }[]>([]);
   const [gunStats, setGunStats] = useState<{ gun: string, kills: number, damage: number }[]>([]);
   const [pieChartData, setPieChartData] = useState<{ agent: string, played: number }[]>([])
-
+  const [mapCountChartData, setMapCountChartData] = useState<{ map: string, played: number }[]>([])
   const [agentsLineChartData, setAgentsLineChartData] = useState<any[]>([])
   
   const [matchCount, setMatchCount] = useState<number>(0);
@@ -85,6 +86,7 @@ export const GeneralTab = ({
       setAgentKDR(getAgentsKDRatio(records));
       setMapsLineChartData(getMapsLineChartData(records));
       setMapKDR(getMapsKDRatio(records));
+      setMapCountChartData(getMostPlayedMaps(records));
     }
     
   }, [records]);
@@ -107,16 +109,19 @@ export const GeneralTab = ({
               This player general statistics and match history
             </CardDescription>
           </CardHeader>
-          <CardContent className="grid grid-rows-2 grid-cols-2 gap-x-2">
-            <div className='col-span-1 row-span-1 font-bold'>
+          <CardContent className="grid grid-rows-2 grid-cols-2 gap-x-2 gap-y-2">
+            <div className='col-span-2 row-span-1 font-bold'>
               <AcsChart chartData={acs}/>
             </div>
-            <div className='col-span-1 row-span-1 font-bold'>
+            <div className='col-span-2 row-span-1 font-bold'>
               <GunChart chartData={gunStats} matches={matchCount}/>
             </div>
             <div className="col-span-1 row-span-1 font-bold">
               <AgentCountChart chartData={pieChartData}/>
-            </div>            
+            </div>  
+            <div className="col-span-1 row-span-1 font-bold">
+              <MapCountChart chartData={mapCountChartData}/>
+            </div>           
           </CardContent>
           <CardFooter>
           </CardFooter>
@@ -131,10 +136,10 @@ export const GeneralTab = ({
             </CardDescription>
           </CardHeader>
           <CardContent className="grid grid-rows-2 grid-cols-2 gap-2">
-            <div className='col-span-1 row-span-1 font-bold'>
+            <div className='col-span-2 row-span-1 font-bold'>
               <AgentsLineChart chartData={agentsLineChartData} />
             </div>
-            <div className='col-span-1 row-span-1 font-bold'>
+            <div className='col-span-2 row-span-1 font-bold'>
               <AgentKDRChart chartData={agentKDR}/>
             </div>
             
@@ -152,10 +157,10 @@ export const GeneralTab = ({
             </CardDescription>
           </CardHeader>
           <CardContent className="grid grid-rows-2 grid-cols-2 gap-2">
-            <div className='col-span-1 row-span-1 font-bold'>
+            <div className='col-span-2 row-span-1 font-bold'>
               <MapsLineChart chartData={mapsLineChartData}/>
             </div>
-            <div className='col-span-1 row-span-1 font-bold'>
+            <div className='col-span-2 row-span-1 font-bold'>
               <MapKDRChart chartData={mapKDR}/>
             </div>
             
