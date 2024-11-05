@@ -6,10 +6,10 @@
     "version": "1.0.0"
   },
   "paths": {
-    "/getPotentialProfiles": {
+    "/getSuggestedTeam": {
       "post": {
-        "description": "Retrieve potential Valorant player profiles by specifying a list of required league and region for each position. There are five positions in a team, each will receive five different player profiles.",
-        "operationId": "getPotentialPortfolios",
+        "description": "Create a Valorant team of five by specifying a list of required league and region for each position. Request must be formatted as JSON. The API will return the list of player profiles suggested for the team",
+        "operationId": "getSuggestedTeam",
         "parameters": [],
         "requestBody": {
           "required": true,
@@ -20,7 +20,7 @@
                 "properties": {
                   "requirements": {
                     "type": "array",
-                    "minItems": 1,
+                    "minItems": 5,
                     "maxItems": 5,
                     "items": {
                       "type": "object",
@@ -39,6 +39,7 @@
                             "americas",
                             "emea",
                             "cn",
+                            "pacific",
                             "apac",
                             "latam",
                             "las",
@@ -49,7 +50,15 @@
                             "sea",
                             "kr",
                             "jp",
-                            "sa"
+                            "sa",
+                            "sgmy",
+                            "id",
+                            "th",
+                            "ph",
+                            "hktw",
+                            "ea",
+                            "italy",
+                            "portugal"
                           ]
                         }
                       },
@@ -63,7 +72,7 @@
                   {"leauge": "vct-challengers", "region": "americas"},
                   {"leauge": "vct-challengers", "region": "emea"},
                   {"leauge": "vct-challengers", "region": "americas"},
-                  {"leauge": "vct-challengers", "region": "apac"},
+                  {"leauge": "vct-challengers", "region": "pacific"},
                   {"leauge": "vct-challengers", "region": "americas"}
                 ]
               }
@@ -154,6 +163,288 @@
           }
         }
       }
+    },
+    "/getGuideline": {
+      "post": {
+        "description": "Get the guideline for either creating a Valorant team, justify a player performance, or imagine an offense scenario.",
+        "operationId": "getGuideline",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "action": {
+                    "type": "string",
+                    "enum": [
+                      "create_team",
+                      "replace_player",
+                      "justify_player",
+                      "offense_scenario"
+                    ]
+                  }
+                }
+              },
+              "example": {
+                "action": "team_creation"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful response with the guideline",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "guideline": {
+                      "type": "string",
+                      "description": "The guideline for the specified action"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/getReplacement": {
+      "post": {
+        "description": "Get the replacement suggestion for a Valorant player by specifying the player ID or player first name and last name. Also specify the unavailable players' ID or first name and last name, including the current team and players the user doesn't want to have. Request must be formatted as JSON.",
+        "operationId": "getReplacement",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "toReplace": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "string",
+                        "description": "Player ID"
+                      },
+                      "role": {
+                        "type": "string",
+                        "description": "Player role"
+                      },
+                      "first_name": {
+                        "type": "string",
+                        "description": "Player first name"
+                      },
+                      "last_name": {
+                        "type": "string",
+                        "description": "Player last name"
+                      },
+                      "region": {
+                        "type": "string",
+                        "description": "Player's region"
+                      },
+                      "league": {
+                        "type": "string",
+                        "description": "Player's league"
+                      }
+                    },
+                    "oneOf": [
+                      {"required": ["id", "role"]},
+                      {"required": ["first_name", "last_name", "role"]}
+                    ]
+                  },
+                  "unavailablePlayers": {
+                    "type": "array",
+                    "description": "List of objects of unavailable players, this includes the players currently on the team and the players the user doesn't want to have. Request must be formatted as JSON.",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "description": "Player ID"
+                        },
+                        "first_name": {
+                          "type": "string",
+                          "description": "Player first name"
+                        },
+                        "last_name": {
+                          "type": "string",
+                          "description": "Player last name"
+                        }
+                      },
+                      "oneOf": [
+                        {"required": ["id"]},
+                        {"required": ["first_name", "last_name"]}
+                      ]
+                    }
+                  }
+                }
+              },
+              "example": {
+                "toReplace": {
+                  "id": "107729648820931094",
+                  "first_name": "Kimmie",
+                  "last_name": "Laasner"
+                },
+                "unavailablePlayers": [
+                  {"id": "108695555965222493", "first_name": "Aaron", "last_name": "Leonhart"},
+                  {"id": "106664993881319312"},
+                  {"first_name": "Benjamin", "last_name": "Fish"}
+                ]
+              }
+            }
+          }
+        },
+          
+        "responses": {
+          "200": {
+            "description": "Successful response with the replacement suggestion",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "replacement": {
+                      "$ref": "#/components/schemas/PlayerProfile"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        
+      }
+    },
+    "/getBestmap": {
+      "post": {
+        "description": "Get the best map for a Valorant player by specifying the players' IDs or players' first names and last names. Request must be formatted as JSON. You must provide the IDs in this order: Duelist, Controller, Sentinel, Initiator, Flex.",
+        "operationId": "getBestmap",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "playersInfo": {
+                    "type": "array",
+                    "minItems": 5,
+                    "maxItems": 5,
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string",
+                          "description": "Player ID"
+                        },
+                        "first_name": {
+                          "type": "string",
+                          "description": "Player first name"
+                        },
+                        "last_name": {
+                          "type": "string",
+                          "description": "Player last name"
+                        }
+                      },
+                      "oneOf": [
+                        {"required": ["id"]},
+                        {"required": ["first_name", "last_name"]}
+                      ]
+                    }
+                  }
+                }
+              },
+              "example": {
+                "players": [
+                  {"id": "107729648820931094", "first_name": "Kimmie", "last_name": "Laasner"},
+                  {"id": "106724769775977160", "first_name": "Aaron", "last_name": "Leonhart"},
+                  {"id": "106660453242133180"},
+                  {"first_name": "Abhirup Paul", "last_name": "Choudhury"},
+                  {"id": "108695555965222493"}
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful response with the best map suggestion",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "bestMap": {
+                      "type": "string"
+                    },
+                    "agents": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/getMapInformation": {
+      "post": {
+        "description": "Get the information of a Valorant map by specifying the map name.",
+        "operationId": "getMapInformation",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "map": {
+                    "type": "string",
+                    "description": "Map name"
+                  }
+                }
+              },
+              "example": {
+                "map": "Bind"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful response with the map information",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "map": {
+                      "type": "string",
+                      "description": "Map name"
+                    },
+                    "description": {
+                      "type": "string",
+                      "description": "Map description"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
     }
   },
   "components": {
@@ -174,9 +465,9 @@
             "type": "string",
             "description": "Player last name"
           },
-          "status": {
+          "in_game_name": {
             "type": "string",
-            "description": "Whether the player is active or not"
+            "description": "Player's in-game name (Valorant nickname)"
           },
           "current_team_acronym": {
             "type": "string",
@@ -194,6 +485,13 @@
             "type": "string",
             "description": "Player's region"
           },
+          "roles": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "description": "A role that this player can play"
+            }
+          },
           "general_statistics": {
             "type": "object",
             "properties": {
@@ -201,19 +499,67 @@
                 "type": "number",
                 "description": "Average Combat Score Each Round"
               },
-              "kills": {
+              "kill_death_ratio": {
                 "type": "number",
-                "description": "Average Number of Kills Each Round"
+                "description": "Average K/D ratio (Kills/Deaths ratio)"
               },
-              "deaths": {
-                "type": "number",
-                "description": "Average Number of Deaths Each Round"
-              },
-              "assists": {
+              "assists_per_round": {
                 "type": "number",
                 "description": "Average Number of Assists Each Round"
               }
             }
+          },
+          "offense_statistics": {
+            "type": "object",
+            "properties": {
+              "average_combat_score_per_round": {
+                "type": "number",
+                "description": "Average Combat Score Each Round"
+              },
+              "kill_death_ratio": {
+                "type": "number",
+                "description": "Average K/D ratio (Kills/Deaths ratio)"
+              },
+              "first_kill_rate": {
+                "type": "number",
+                "description": "How likely a player gets the first kill in a round"
+              },
+              "first_death_rate": {
+                "type": "number",
+                "description": "How likely a player dies first in a round"
+              },
+              "average_damage_per_round": {
+                "type": "number",
+                "description": "Average damage dealt per round"
+              }
+            },
+            "description": "Player statistics when playing offense rounds"
+          },
+          "defense_statistics": {
+            "type": "object",
+            "properties": {
+              "average_combat_score_per_round": {
+                "type": "number",
+                "description": "Average Combat Score Each Round"
+              },
+              "kill_death_ratio": {
+                "type": "number",
+                "description": "Average K/D ratio (Kills/Deaths ratio)"
+              },
+              "first_kill_rate": {
+                "type": "number",
+                "description": "How likely a player gets the first kill in a round"
+              },
+              "first_death_rate": {
+                "type": "number",
+                "description": "How likely a player dies first in a round"
+              },
+              "average_damage_per_round": {
+                "type": "number",
+                "description": "Average damage dealt per round"
+              }
+            },
+            "description": "Player statistics when playing defense rounds"
           },
           "agent_statistics": {
             "type": "array",
@@ -226,25 +572,22 @@
                 },
                 "acs": {
                   "type": "number",
-                  "description": "Average Combat Score Each Round"
+                  "description": "Agent Average Combat Score Each Round"
                 },
-                "kills": {
+                "kill_death_ratio": {
                   "type": "number",
-                  "description": "Average Number of Kills Each Round"
+                  "description": "Agent Average K/D ratio (Kills/Deaths ratio)"
                 },
-                "deaths": {
+                "assists_per_round": {
                   "type": "number",
-                  "description": "Average Number of Deaths Each Round"
+                  "description": "Agent Average Number of Assists Each Round"
                 },
-                "assists": {
+                "game_played": {
                   "type": "number",
-                  "description": "Average Number of Assists Each Round"
-                },
-                "rank": {
-                  "type": "number",
-                  "description": "Player's agent rank based on ACS. 1 means the best agent for the player."
+                  "description": "Number of game played with this agent"
                 }
-              }
+              },
+              "description": "Player statistics when playing with a specific agent"
             }
           },
           "map_statistics": {
@@ -252,31 +595,28 @@
             "items": {
               "type": "object",
               "properties": {
-                "map": {
+                "agent": {
                   "type": "string",
                   "description": "Map name"
                 },
                 "acs": {
                   "type": "number",
-                  "description": "Average Combat Score Each Round"
+                  "description": "Map Average Combat Score Each Round"
                 },
-                "kills": {
+                "kill_death_ratio": {
                   "type": "number",
-                  "description": "Average Number of Kills Each Round"
+                  "description": "Map Average K/D ratio (Kills/Deaths ratio)"
                 },
-                "deaths": {
+                "assists_per_round": {
                   "type": "number",
-                  "description": "Average Number of Deaths Each Round"
+                  "description": "Map Average Number of Assists Each Round"
                 },
-                "assists": {
+                "game_played": {
                   "type": "number",
-                  "description": "Average Number of Assists Each Round"
-                },
-                "rank": {
-                  "type": "number",
-                  "description": "Player's map rank based on ACS. 1 means the best map for the player."
+                  "description": "Number of game played with this map"
                 }
-              }
+              },
+              "description": "Player statistics when playing on a specific map"
             }
           }
         }
@@ -296,6 +636,10 @@
           "last_name": {
             "type": "string",
             "description": "Player last name"
+          },
+          "in_game_name": {
+            "type": "string",
+            "description": "Player's in-game name (Valorant nickname)"
           },
           "status": {
             "type": "string",
