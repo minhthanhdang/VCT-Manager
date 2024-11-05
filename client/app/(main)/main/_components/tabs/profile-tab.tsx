@@ -75,7 +75,7 @@ export const ProfileTab = ({
         </div>
 
         <div className="relative flex flex-col w-full h-full row-span-7">
-          <GeneralTab records={profile.game_records}/>
+          <GeneralTab records={profile.game_records} profile={profile}/>
         </div>
         
       </div>

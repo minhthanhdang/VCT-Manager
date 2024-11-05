@@ -2,8 +2,10 @@
 
   ![Architecture](client/public/architecture.png)
 
+ #### Try it out [https://vct-esports-manager.mtd-dev.com/](https://vct-esports-manager.mtd-dev.com/)
+ (Please try the newest version of our app on the website. There are new features implemented for finalist round. The video on Youtube might not be updated yet since it's spring in Australia, pollen makes my throat swells :(. Below are the [screenshot](#screenshots) as well )
  ## How it works & Architecture
-  - AWS Bedrock agent handle the question answer part. The agent has the knowledge base and action groups (including **algorithms** to select team composition) to work with (see below). It's initial instruction is also really clear and provide a lot of information about Valorant.
+  - AWS Bedrock agent handles the question answer part. The agent has the knowledge base and action groups (including **algorithms** to select team composition) to work with (see below). It's initial instruction is also really clear and provide a lot of information about Valorant.
   - Claude 3 Sonnet is used as the foundation model.
   - We heavily modified the Orchestration setting. An example is provided in the template, guidelines are modified.
   - Next.js application invoke the BedrockAgentRuntime to get the response, using Javascript SDK.
@@ -15,7 +17,7 @@
 
  ## Features
   - Chatbot interface: You can ask the chatbot various question, including generic questions about Valorant, creating a team, asking about a specific player, or generate a strategy.
-  - Player profiles & Team comp suggestion: After our bot created a team for you, the dashboard will show the player profiles and suggested agents on all 7 maps currently in rotation. You can generate the strategy for each map (on both offense and defense side).
+  - Player profiles & Team comp suggestion: After our bot created a team for you, the dashboard will show the player profiles and **suggested agents** on all 7 maps currently in rotation. You can generate the strategy for each map (on both offense and defense side).
 
  ## Human reasoning behind Team composition creation
 
@@ -59,13 +61,14 @@ Again, the recent performances are looked at. There are some "definitions" on wh
 
  #### 3. VCT Game Changers
   In general, these are the **RECORDED** region hierachy for the AI deduction.
-    + Pacific: SEA (include VN, TH, PH, SG and MY, HK and TW, ID), SA(South Asia), JP, KR
+    + Pacific: SEA , SA(South Asia), JP, KR, EA(East Asia, also includes JP and KR)
     + CN: **(No recorded tournaments)**
     + Americas: BR, LATAM, NA
     + EMEA
 
  ### Player stats
-  - There are many aspects to consider when judging a player. Through provided data, these stats are recorded: KDA, ACS, Gun kills in regard to these categories: agents, maps, or general.
+  - Only information in **2024** are used. Why? Map rotation (7 maps in professional play) changes often (3 times in 2024 already). Players change team fast. Valorant meta updates constantly. I think older data will reduce the "currently" attribute of the data, since we want to create a Valorant team to play now, not a year ago.
+  - There are many aspects to consider when judging a player. Through provided data, these stats are recorded: KDA, ACS, Gun kills, first kill/death rate, average damage per round in regard to these categories: agents, maps, offense/defense, or general.
   - Justification:
     - **Number of game played on specific agent/map** shows a player's mastery on that agent/map. A broad agent/map pool shows that the player understands the game well.
     - **Guns** play an important strategic role in Valorant. Some strategies are:
@@ -85,11 +88,11 @@ Again, the recent performances are looked at. There are some "definitions" on wh
    - These information are used to create the vector store and knowledge base. When creating teams, the agent will choose a team composition and strategies from its retrieved chunks.
 
   ### Justification
-   - AI is good at reading unstructured data and customize generation, so we only put unstructured data into the knowledge base, so it can create some diversity in team compositions and strategies.
+   - AI is good at reading unstructured data and customize generation, so we only put unstructured data into the knowledge base, so it can create some diversity in answer about Valorant, generic information about team compositions and strategies.
    - Player data is structured. Beside average statistics, time series are the best way to judge a player's performance over time, whether that player is consistent or not. So we plot **time series** into graphs.
   ### Some obstacles
    - Leagues and Regions are rename from abbreviations and "code-like" names to human-readable names.
-   - Only information in 2024 are used. That's enough for the agent to process.
+   - Claude Sonnet 3 likes to return data in XML format :( sometimes. Had to consider that beside JSON.
    - gamePhase=="GAME_ENDED" event is used to get players' KDA, combat score, agents.
    - playerDied and damageEvent events are use to get gun kills and damage.
    - Event with 'snapshot' key is used to get agents, maps.
@@ -107,3 +110,14 @@ Again, the recent performances are looked at. There are some "definitions" on wh
   - (UPDATED): Throttling issue happens when you generate too often.
 
  ## Screenshots
+ ### Create team & Suggested Agents for every maps & Generate strategy
+ ![Bestmap](client/public/ss3.png)
+ ### IGL role
+ ![IGLRole](client/public/ss1.png)
+ ### Player Inclusion Justification
+ ![PlayerInclusionJustification](client/public/ss2.png)
+ ### Player not available
+ ![ReplacePlayer](client/public/ss5.png)
+ ### Best map
+ ![Bestmap](client/public/ss4.png)
+ 

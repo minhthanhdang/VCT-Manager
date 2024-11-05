@@ -376,3 +376,21 @@ export function getMostPlayedMaps(records: any[]) {
 
   return temp;
 }
+
+export function getOffenseDefenseData(profile: any) {
+  let temp: any[] = [];
+
+  let offense_stat = profile["offense_statistics"];
+  let defense_stat = profile["defense_statistics"];
+
+  if (offense_stat && defense_stat) {
+    temp.push({ data: "ACS", offense: offense_stat["average_combat_score_per_round"], defense: defense_stat["average_combat_score_per_round"] });
+    temp.push({ data: "K/D ratio", offense: offense_stat["kill_death_ratio"]*100, defense: defense_stat["kill_death_ratio"]*100 });
+    temp.push({ data: "First kill rate", offense: offense_stat["first_kill_rate"]*100, defense: defense_stat["first_kill_rate"] *100});
+    temp.push({ data: "First death rate", offense: offense_stat["first_death_rate"]*100, defense: defense_stat["first_death_rate"] *100});
+    temp.push({ data: "Average Damage per round", offense: offense_stat["average_damage_per_round"], defense: defense_stat["average_damage_per_round"] });
+  }
+
+  
+  return temp;
+}
