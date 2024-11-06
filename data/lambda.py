@@ -631,7 +631,7 @@ def lambda_handler(event, context):
         1. vct-international: americas, pacific, cn, emea
         2. vct-challengers: id, vn, sgmy, br, latam, na, italy, lan, ph, sa, portugal, hktw, jp, las, th, pacific, kr
         3. game-changers: kr, sa, jp, br, latam, na, emea, pacific, ea, sea.
-        You MUST validate the user request first. If the user is requesting an unavailable region in a specific league, inform the user and ask the user to change the request. ONLY If the user request is valid, getSuggestedTeam. Else, ask the user to change their requirements.
+        You MUST check the user request first. If the player doesn't specify the region or league, you MUST choose the requirements randomly by yourself, then proceed to getSuggestedTeam. If the user is requesting an unavailable region in a specific league, inform the user and ask the user to change the request.
         If the user request pro player, only take players from vct-international. If the user request semi-pro players, only take players from vct-challengers and game-changers. If the user request mix-gender players, only take players from game-changers.
         When creating a Valorant team, you have to introduce every players and their statistics. These are the general statistics that you will see:
         1. Role: The role that a player is most suitable for in this team composition. There are five roles: Duelist, Controller, Sentinel, Initiator, and Flex.
@@ -653,7 +653,7 @@ def lambda_handler(event, context):
       guideline = """
         Replace player guideline:
 
-        When being asked to replace a player, you need to look at the current team. Identify which player the user want to replace. If that player wasn't on the team, ask the user for clarification. Else, extract information about that player's ID, role, first name, or last name, and get the replacement of that player. Also specify the IDs of the player on the current team. Then get the replacement player. You must format your request in JSON. In your response, you must introduce the new player statistics, and justify why you made that choice (normally because both players share the same league, region, role, and agent pool). Then make sure to include the new team players' IDs at the end.
+        When being asked to replace a player, you need to look at the current team. Identify which player the user want to replace. If that player wasn't on the team, ask the user for clarification. Else, extract information about that player's ID, first name, last name; and about the desired new region, league; and then get the replacement of that player. Also specify the IDs of the player on the current team. Then get the replacement player. You must format your request in JSON. In your response, you must introduce the new player statistics, and justify why you made that choice (normally because both players share the same league, region, role, and agent pool). Then make sure to include the new team players' IDs at the end.
       """
     return {"guideline": guideline}
 
@@ -677,6 +677,8 @@ def lambda_handler(event, context):
     role = unavailable.get('role', '')
     first_name = unavailable.get('first_name', '')
     last_name = unavailable.get('last_name', '')
+    region = unavailable.get('region', '')
+    league = unavailable.get('league', '')
     result = []
     if id != None and id != '':
       result = _find_detailed_profile([{"id": id}])
@@ -701,10 +703,14 @@ def lambda_handler(event, context):
         role = "Initiator"
     if len(role_agents) == 0:
       role_agents = agents
-    league = result[0]["current_league_name"]
-    region = result[0]["region"]
+    if region == '':
+      region = result[0]["region"]
+    if league == '':
+      league = result[0]["current_league_name"]
     league_name = ""
-    if league in ["VCT EMEA", "VCT Americas", "VCT China", "VCT Pacific"]:
+    if league in ["vct-international", "vct-challengers", "game-changers"]:
+      league_name = league
+    elif league in ["VCT EMEA", "VCT Americas", "VCT China", "VCT Pacific"]:
       league_name = "vct-international"
     elif league in ["VCT Challengers SEA Indonesia", "VCT Challengers SEA Vietnam", "VCT Challengers Singaport and Malaysia", "VCT Challengers Brazil", "VCT Challengers Latin America", "VCT Challengers North America", "VCT Challengers Italy", "VCT Challengers Latin America North", "VCT Challengers SEA Philippines", "VCT Challengers South Asia", "VCT Challengers Portugal", "VCT Challengers SEA Hong Kong and Taiwan", "VCT Challengers Japan", "VCT Challengers Latin America South", "VCT Challengers SEA Thailand", "VCT Challengers Korea"]:
       league_name = "vct-challengers"

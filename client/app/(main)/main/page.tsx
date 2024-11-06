@@ -6,8 +6,8 @@ import ChatBot from "./_components/chatbot"
 import { useState } from "react"
 
 const Main = () => {
-  //const [playerIds, setPlayerIds] = useState<any[]>(["106116564871354330"]);
-  const [playerIds, setPlayerIds] = useState<string[]>([]);
+  const [playerIds, setPlayerIds] = useState<any[]>(["106116564871354330"]);
+  //const [playerIds, setPlayerIds] = useState<string[]>([]);
   const [sessionId, setSessionId] = useState<string>("");
 
   console.log(playerIds)

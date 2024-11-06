@@ -385,9 +385,9 @@ export function getOffenseDefenseData(profile: any) {
 
   if (offense_stat && defense_stat) {
     temp.push({ data: "ACS", offense: offense_stat["average_combat_score_per_round"], defense: defense_stat["average_combat_score_per_round"] });
-    temp.push({ data: "K/D ratio", offense: offense_stat["kill_death_ratio"]*100, defense: defense_stat["kill_death_ratio"]*100 });
-    temp.push({ data: "First kill rate", offense: offense_stat["first_kill_rate"]*100, defense: defense_stat["first_kill_rate"] *100});
-    temp.push({ data: "First death rate", offense: offense_stat["first_death_rate"]*100, defense: defense_stat["first_death_rate"] *100});
+    temp.push({ data: "K/D ratio", offense: offense_stat["kill_death_ratio"], defense: defense_stat["kill_death_ratio"] });
+    temp.push({ data: "First kill rate", offense: offense_stat["first_kill_rate"], defense: defense_stat["first_kill_rate"] });
+    temp.push({ data: "First death rate", offense: offense_stat["first_death_rate"], defense: defense_stat["first_death_rate"] });
     temp.push({ data: "Average Damage per round", offense: offense_stat["average_damage_per_round"], defense: defense_stat["average_damage_per_round"] });
   }
 

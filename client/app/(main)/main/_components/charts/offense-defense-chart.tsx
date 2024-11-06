@@ -22,6 +22,7 @@ import {
 import { useEffect } from "react"
 import { useState } from "react"
 import { set } from "zod"
+import { NameType, ValueType } from "recharts/types/component/DefaultTooltipContent"
 
 export const description = "A radar chart with multiple data"
 
@@ -84,8 +85,30 @@ export function OffenseDefenseChart({
             <RadarChart data={normalizedData}>
               <ChartTooltip
                 cursor={false}
+                payload={chartData}
                 content={<ChartTooltipContent 
                   indicator="line" 
+                  formatter={(value: ValueType, name: NameType, item, index: number, payload) => {
+                    console.log("index: ", index)
+                    console.log("item: ", item)
+                    console.log("value: ", value)
+                    console.log("payload: ", payload)
+                    return (
+                      <>
+                      <div className="h-2.5 w-2.5 shrink-0 rounded-[2px] bg-[--color-bg]"
+                      style={
+                        {
+                          "--color-bg": `var(--color-${name})`,
+                        } as React.CSSProperties}
+                      >
+                        
+                      </div>
+                      <div>
+                      {chartData[normalizedData.findIndex(p => p==payload)][name]}
+                      </div>
+                      </>
+                    )
+                  }}
                 />}
               />
               <PolarAngleAxis dataKey="data" />
