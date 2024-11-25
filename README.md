@@ -3,6 +3,7 @@
   ![Architecture](client/public/architecture.png)
 
  #### Try it out [https://vct-esports-manager.mtd-dev.com/](https://vct-esports-manager.mtd-dev.com/)
+ #### Edit: The Judging phase is over, so the I terminated the OpenSearch Database, which means the agent can't answer generic questions anymore.
  (Please try the newest version of our app on the website. There are new features implemented for finalist round. The video on Youtube might not be updated yet since it's spring in Australia, pollen makes my throat swells :(. Below are the [screenshots](#screenshots) as well )
   ## Features
   - **Chatbot interface**: You can ask the chatbot various question, including generic questions about Valorant, creating a team, asking about a specific player, or generate a strategy.
