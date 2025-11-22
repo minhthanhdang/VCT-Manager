@@ -4,17 +4,17 @@ export function findSubstringById(text: string) {
   // Loop through the string from the end
   for (let i = text.length - 1; i >= 0; i--) {
     // Check if the current character is a dot
-    if (text[i] === '.') {
-        // Get the substring from the dot to the end
-        const substring = text.substring(i);
-        
-        // Check if "ID" is present in the substring
-        if (substring.includes("ID")) {
-            return {
-                beforeSubstring: text.substring(0, i).trim(),
-                afterSubstring: substring.trim(),
-            };
-        }
+    if (text[i] === ".") {
+      // Get the substring from the dot to the end
+      const substring = text.substring(i);
+
+      // Check if "ID" is present in the substring
+      if (substring.includes("ID")) {
+        return {
+          beforeSubstring: text.substring(0, i).trim(),
+          afterSubstring: substring.trim(),
+        };
+      }
     }
   }
   return { beforeSubstring: text.trim(), afterSubstring: null }; // No dot followed by "ID" found
@@ -25,18 +25,20 @@ export function getBestAgents(records: any) {
   for (let i = 0; i < records.length; i++) {
     let record = records[i];
     if (!record.agents || !record.agents.agent_name) {
-      continue
+      continue;
     }
     let agent = record.agents.agent_name;
     if (!temp.hasOwnProperty(agent)) {
       temp[agent] = { agent: agent, acs: 0, round_played: 0 };
     }
-    temp[agent].acs += record.kda.combatScore/record.round_count;
+    temp[agent].acs += record.kda.combatScore / record.round_count;
     temp[agent].round_played += record.round_count;
   }
 
   for (let key in temp) {
-    temp[key].acs = parseFloat((temp[key].acs/temp[key].round_played).toFixed(2));
+    temp[key].acs = parseFloat(
+      (temp[key].acs / temp[key].round_played).toFixed(2)
+    );
   }
 
   temp = Object.values(temp).sort((a: any, b: any) => b.acs - a.acs);
@@ -50,18 +52,20 @@ export function getBestMaps(records: any) {
   for (let i = 0; i < records.length; i++) {
     let record = records[i];
     if (!record.map) {
-      continue
+      continue;
     }
     let map = record.map;
     if (!temp.hasOwnProperty(map)) {
       temp[map] = { map: map, acs: 0, round_played: 0 };
     }
-    temp[map].acs += record.kda.combatScore/record.round_count;
+    temp[map].acs += record.kda.combatScore / record.round_count;
     temp[map].round_played += record.round_count;
   }
 
   for (let key in temp) {
-    temp[key].acs = parseFloat((temp[key].acs/temp[key].round_played).toFixed(2));
+    temp[key].acs = parseFloat(
+      (temp[key].acs / temp[key].round_played).toFixed(2)
+    );
   }
 
   temp = Object.values(temp).sort((a: any, b: any) => b.acs - a.acs);
@@ -75,7 +79,7 @@ export function getAgentCount(records: any) {
   for (let i = 0; i < records.length; i++) {
     let record = records[i];
     if (!record.agents || !record.agents.agent_name) {
-      continue
+      continue;
     }
     let agent = record.agents.agent_name;
     if (!temp.hasOwnProperty(agent)) {
@@ -84,12 +88,17 @@ export function getAgentCount(records: any) {
     temp[agent]++;
   }
 
-  temp = Object.entries(temp).map(([key, value]) => ({ agent: key, played: value }));
+  temp = Object.entries(temp).map(([key, value]) => ({
+    agent: key,
+    played: value,
+  }));
   temp = temp.sort((a: any, b: any) => b.played - a.played);
 
   temp = temp.slice(0, 5);
   if (temp.length > 5) {
-    let other = temp.slice(5).reduce((acc: number, curr: any) => acc + curr.played, 0);
+    let other = temp
+      .slice(5)
+      .reduce((acc: number, curr: any) => acc + curr.played, 0);
     temp.push({ agent: "Other", played: other });
   }
 
@@ -101,39 +110,41 @@ export function getAgentsLineChartData(records: any) {
   for (let i = 0; i < records.length; i++) {
     let record = records[i];
     if (!record.agents || !record.agents.agent_name) {
-      continue
+      continue;
     }
     let agent = record.agents.agent_name;
     if (!temp.hasOwnProperty(agent)) {
-      temp[agent] = [] ;
+      temp[agent] = [];
     }
-    temp[agent].push(parseFloat((record.kda.combatScore/record.round_count).toFixed(2)));
+    temp[agent].push(
+      parseFloat((record.kda.combatScore / record.round_count).toFixed(2))
+    );
   }
 
-  temp = Object.entries(temp).map(([key, value]) => ({ 
-    agent: key, 
-    acs: value 
+  temp = Object.entries(temp).map(([key, value]) => ({
+    agent: key,
+    acs: value,
   }));
 
-  temp = temp.sort((a: any, b: any) => {b.acs.length - a.acs.length});
+  temp = temp.sort((a: any, b: any) => {
+    b.acs.length - a.acs.length;
+  });
 
   if (temp.length > 6) {
     temp = temp.slice(0, 6);
   }
 
-  let result: any[] = []
+  let result: any[] = [];
   for (let i = 5; i >= 0; i--) {
-    
-
-    let tempObj: any = { dataPoint: i}
+    let tempObj: any = { dataPoint: i };
     for (let j = 0; j < temp.length; j++) {
       if (temp[j].acs.length < i + 1) {
         tempObj[temp[j].agent] = null;
       } else {
-        tempObj[temp[j].agent] = temp[j].acs[i]
+        tempObj[temp[j].agent] = temp[j].acs[i];
       }
     }
-    
+
     result.push(tempObj);
   }
 
@@ -147,7 +158,7 @@ export function getAgentsKDRatio(records: any) {
   for (let i = 0; i < records.length; i++) {
     let record = records[i];
     if (!record.agents || !record.agents.agent_name) {
-      continue
+      continue;
     }
     let agent = record.agents.agent_name;
     if (!temp.hasOwnProperty(agent)) {
@@ -157,9 +168,9 @@ export function getAgentsKDRatio(records: any) {
     temp[agent].deaths += record.kda.deaths;
   }
 
-  let result: any[] = []
+  let result: any[] = [];
   for (let key in temp) {
-    let kdratio = parseFloat((temp[key].kills/temp[key].deaths).toFixed(2));
+    let kdratio = parseFloat((temp[key].kills / temp[key].deaths).toFixed(2));
 
     result.push({ agent: key, kdr: kdratio });
   }
@@ -176,39 +187,41 @@ export function getMapsLineChartData(records: any) {
   for (let i = 0; i < records.length; i++) {
     let record = records[i];
     if (!record.map) {
-      continue
+      continue;
     }
     let map = record.map;
     if (!temp.hasOwnProperty(map)) {
-      temp[map] = [] ;
+      temp[map] = [];
     }
-    temp[map].push(parseFloat((record.kda.combatScore/record.round_count).toFixed(2)));
+    temp[map].push(
+      parseFloat((record.kda.combatScore / record.round_count).toFixed(2))
+    );
   }
 
-  temp = Object.entries(temp).map(([key, value]) => ({ 
-    map: key, 
-    acs: value 
+  temp = Object.entries(temp).map(([key, value]) => ({
+    map: key,
+    acs: value,
   }));
 
-  temp = temp.sort((a: any, b: any) => {b.acs.length - a.acs.length});
+  temp = temp.sort((a: any, b: any) => {
+    b.acs.length - a.acs.length;
+  });
 
   if (temp.length > 6) {
     temp = temp.slice(0, 6);
   }
 
-  let result: any[] = []
+  let result: any[] = [];
   for (let i = 5; i >= 0; i--) {
-    
-
-    let tempObj: any = { dataPoint: i}
+    let tempObj: any = { dataPoint: i };
     for (let j = 0; j < temp.length; j++) {
       if (temp[j].acs.length < i + 1) {
         tempObj[temp[j].map] = null;
       } else {
-        tempObj[temp[j].map] = temp[j].acs[i]
+        tempObj[temp[j].map] = temp[j].acs[i];
       }
     }
-    
+
     result.push(tempObj);
   }
 
@@ -222,7 +235,7 @@ export function getMapsKDRatio(records: any) {
   for (let i = 0; i < records.length; i++) {
     let record = records[i];
     if (!record.map) {
-      continue
+      continue;
     }
     let map = record.map;
     if (!temp.hasOwnProperty(map)) {
@@ -232,9 +245,9 @@ export function getMapsKDRatio(records: any) {
     temp[map].deaths += record.kda.deaths;
   }
 
-  let result: any[] = []
+  let result: any[] = [];
   for (let key in temp) {
-    let kdratio = parseFloat((temp[key].kills/temp[key].deaths).toFixed(2));
+    let kdratio = parseFloat((temp[key].kills / temp[key].deaths).toFixed(2));
 
     result.push({ map: key, kdr: kdratio });
   }
@@ -248,106 +261,104 @@ export function getMapsKDRatio(records: any) {
 
 export function getSuggestMapAgents(profiles: any[]) {
   try {
+    let best_agents = {
+      Abyss: [
+        ["Sova", "KAY/O", "Gekko"],
+        ["Cypher", "Deadlock"],
+        ["Omen", "Astra", "Viper"],
+        ["Jett", "Yoru"],
+      ],
+      Ascent: [
+        ["Fade", "Sova", "KAY/O"],
+        ["Cypher", "Killjoy", "Sage"],
+        ["Astra", "Brimstone", "Omen"],
+        ["Jett", "Reyna", "Neon"],
+      ],
+      Bind: [
+        ["Skye", "Fade", "Gekko"],
+        ["Sage", "Cypher", "Killjoy"],
+        ["Viper", "Brimstone", "Harbor"],
+        ["Raze", "Jett", "Yoru"],
+      ],
+      Haven: [
+        ["Breach", "Sova", "KAY/O"],
+        ["Killjoy", "Cypher", "Chamber"],
+        ["Omen", "Astra", "Clove"],
+        ["Jett", "Neon", "Phoenix"],
+      ],
+      Pearl: [
+        ["Fade", "KAY/O", "Sova"],
+        ["Cypher", "Killjoy", "Chamber"],
+        ["Astra", "Omen"],
+        ["Neon", "Jett", "Yoru"],
+      ],
+      Split: [
+        ["KAY/O", "Breach", "Skye"],
+        ["Cypher", "Deadlock", "Chamber"],
+        ["Viper", "Omen", "Clove"],
+        ["Raze", "Jett"],
+      ],
+      Sunset: [
+        ["Sova", "Breach", "Fade"],
+        ["Cypher"],
+        ["Omen", "Clove"],
+        ["Neon", "Raze", "Yoru"],
+      ],
+    };
 
-  let best_agents = {
-    "Abyss": [
-      ["Sova", "KAY/O", "Gekko"],
-      ["Cypher", "Deadlock"],
-      ["Omen", "Astra", "Viper"],
-      ["Jett", "Yoru"]
-    ],
-    "Ascent": [
-      ["Fade", "Sova", "KAY/O"],
-      ["Cypher", "Killjoy", "Sage"],
-      ["Astra", "Brimstone", "Omen"],
-      ["Jett", "Reyna", "Neon"],
-    ],
-    "Bind": [
-      ["Skye", "Fade", "Gekko"],
-      ["Sage", "Cypher", "Killjoy"],
-      ["Viper", "Brimstone", "Harbor"],
-      ["Raze", "Jett", "Yoru"],
-    ],
-    "Haven": [
-      ["Breach", "Sova", "KAY/O"],
-      ["Killjoy", "Cypher", "Chamber"],
-      ["Omen", "Astra", "Clove"],
-      ["Jett", "Neon", "Phoenix"]
-    ],
-    "Pearl": [
-      ["Fade", "KAY/O", "Sova"],
-      ["Cypher", "Killjoy", "Chamber"],
-      ["Astra", "Omen"],
-      ["Neon", "Jett", "Yoru"]
-    ],
-    "Split": [
-      ["KAY/O", "Breach", "Skye"],
-      ["Cypher", "Deadlock", "Chamber"],
-      ["Viper", "Omen", "Clove"],
-      ["Raze", "Jett"]
-    ],
-    "Sunset": [
-      ["Sova", "Breach", "Fade"],
-      ["Cypher"],
-      ["Omen", "Clove"],
-      ["Neon", "Raze", "Yoru"]
-    ]
-  }
+    // Get list of 5 agent stats for 5 profiles
+    const agent_stats = profiles.map((profile) => profile["agent_statistics"]);
+    let result: any = {};
 
-  // Get list of 5 agent stats for 5 profiles
-  const agent_stats = profiles.map((profile) => profile["agent_statistics"])
-  let result: any = {}
-
-  // Get list of 5 agent pools of 5 players
-  let agent_pools: any[] = []
-  for (const agent_stat of agent_stats) {
-    agent_pools.push(agent_stat.map((stat: any) => stat["agent"]))
-  }
-  
-  // Loop through the maps
-  for (let [map, role_agents] of Object.entries(best_agents)) {
-    let temp: any[] = [];
-    role_agents = role_agents.reverse();
-
-    role_agents.push(role_agents.flat());
-
-    // Loop through each position
-    for (let i = 0; i < role_agents.length; i++) {
-      let agent_pool = agent_pools[i];
-      let found = false;
-      for (const agent of agent_pool) {
-        if (role_agents[i].includes(agent) && !temp.includes(agent)) {
-          temp.push(agent)
-          found = true
-          break
-        }
-      }
-      if (!found) {
-        for (const agent of agent_pool) {
-          if (!temp.includes(agent)) {
-            temp.push(agent)
-            found = true
-            break
-          }
-        }
-      }
-      if (!found) {
-        for (const agent of role_agents[i]) {
-          if (!temp.includes(agent)) {
-            temp.push(agent)
-            found = true
-            break
-          }
-        }
-      }
+    // Get list of 5 agent pools of 5 players
+    let agent_pools: any[] = [];
+    for (const agent_stat of agent_stats) {
+      agent_pools.push(agent_stat.map((stat: any) => stat["agent"]));
     }
 
-    result[map] = temp;
-  }
-  return result;
-  }
-  catch (error) {
-    return {}
+    // Loop through the maps
+    for (let [map, role_agents] of Object.entries(best_agents)) {
+      let temp: any[] = [];
+      role_agents = role_agents.reverse();
+
+      role_agents.push(role_agents.flat());
+
+      // Loop through each position
+      for (let i = 0; i < role_agents.length; i++) {
+        let agent_pool = agent_pools[i];
+        let found = false;
+        for (const agent of agent_pool) {
+          if (role_agents[i].includes(agent) && !temp.includes(agent)) {
+            temp.push(agent);
+            found = true;
+            break;
+          }
+        }
+        if (!found) {
+          for (const agent of agent_pool) {
+            if (!temp.includes(agent)) {
+              temp.push(agent);
+              found = true;
+              break;
+            }
+          }
+        }
+        if (!found) {
+          for (const agent of role_agents[i]) {
+            if (!temp.includes(agent)) {
+              temp.push(agent);
+              found = true;
+              break;
+            }
+          }
+        }
+      }
+
+      result[map] = temp;
+    }
+    return result;
+  } catch (error) {
+    return {};
   }
 }
 
@@ -356,7 +367,7 @@ export function getMostPlayedMaps(records: any[]) {
   for (let i = 0; i < records.length; i++) {
     let record = records[i];
     if (!record.map) {
-      continue
+      continue;
     }
     let map = record.map;
     if (!temp.hasOwnProperty(map)) {
@@ -365,12 +376,17 @@ export function getMostPlayedMaps(records: any[]) {
     temp[map]++;
   }
 
-  temp = Object.entries(temp).map(([key, value]) => ({ map: key, played: value }));
+  temp = Object.entries(temp).map(([key, value]) => ({
+    map: key,
+    played: value,
+  }));
   temp = temp.sort((a: any, b: any) => b.played - a.played);
 
   temp = temp.slice(0, 5);
   if (temp.length > 5) {
-    let other = temp.slice(5).reduce((acc: number, curr: any) => acc + curr.played, 0);
+    let other = temp
+      .slice(5)
+      .reduce((acc: number, curr: any) => acc + curr.played, 0);
     temp.push({ map: "Other", played: other });
   }
 
@@ -384,13 +400,53 @@ export function getOffenseDefenseData(profile: any) {
   let defense_stat = profile["defense_statistics"];
 
   if (offense_stat && defense_stat) {
-    temp.push({ data: "ACS", offense: offense_stat["average_combat_score_per_round"], defense: defense_stat["average_combat_score_per_round"] });
-    temp.push({ data: "K/D ratio", offense: offense_stat["kill_death_ratio"], defense: defense_stat["kill_death_ratio"] });
-    temp.push({ data: "First kill rate", offense: offense_stat["first_kill_rate"], defense: defense_stat["first_kill_rate"] });
-    temp.push({ data: "First death rate", offense: offense_stat["first_death_rate"], defense: defense_stat["first_death_rate"] });
-    temp.push({ data: "Average Damage per round", offense: offense_stat["average_damage_per_round"], defense: defense_stat["average_damage_per_round"] });
+    temp.push({
+      data: "ACS",
+      offense: offense_stat["average_combat_score_per_round"],
+      defense: defense_stat["average_combat_score_per_round"],
+    });
+    temp.push({
+      data: "K/D ratio",
+      offense: offense_stat["kill_death_ratio"],
+      defense: defense_stat["kill_death_ratio"],
+    });
+    temp.push({
+      data: "First kill rate",
+      offense: offense_stat["first_kill_rate"],
+      defense: defense_stat["first_kill_rate"],
+    });
+    temp.push({
+      data: "First death rate",
+      offense: offense_stat["first_death_rate"],
+      defense: defense_stat["first_death_rate"],
+    });
+    temp.push({
+      data: "Average Damage per round",
+      offense: offense_stat["average_damage_per_round"],
+      defense: defense_stat["average_damage_per_round"],
+    });
   }
 
-  
   return temp;
+}
+
+export async function fetchProfiles(ids: string[]) {
+  if (!ids || ids.length === 0) {
+    return [];
+  }
+  for (let i = 0; i < ids.length; i++) {
+    try {
+      const profiles = await Promise.all(
+        ids.map(async (id) => {
+          const file_path = "/profiles/" + id + ".json";
+          const response = await fetch(file_path);
+          return response.ok ? response.json() : null;
+        })
+      );
+      return profiles;
+    } catch (error) {
+      console.error("Error loading JSON:", error);
+      return [];
+    }
+  }
 }
